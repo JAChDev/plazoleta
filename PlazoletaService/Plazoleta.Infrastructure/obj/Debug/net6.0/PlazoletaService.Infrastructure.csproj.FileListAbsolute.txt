@@ -1,0 +1,15 @@
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\bin\Debug\net6.0\PlazoletaService.Infrastructure.deps.json
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\bin\Debug\net6.0\PlazoletaService.Infrastructure.dll
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\bin\Debug\net6.0\PlazoletaService.Infrastructure.pdb
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\bin\Debug\net6.0\PlazoletaService.Domain.dll
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\bin\Debug\net6.0\PlazoletaService.Domain.pdb
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\obj\Debug\net6.0\PlazoletaService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\obj\Debug\net6.0\PlazoletaService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\obj\Debug\net6.0\PlazoletaService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\obj\Debug\net6.0\PlazoletaService.Infrastructure.AssemblyInfo.cs
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\obj\Debug\net6.0\PlazoletaService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\obj\Debug\net6.0\PlazoletaService.Infrastructure.csproj.CopyComplete
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\obj\Debug\net6.0\PlazoletaService.Infrastructure.dll
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\obj\Debug\net6.0\refint\PlazoletaService.Infrastructure.dll
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\obj\Debug\net6.0\PlazoletaService.Infrastructure.pdb
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\obj\Debug\net6.0\ref\PlazoletaService.Infrastructure.dll

@@ -1,0 +1,15 @@
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\UsersService\UsersService.Infrastructure\bin\Debug\net6.0\UsersService.Infrastructure.deps.json
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\UsersService\UsersService.Infrastructure\bin\Debug\net6.0\UsersService.Infrastructure.dll
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\UsersService\UsersService.Infrastructure\bin\Debug\net6.0\UsersService.Infrastructure.pdb
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\UsersService\UsersService.Infrastructure\bin\Debug\net6.0\UsersService.Domain.dll
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\UsersService\UsersService.Infrastructure\bin\Debug\net6.0\UsersService.Domain.pdb
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\UsersService\UsersService.Infrastructure\obj\Debug\net6.0\UsersService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\UsersService\UsersService.Infrastructure\obj\Debug\net6.0\UsersService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\UsersService\UsersService.Infrastructure\obj\Debug\net6.0\UsersService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\UsersService\UsersService.Infrastructure\obj\Debug\net6.0\UsersService.Infrastructure.AssemblyInfo.cs
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\UsersService\UsersService.Infrastructure\obj\Debug\net6.0\UsersService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\UsersService\UsersService.Infrastructure\obj\Debug\net6.0\UsersService.Infrastructure.csproj.CopyComplete
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\UsersService\UsersService.Infrastructure\obj\Debug\net6.0\UsersService.Infrastructure.dll
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\UsersService\UsersService.Infrastructure\obj\Debug\net6.0\refint\UsersService.Infrastructure.dll
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\UsersService\UsersService.Infrastructure\obj\Debug\net6.0\UsersService.Infrastructure.pdb
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\UsersService\UsersService.Infrastructure\obj\Debug\net6.0\ref\UsersService.Infrastructure.dll
