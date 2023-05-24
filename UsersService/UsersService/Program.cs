@@ -5,6 +5,7 @@ using AutoMapper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using System.Security.Claims;
 using System.Text;
 using UsersService.Domain;
 using UsersService.Domain.Interfaces;
@@ -52,10 +53,7 @@ IMapper mapper = mapperConfig.CreateMapper();
 
 builder.Services.AddDbContext<SQLDbContext>(options => options.UseMySQL(configuration.GetConnectionString("DbPlazoletaString")));
 builder.Services.AddSingleton(mapper);
-//builder.Services.AddMvc(options => { 
-//    options.Filters.Add(typeof(JwtAuthorizationFilter));
-//});
-builder.Services.AddAuthorization();
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

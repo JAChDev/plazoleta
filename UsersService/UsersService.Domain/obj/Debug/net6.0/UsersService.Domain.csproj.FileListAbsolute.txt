@@ -10,3 +10,15 @@ C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\Use
 C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\UsersService\UsersService.Domain\obj\Debug\net6.0\refint\UsersService.Domain.dll
 C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\UsersService\UsersService.Domain\obj\Debug\net6.0\UsersService.Domain.pdb
 C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\UsersService\UsersService.Domain\obj\Debug\net6.0\ref\UsersService.Domain.dll
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\UsersService\UsersService.Domain\bin\Debug\net6.0\UsersService.Domain.deps.json
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\UsersService\UsersService.Domain\bin\Debug\net6.0\UsersService.Domain.dll
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\UsersService\UsersService.Domain\bin\Debug\net6.0\UsersService.Domain.pdb
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\UsersService\UsersService.Domain\obj\Debug\net6.0\UsersService.Domain.csproj.AssemblyReference.cache
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\UsersService\UsersService.Domain\obj\Debug\net6.0\UsersService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\UsersService\UsersService.Domain\obj\Debug\net6.0\UsersService.Domain.AssemblyInfoInputs.cache
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\UsersService\UsersService.Domain\obj\Debug\net6.0\UsersService.Domain.AssemblyInfo.cs
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\UsersService\UsersService.Domain\obj\Debug\net6.0\UsersService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\UsersService\UsersService.Domain\obj\Debug\net6.0\UsersService.Domain.dll
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\UsersService\UsersService.Domain\obj\Debug\net6.0\refint\UsersService.Domain.dll
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\UsersService\UsersService.Domain\obj\Debug\net6.0\UsersService.Domain.pdb
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\UsersService\UsersService.Domain\obj\Debug\net6.0\ref\UsersService.Domain.dll

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using UsersService.Domain.Attributes;
 using UsersService.Domain.Entities;
 using UsersService.Domain.Interfaces;
 using UsersService.Domain.Responses;
@@ -18,7 +19,7 @@ namespace UsersService.WebApi.Controllers
             _service = service;
         }
 
-
+        [TypeFilter(typeof(JwtAuthorizationFilter), Arguments = new object[] { "4" })]
         [HttpPost("newOwner")]
         public IActionResult createOwner(UserModel user)
         {
@@ -34,7 +35,7 @@ namespace UsersService.WebApi.Controllers
             return response.StatusCode == System.Net.HttpStatusCode.OK ? Ok(response):BadRequest(response);
         }
 
-
+        [TypeFilter(typeof(JwtAuthorizationFilter), Arguments = new object[] { "1" })]
         [HttpPost("newEmployee")]
         public IActionResult createEmployee(UserModel user)
         {

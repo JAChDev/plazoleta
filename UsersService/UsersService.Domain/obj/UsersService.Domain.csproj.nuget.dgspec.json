@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\TalentPool\\AppPlazoleta\\UsersService\\UsersService.Domain\\UsersService.Domain.csproj": {}
+    "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\AppPlazoleta\\UsersService\\UsersService.Domain\\UsersService.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\TalentPool\\AppPlazoleta\\UsersService\\UsersService.Domain\\UsersService.Domain.csproj": {
+    "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\AppPlazoleta\\UsersService\\UsersService.Domain\\UsersService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\TalentPool\\AppPlazoleta\\UsersService\\UsersService.Domain\\UsersService.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\AppPlazoleta\\UsersService\\UsersService.Domain\\UsersService.Domain.csproj",
         "projectName": "UsersService.Domain",
-        "projectPath": "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\TalentPool\\AppPlazoleta\\UsersService\\UsersService.Domain\\UsersService.Domain.csproj",
+        "projectPath": "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\AppPlazoleta\\UsersService\\UsersService.Domain\\UsersService.Domain.csproj",
         "packagesPath": "C:\\Users\\jonatan.amado_pragma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\TalentPool\\AppPlazoleta\\UsersService\\UsersService.Domain\\obj\\",
+        "outputPath": "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\AppPlazoleta\\UsersService\\UsersService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

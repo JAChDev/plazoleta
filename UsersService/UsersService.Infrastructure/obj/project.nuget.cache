@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2zbc3mDjxEBuuTY6qh3P3etVxWZx+KmmK/pP3AN/bO9QOK+Kxr184YL968hyQquHs5c+C9rNLonIOe0OKBZZSg==",
+  "dgSpecHash": "QFAArsyygEus64xsgnI1m9HslxkxPMEMtjfx98ohmwkZxoXXHwc0v4jLJrT/mYeD7fP6HXqfOFF06ZB8XANUGQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\TalentPool\\AppPlazoleta\\UsersService\\UsersService.Infrastructure\\UsersService.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\AppPlazoleta\\UsersService\\UsersService.Infrastructure\\UsersService.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jonatan.amado_pragma\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
     "C:\\Users\\jonatan.amado_pragma\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
