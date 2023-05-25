@@ -3137,11 +3137,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\TalentPool\\AppPlazoleta\\PlazoletaService\\PlazoletaService\\PlazoletaService.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\AppPlazoleta\\PlazoletaService\\PlazoletaService\\PlazoletaService.WebApi.csproj",
       "projectName": "PlazoletaService.WebApi",
-      "projectPath": "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\TalentPool\\AppPlazoleta\\PlazoletaService\\PlazoletaService\\PlazoletaService.WebApi.csproj",
+      "projectPath": "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\AppPlazoleta\\PlazoletaService\\PlazoletaService\\PlazoletaService.WebApi.csproj",
       "packagesPath": "C:\\Users\\jonatan.amado_pragma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\TalentPool\\AppPlazoleta\\PlazoletaService\\PlazoletaService\\obj\\",
+      "outputPath": "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\AppPlazoleta\\PlazoletaService\\PlazoletaService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3162,11 +3162,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\TalentPool\\AppPlazoleta\\PlazoletaService\\Plazoleta.Domain\\PlazoletaService.Domain.csproj": {
-              "projectPath": "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\TalentPool\\AppPlazoleta\\PlazoletaService\\Plazoleta.Domain\\PlazoletaService.Domain.csproj"
+            "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\AppPlazoleta\\PlazoletaService\\Plazoleta.Domain\\PlazoletaService.Domain.csproj": {
+              "projectPath": "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\AppPlazoleta\\PlazoletaService\\Plazoleta.Domain\\PlazoletaService.Domain.csproj"
             },
-            "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\TalentPool\\AppPlazoleta\\PlazoletaService\\Plazoleta.Infrastructure\\PlazoletaService.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\TalentPool\\AppPlazoleta\\PlazoletaService\\Plazoleta.Infrastructure\\PlazoletaService.Infrastructure.csproj"
+            "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\AppPlazoleta\\PlazoletaService\\Plazoleta.Infrastructure\\PlazoletaService.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\AppPlazoleta\\PlazoletaService\\Plazoleta.Infrastructure\\PlazoletaService.Infrastructure.csproj"
             }
           }
         }
