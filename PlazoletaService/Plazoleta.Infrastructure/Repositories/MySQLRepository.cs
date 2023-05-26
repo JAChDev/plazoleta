@@ -98,5 +98,27 @@ namespace PlazoletaService.Infrastructure.Repositories
                 return new DbResponse { Success = false, Message = ex.Message };
             }
         }
+
+        public DbResponse ActivateProduct(int productId)
+        {
+            try
+            {
+                var plato = _dbContext.Platos.Find(productId);
+                if (plato != null)
+                {
+                    plato.Activo = !plato.Activo;
+                    _dbContext.SaveChanges();
+                    return new DbResponse { Success = true, Message = plato.Activo == true ? "Plato activado" : "Plato desactivado" };
+                }
+                else
+                {
+                    return new DbResponse { Success = false, Message = "El plato especificado no existe" };
+                }
+            }
+            catch (Exception ex)
+            {
+                return new DbResponse { Success = false, Message = ex.Message };
+            }
+        }
     }
 }

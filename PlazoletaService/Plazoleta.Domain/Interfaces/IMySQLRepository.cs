@@ -14,7 +14,8 @@ namespace PlazoletaService.Domain.Interfaces
         DbResponse CreateProduct(ProductDTO productDTO);
         DbResponse UpdateProduct(ModifyProductDTO productDTO);
         RestaurantDTO GetRestaurantByOwnerId(int id);
-        public ProductDTO GetProductById(int id);
+        ProductDTO GetProductById(int id);
+        DbResponse ActivateProduct(int productId);
 
     }
 }

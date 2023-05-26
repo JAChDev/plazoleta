@@ -67,5 +67,15 @@ namespace PlazoletaService.WebApi.Controllers
             return response.StatusCode == System.Net.HttpStatusCode.OK ? Ok(response) : BadRequest(response);
         }
 
+        [TypeFilter(typeof(JwtAuthorizationFilter), Arguments = new object[] { "1" })]
+        [HttpGet("restaurant/product/activation/{id}")]
+        public IActionResult ProductStatus(string id)
+        {
+            var idClaim = HttpContext.User.FindAll(ClaimTypes.Name).Select(c => c.Value).ToList();
+
+            GeneralResponse response = _restaurantService.ActivateProduct(Convert.ToInt32(id), Convert.ToInt32(idClaim[0]));
+
+            return response.StatusCode == System.Net.HttpStatusCode.OK ? Ok(response) : BadRequest(response);
+        }
     }
 }

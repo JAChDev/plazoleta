@@ -99,5 +99,40 @@ namespace PlazoletaService.Domain.Servicios
                 return new GeneralResponse { StatusCode = HttpStatusCode.BadRequest, Description = ex.Message };
             }
         }
+
+        public GeneralResponse ActivateProduct(int id, int ownerId)
+        {
+            try
+            {
+                ProductDTO getProduct = _mysqlRepository.GetProductById(id);
+                RestaurantDTO getRestaurant = _mysqlRepository.GetRestaurantByOwnerId(ownerId);
+
+                if (getProduct != null && getRestaurant != null)
+                {
+                    if (getProduct.id_restaurante != getRestaurant.Id)
+                    {
+                        return new GeneralResponse { StatusCode = HttpStatusCode.BadRequest, Description = "Este plato no pertenece a su restaurante" };
+                    }
+                }
+                else
+                {
+                    return new GeneralResponse { StatusCode = HttpStatusCode.BadRequest, Description = "El plato o el restaurante no existe" };
+                }
+
+                DbResponse activateProduct = _mysqlRepository.ActivateProduct(id);
+                if (activateProduct.Success)
+                {
+                    return new GeneralResponse { StatusCode = HttpStatusCode.OK, Description = activateProduct.Message };
+                }
+                else
+                {
+                    return new GeneralResponse { StatusCode = HttpStatusCode.BadRequest, Description = "Error al cambiar estado del plato" };
+                }
+            }
+            catch (Exception ex)
+            {
+                return new GeneralResponse { StatusCode = HttpStatusCode.BadRequest, Description = ex.Message };
+            }
+        }
     }
 }
