@@ -14,6 +14,9 @@ namespace PlazoletaService.Domain
         public MappingProfile() {
             CreateMap<Restaurant, RestaurantDTO>();
             CreateMap<RestaurantDTO, Restaurant>();
+            CreateMap<ModifyProductDTO, ModifyProduct>();
+            CreateMap<ModifyProduct, ModifyProductDTO>();
+            CreateMap<Product, ProductDTO>();
         }
     }
 }

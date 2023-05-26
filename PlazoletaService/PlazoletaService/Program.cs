@@ -50,7 +50,6 @@ IMapper mapper = mapperConfig.CreateMapper();
 
 builder.Services.AddDbContext<SQLDbContext>(options => options.UseMySQL(configuration.GetConnectionString("DbPlazoletaString")));
 builder.Services.AddSingleton(mapper);
-builder.Services.AddMvc(options => { options.Filters.Add(typeof(JwtAuthorizationFilter)); });
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -64,6 +63,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

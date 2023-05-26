@@ -11,5 +11,8 @@ namespace PlazoletaService.Domain.Interfaces
     public interface IRestaurantService
     {
         public GeneralResponse CreateRestaurant(Restaurant restaurant);
+        public GeneralResponse CreateProduct(Product product);
+        public GeneralResponse UpdateProduct(ModifyProduct product, int id);
+
     }
 }

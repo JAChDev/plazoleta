@@ -10,3 +10,15 @@ C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\Pla
 C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\PlazoletaService\Plazoleta.Domain\obj\Debug\net6.0\refint\PlazoletaService.Domain.dll
 C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\PlazoletaService\Plazoleta.Domain\obj\Debug\net6.0\PlazoletaService.Domain.pdb
 C:\Users\jonatan.amado_pragma\Documents\Repositorios\TalentPool\AppPlazoleta\PlazoletaService\Plazoleta.Domain\obj\Debug\net6.0\ref\PlazoletaService.Domain.dll
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\bin\Debug\net6.0\PlazoletaService.Domain.deps.json
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\bin\Debug\net6.0\PlazoletaService.Domain.dll
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\bin\Debug\net6.0\PlazoletaService.Domain.pdb
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\obj\Debug\net6.0\PlazoletaService.Domain.csproj.AssemblyReference.cache
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\obj\Debug\net6.0\PlazoletaService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\obj\Debug\net6.0\PlazoletaService.Domain.AssemblyInfoInputs.cache
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\obj\Debug\net6.0\PlazoletaService.Domain.AssemblyInfo.cs
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\obj\Debug\net6.0\PlazoletaService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\obj\Debug\net6.0\PlazoletaService.Domain.dll
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\obj\Debug\net6.0\refint\PlazoletaService.Domain.dll
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\obj\Debug\net6.0\PlazoletaService.Domain.pdb
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\obj\Debug\net6.0\ref\PlazoletaService.Domain.dll

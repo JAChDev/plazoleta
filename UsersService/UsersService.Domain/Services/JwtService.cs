@@ -51,7 +51,7 @@ namespace UsersService.Domain.Services
             {
                 Subject = new ClaimsIdentity(new[]
                 {
-                    new Claim(ClaimTypes.Name, email),
+                    new Claim(ClaimTypes.Name, userRol.Id.ToString()),
                     new Claim(ClaimTypes.Role, userRol.id_rol.ToString())
                 }),
                 Expires = DateTime.UtcNow.Add(jwtSettings.TokenLifetime),

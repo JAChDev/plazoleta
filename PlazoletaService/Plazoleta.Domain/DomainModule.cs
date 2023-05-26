@@ -14,6 +14,7 @@ namespace PlazoletaService.Domain
         protected override void Load(ContainerBuilder builder)
         {
             builder.RegisterType<RestaurantServices>().As<IRestaurantService>().InstancePerLifetimeScope();
+            builder.RegisterType<AuthService>().As<IAuthService>().InstancePerLifetimeScope();
         }
     }
 }

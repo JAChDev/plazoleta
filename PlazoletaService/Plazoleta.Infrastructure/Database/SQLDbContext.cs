@@ -22,7 +22,8 @@ namespace PlazoletaService.Infrastructure.Database
             base.OnModelCreating(modelBuilder);
         }
 
-        public DbSet<RestaurantDTO> Usuarios { get; set; }
+        public DbSet<RestaurantDTO> Restaurantes { get; set; }
+        public DbSet<ProductDTO> Platos { get; set; }
         
     }
 }

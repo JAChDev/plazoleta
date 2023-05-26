@@ -8,6 +8,11 @@ namespace PlazoletaService.WebApi.Authorization
 {
     public class JwtAuthorizationFilter:IAuthorizationFilter
     {
+        private readonly string _role;
+        public JwtAuthorizationFilter(string role)
+        {
+            _role = role;
+        }
         public void OnAuthorization(AuthorizationFilterContext context)
         {
             var authService = context.HttpContext.RequestServices.GetRequiredService<IAuthService>();
@@ -26,6 +31,16 @@ namespace PlazoletaService.WebApi.Authorization
 
                     // Establecer el principal de seguridad en el contexto
                     context.HttpContext.User = principal;
+
+                    //roles
+                    var roles = principal.FindAll(ClaimTypes.Role).Select(c => c.Value).ToList();
+
+                    foreach (var role in roles)
+                    {
+                        if (role == _role) { return; }
+                        else { context.Result = new ForbidResult(); }
+
+                    }
                 }
                 catch (Exception)
                 {

@@ -11,5 +11,10 @@ namespace PlazoletaService.Domain.Interfaces
     public interface IMySQLRepository
     {
         DbResponse CreateRestaurant(RestaurantDTO restaurantDTO);
+        DbResponse CreateProduct(ProductDTO productDTO);
+        DbResponse UpdateProduct(ModifyProductDTO productDTO);
+        RestaurantDTO GetRestaurantByOwnerId(int id);
+        public ProductDTO GetProductById(int id);
+
     }
 }
