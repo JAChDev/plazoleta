@@ -5,6 +5,7 @@ using PlazoletaService.Domain.Interfaces;
 using PlazoletaService.Domain.Responses;
 using PlazoletaService.WebApi.Authorization;
 using PlazoletaService.WebApi.Models;
+using System.Net;
 using System.Security.Claims;
 
 namespace PlazoletaService.WebApi.Controllers
@@ -32,7 +33,7 @@ namespace PlazoletaService.WebApi.Controllers
             restaurant.Nit = restaurantModel.Nit;
             GeneralResponse response = _restaurantService.CreateRestaurant(restaurant);
 
-            return response.StatusCode == System.Net.HttpStatusCode.OK ? Ok(response) : BadRequest(response);
+            return response.StatusCode == HttpStatusCode.OK ? Ok(response) : BadRequest(response);
         }
 
         [TypeFilter(typeof(JwtAuthorizationFilter), Arguments = new object[] { "1" })]
@@ -49,7 +50,7 @@ namespace PlazoletaService.WebApi.Controllers
             product.Activo = productModel.Activo;
             GeneralResponse response = _restaurantService.CreateProduct(product);
 
-            return response.StatusCode == System.Net.HttpStatusCode.OK ? Ok(response) : BadRequest(response);
+            return response.StatusCode == HttpStatusCode.OK ? Ok(response) : BadRequest(response);
         }
 
         [TypeFilter(typeof(JwtAuthorizationFilter), Arguments = new object[] { "1" })]
@@ -64,7 +65,7 @@ namespace PlazoletaService.WebApi.Controllers
             product.Descripcion = productModel.Descripcion;
             GeneralResponse response = _restaurantService.UpdateProduct(product, Convert.ToInt32(idClaim[0]));
 
-            return response.StatusCode == System.Net.HttpStatusCode.OK ? Ok(response) : BadRequest(response);
+            return response.StatusCode == HttpStatusCode.OK ? Ok(response) : BadRequest(response);
         }
 
         [TypeFilter(typeof(JwtAuthorizationFilter), Arguments = new object[] { "1" })]
@@ -75,7 +76,36 @@ namespace PlazoletaService.WebApi.Controllers
 
             GeneralResponse response = _restaurantService.ActivateProduct(Convert.ToInt32(id), Convert.ToInt32(idClaim[0]));
 
-            return response.StatusCode == System.Net.HttpStatusCode.OK ? Ok(response) : BadRequest(response);
+            return response.StatusCode == HttpStatusCode.OK ? Ok(response) : BadRequest(response);
+        }
+
+        [TypeFilter(typeof(JwtAuthorizationFilter), Arguments = new object[] { "3" })]
+        [HttpGet("restaurant/get_all")]
+        public IActionResult GetRestaurants(int pageNumber, int pageSize)
+        {
+            var response = _restaurantService.GetRestaurants(pageNumber, pageSize);
+            if (response != null)
+            {
+                return Ok(response);
+            }
+            else
+            {
+                return BadRequest(new GeneralResponse { StatusCode = HttpStatusCode.BadRequest, Description = "Error al obtener los restaurantes" });
+            }
+        }
+        [TypeFilter(typeof(JwtAuthorizationFilter), Arguments = new object[] { "3" })]
+        [HttpGet("restaurant/product/get")]
+        public IActionResult GetProductsByRestaurant(int idRes, int pageNumber, int pageSize)
+        {
+            var response = _restaurantService.GetProductsByRestaurant(idRes, pageNumber, pageSize);
+            if (response != null)
+            {
+                return Ok(response);
+            }
+            else
+            {
+                return BadRequest(new GeneralResponse { StatusCode = HttpStatusCode.BadRequest, Description = "Error al obtener los restaurantes" });
+            }
         }
     }
 }

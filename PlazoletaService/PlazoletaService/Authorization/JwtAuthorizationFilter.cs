@@ -37,8 +37,15 @@ namespace PlazoletaService.WebApi.Authorization
 
                     foreach (var role in roles)
                     {
-                        if (role == _role) { return; }
-                        else { context.Result = new ForbidResult(); }
+                        if(_role != null)
+                        {
+                            if (role == _role) { return; }
+                            else { context.Result = new ForbidResult(); }
+                        }
+                        else
+                        {
+                            return;
+                        }
 
                     }
                 }

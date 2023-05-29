@@ -1,4 +1,5 @@
 ﻿using PlazoletaService.Domain.DTO;
+using PlazoletaService.Domain.Entities;
 using PlazoletaService.Domain.Responses;
 using System;
 using System.Collections.Generic;
@@ -16,6 +17,8 @@ namespace PlazoletaService.Domain.Interfaces
         RestaurantDTO GetRestaurantByOwnerId(int id);
         ProductDTO GetProductById(int id);
         DbResponse ActivateProduct(int productId);
+        List<RestaurantDTO> GetRestaurants(int pageNumber, int pageSize);
+        public List<ProductDTO> GetProductsByRestaurant(int restaurantId, int pageNumber, int pageSize);
 
     }
 }

@@ -120,5 +120,49 @@ namespace PlazoletaService.Infrastructure.Repositories
                 return new DbResponse { Success = false, Message = ex.Message };
             }
         }
+
+        public List<RestaurantDTO> GetRestaurants(int pageNumber, int pageSize)
+        {
+            try
+            {
+                var restaurants = _dbContext.Restaurantes.AsQueryable();
+                int total = restaurants.Count();
+                int pages = (int)Math.Ceiling((double)total / pageSize);
+                pageNumber = Math.Max(1, Math.Min(pageNumber, pageSize));
+                int skippep = (pageNumber - 1) * pageSize;
+                restaurants = restaurants.OrderBy(r => r.Nombre);
+                restaurants = restaurants.Skip(skippep).Take(pageSize);
+                return restaurants.ToList();
+            }
+            catch
+            {
+                return null;
+            }
+        }
+
+        public List<ProductDTO> GetProductsByRestaurant(int restaurantId, int pageNumber, int pageSize)
+        {
+            try
+            {
+                var products = _dbContext.Platos.Where(p => p.id_restaurante == restaurantId)
+                    .GroupBy(p => p.id_categoria)
+                    .Select(g => new {Categoria = g.Key, Platos = g.ToList() });
+                int total = products.Count();
+                int pages = (int)Math.Ceiling((double)total / pageSize);
+
+                var resultado = products
+                    .AsEnumerable()
+                    .Skip((pageNumber - 1) * pageSize)
+                    .Take(pageSize)
+                    .SelectMany(g => g.Platos)
+                    .ToList();
+                return resultado;
+
+            }
+            catch
+            {
+                return null;
+            }
+        }
     }
 }

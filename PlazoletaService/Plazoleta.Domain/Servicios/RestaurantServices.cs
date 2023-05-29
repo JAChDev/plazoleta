@@ -134,5 +134,36 @@ namespace PlazoletaService.Domain.Servicios
                 return new GeneralResponse { StatusCode = HttpStatusCode.BadRequest, Description = ex.Message };
             }
         }
+
+        public List<object> GetRestaurants(int pageNumber, int pageSize)
+        {
+            try
+            {
+                List<Restaurant> restaurants = _mapper.Map<List<Restaurant>>(_mysqlRepository.GetRestaurants(pageNumber, pageSize));
+                var result = new List<object>();
+                foreach(Restaurant restaurant in restaurants)
+                {
+                    result.Add(new {Nombre = restaurant.Nombre, UrlLogo=restaurant.UrlLogo});
+                }
+                return result;
+            }
+            catch
+            {
+                return null;
+            }
+        }
+
+        public List<Product> GetProductsByRestaurant(int restaurantId, int pageNumber, int pageSize)
+        {
+            try
+            {
+                List<Product> products = _mapper.Map<List<Product>>(_mysqlRepository.GetProductsByRestaurant(restaurantId, pageNumber, pageSize));
+                return products;
+            }
+            catch
+            {
+                return null;
+            }
+        }
     }
 }

@@ -17,6 +17,8 @@ namespace PlazoletaService.Domain
             CreateMap<ModifyProductDTO, ModifyProduct>();
             CreateMap<ModifyProduct, ModifyProductDTO>();
             CreateMap<Product, ProductDTO>();
+            CreateMap<ProductDTO, Product>();
+
         }
     }
 }
