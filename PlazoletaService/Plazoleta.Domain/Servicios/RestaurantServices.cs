@@ -165,5 +165,47 @@ namespace PlazoletaService.Domain.Servicios
                 return null;
             }
         }
+
+        public GeneralResponse CreateOrder(Order order)
+        {
+            try
+            {
+                OrderDTO orderDTO = _mapper.Map<OrderDTO>(order);
+                DbResponse createOrder = _mysqlRepository.CreateOrder(orderDTO);
+                if (createOrder.Success)
+                {
+                    return new GeneralResponse { StatusCode = HttpStatusCode.OK, Description = createOrder.Message };
+                }
+                else
+                {
+                    return new GeneralResponse { StatusCode = HttpStatusCode.BadRequest, Description = createOrder.Message };
+                }
+            }
+            catch (Exception ex)
+            {
+                return new GeneralResponse { StatusCode=HttpStatusCode.BadRequest, Description=ex.Message };
+            }
+        }
+
+        public GeneralResponse AddOrderProduct(OrderProduct orderProduct)
+        {
+            try
+            {
+                OrderProductDTO order = _mapper.Map<OrderProductDTO>(orderProduct);
+                DbResponse addProductOrder = _mysqlRepository.AddOrderProduct(order);
+                if (addProductOrder.Success)
+                {
+                    return new GeneralResponse { StatusCode = HttpStatusCode.OK, Description = addProductOrder.Message };
+                }
+                else
+                {
+                    return new GeneralResponse { StatusCode = HttpStatusCode.BadRequest, Description = addProductOrder.Message };
+                }
+            }
+            catch(Exception ex)
+            {
+                return new GeneralResponse { StatusCode = HttpStatusCode.BadRequest, Description = ex.Message };
+            }
+        }
     }
 }

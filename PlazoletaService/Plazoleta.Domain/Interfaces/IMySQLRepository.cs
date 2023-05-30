@@ -18,7 +18,11 @@ namespace PlazoletaService.Domain.Interfaces
         ProductDTO GetProductById(int id);
         DbResponse ActivateProduct(int productId);
         List<RestaurantDTO> GetRestaurants(int pageNumber, int pageSize);
-        public List<ProductDTO> GetProductsByRestaurant(int restaurantId, int pageNumber, int pageSize);
+        List<ProductDTO> GetProductsByRestaurant(int restaurantId, int pageNumber, int pageSize);
+        DbResponse CreateOrder(OrderDTO order);
+        DbResponse AddOrderProduct(OrderProductDTO orderProduct);
+
+
 
     }
 }

@@ -1,4 +1,5 @@
 ﻿using PlazoletaService.Domain.DTO;
+using PlazoletaService.Domain.Entities;
 using PlazoletaService.Domain.Interfaces;
 using PlazoletaService.Domain.Responses;
 using PlazoletaService.Infrastructure.Database;
@@ -162,6 +163,45 @@ namespace PlazoletaService.Infrastructure.Repositories
             catch
             {
                 return null;
+            }
+        }
+
+        public DbResponse CreateOrder(OrderDTO order)
+        {
+            try
+            {
+                _dbContext.Pedidos.Add(order);
+                _dbContext.SaveChanges();
+                return new DbResponse { Success = true, Message = "Pedido creado" };
+
+            }
+            catch (Exception ex)
+            {
+                return new DbResponse { Success = false, Message = ex.Message };
+
+            }
+        }
+
+        public DbResponse AddOrderProduct(OrderProductDTO orderProduct)
+        {
+            try
+            {
+                var order = _dbContext.Pedidos.Find(orderProduct.id_Pedido);
+                if (order != null)
+                {
+                    _dbContext.Pedidos_Platos.Add(orderProduct);
+                    _dbContext.SaveChanges();
+                    return new DbResponse { Success = true, Message = "Platos agregados al pedido" };
+                }
+                else
+                {
+                    return new DbResponse { Success = false, Message = "No existe la orden solicitada" };
+                }
+            }
+            catch (Exception ex)
+            {
+                return new DbResponse { Success = false, Message = ex.Message };
+
             }
         }
     }

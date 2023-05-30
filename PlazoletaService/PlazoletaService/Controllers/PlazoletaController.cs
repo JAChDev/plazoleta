@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using PlazoletaService.Domain.DTO;
 using PlazoletaService.Domain.Entities;
 using PlazoletaService.Domain.Interfaces;
 using PlazoletaService.Domain.Responses;
@@ -107,5 +108,37 @@ namespace PlazoletaService.WebApi.Controllers
                 return BadRequest(new GeneralResponse { StatusCode = HttpStatusCode.BadRequest, Description = "Error al obtener los restaurantes" });
             }
         }
+
+        [TypeFilter(typeof(JwtAuthorizationFilter), Arguments = new object[] { "3" })]
+        [HttpGet("restaurant/order/create")]
+        public IActionResult CreateOrder(OrderModel orderModel)
+        {
+            Order order = new Order();
+            order.Id = orderModel.Id;
+            order.id_Cliente = orderModel.id_Cliente;
+            order.Fecha = orderModel.Fecha;
+            order.Estado = orderModel.Estado;
+            order.id_Chef = orderModel.id_Chef;
+            order.id_Restaurante = orderModel.id_Restaurante;
+
+            GeneralResponse response = _restaurantService.CreateOrder(order);
+            return response.StatusCode == HttpStatusCode.OK ? Ok(response) : BadRequest(response);
+
+        }
+
+        [TypeFilter(typeof(JwtAuthorizationFilter), Arguments = new object[] { "3" })]
+        [HttpGet("restaurant/order/add")]
+        public IActionResult addProductOrder(OrderProductModel orderModel)
+        {
+            OrderProduct order = new OrderProduct();
+            order.id_Plato = orderModel.id_Plato;
+            order.id_Pedido = orderModel.id_Pedido;
+            order.Cantidad = orderModel.Cantidad;
+
+            GeneralResponse response = _restaurantService.AddOrderProduct(order);
+            return response.StatusCode == HttpStatusCode.OK ? Ok(response) : BadRequest(response);
+
+        }
+
     }
 }

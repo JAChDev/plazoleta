@@ -18,6 +18,13 @@ namespace PlazoletaService.Domain
             CreateMap<ModifyProduct, ModifyProductDTO>();
             CreateMap<Product, ProductDTO>();
             CreateMap<ProductDTO, Product>();
+            CreateMap<Order, OrderDTO>();
+            CreateMap<OrderDTO, Order>();
+            CreateMap<OrderProduct, OrderProductDTO>();
+            CreateMap<OrderProductDTO, OrderProduct>();
+
+
+
 
         }
     }

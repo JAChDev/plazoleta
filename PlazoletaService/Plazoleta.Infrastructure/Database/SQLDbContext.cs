@@ -24,6 +24,8 @@ namespace PlazoletaService.Infrastructure.Database
 
         public DbSet<RestaurantDTO> Restaurantes { get; set; }
         public DbSet<ProductDTO> Platos { get; set; }
+        public DbSet<OrderDTO> Pedidos { get; set; }
+        public DbSet<OrderProductDTO> Pedidos_Platos { get; set; } 
         
     }
 }
