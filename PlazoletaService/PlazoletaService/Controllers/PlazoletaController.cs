@@ -110,7 +110,7 @@ namespace PlazoletaService.WebApi.Controllers
         }
 
         [TypeFilter(typeof(JwtAuthorizationFilter), Arguments = new object[] { "3" })]
-        [HttpGet("restaurant/order/create")]
+        [HttpPost("restaurant/order/create")]
         public IActionResult CreateOrder(OrderModel orderModel)
         {
             Order order = new Order();
