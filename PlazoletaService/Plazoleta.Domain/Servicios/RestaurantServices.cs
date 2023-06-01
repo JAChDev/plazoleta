@@ -171,6 +171,7 @@ namespace PlazoletaService.Domain.Servicios
             try
             {
                 OrderDTO orderDTO = _mapper.Map<OrderDTO>(order);
+                orderDTO.Fecha = order.Fecha.ToString("yyyy-MM-dd");
                 DbResponse createOrder = _mysqlRepository.CreateOrder(orderDTO);
                 if (createOrder.Success)
                 {
@@ -205,6 +206,19 @@ namespace PlazoletaService.Domain.Servicios
             catch(Exception ex)
             {
                 return new GeneralResponse { StatusCode = HttpStatusCode.BadRequest, Description = ex.Message };
+            }
+        }
+
+        public List<Order> GetOrdersWithFilter(int id, string filter, int pageNumber, int pageSize)
+        {
+            try
+            {
+                List<Order> orders = _mapper.Map<List<Order>>(_mysqlRepository.GetOrdersWithFilter(id, filter, pageNumber, pageSize));
+                return orders;
+            }
+            catch
+            {
+                return null;
             }
         }
     }

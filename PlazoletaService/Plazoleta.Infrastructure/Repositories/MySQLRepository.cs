@@ -204,5 +204,26 @@ namespace PlazoletaService.Infrastructure.Repositories
 
             }
         }
+
+        public List<OrderDTO> GetOrdersWithFilter(int id, string filter, int pageNumber, int pageSize)
+        {
+            try
+            {
+                var Orders = _dbContext.Pedidos.Where(p => p.id_Restaurante == id && p.Estado==filter).ToList();
+                int total = Orders.Count();
+                int pages = (int)Math.Ceiling((double)total / pageSize);
+
+                var resultado = Orders
+                    .AsEnumerable()
+                    .Skip((pageNumber - 1) * pageSize)
+                    .Take(pageSize)
+                    .ToList();
+                return resultado;
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+        }
     }
 }

@@ -114,7 +114,6 @@ namespace PlazoletaService.WebApi.Controllers
         public IActionResult CreateOrder(OrderModel orderModel)
         {
             Order order = new Order();
-            order.Id = orderModel.Id;
             order.id_Cliente = orderModel.id_Cliente;
             order.Fecha = orderModel.Fecha;
             order.Estado = orderModel.Estado;
@@ -127,8 +126,8 @@ namespace PlazoletaService.WebApi.Controllers
         }
 
         [TypeFilter(typeof(JwtAuthorizationFilter), Arguments = new object[] { "3" })]
-        [HttpGet("restaurant/order/add")]
-        public IActionResult addProductOrder(OrderProductModel orderModel)
+        [HttpPost("restaurant/order/add")]
+        public IActionResult AddProductOrder(OrderProductModel orderModel)
         {
             OrderProduct order = new OrderProduct();
             order.id_Plato = orderModel.id_Plato;
@@ -140,5 +139,18 @@ namespace PlazoletaService.WebApi.Controllers
 
         }
 
+        [TypeFilter(typeof(JwtAuthorizationFilter), Arguments = new object[] { "3" })]
+        [HttpGet("restaurant/order/get")]
+        public IActionResult GetOrderByRestaurant(int idRestaurant, string Status, int pageNumber, int pageSize)
+        {
+            var response = _restaurantService.GetOrdersWithFilter(idRestaurant, Status, pageNumber, pageSize);
+            if (response == null)
+            {
+                return BadRequest(new GeneralResponse { StatusCode = HttpStatusCode.BadRequest, Description = "Error al obtener los pedidos" });
+            } else
+            {
+                return Ok(response);
+            }
+        }
     }
 }

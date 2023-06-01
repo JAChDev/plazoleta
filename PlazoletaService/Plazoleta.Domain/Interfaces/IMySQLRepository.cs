@@ -21,6 +21,8 @@ namespace PlazoletaService.Domain.Interfaces
         List<ProductDTO> GetProductsByRestaurant(int restaurantId, int pageNumber, int pageSize);
         DbResponse CreateOrder(OrderDTO order);
         DbResponse AddOrderProduct(OrderProductDTO orderProduct);
+        List<OrderDTO> GetOrdersWithFilter(int id, string filter, int pageNumber, int pageSize);
+
 
 
 

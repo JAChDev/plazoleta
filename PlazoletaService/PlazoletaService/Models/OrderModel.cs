@@ -5,8 +5,6 @@ namespace PlazoletaService.WebApi.Models
 {
     public class OrderModel
     {
-        [Required]
-        [NotNull]
         public int Id { get; set; }
         [Required]
         [NotNull]

@@ -18,5 +18,6 @@ namespace PlazoletaService.Domain.Interfaces
         public List<Product> GetProductsByRestaurant(int restaurantId, int pageNumber, int pageSize);
         public GeneralResponse CreateOrder(Order order);
         public GeneralResponse AddOrderProduct(OrderProduct orderProduct);
+        public List<Order> GetOrdersWithFilter(int id, string filter, int pageNumber, int pageSize);
     }
 }
