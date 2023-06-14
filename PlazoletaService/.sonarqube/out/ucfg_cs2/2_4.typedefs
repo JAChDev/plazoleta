@@ -1,0 +1,17 @@
+Ë
+)PlazoletaService.WebApi.Models.OrderModelobjectF
+OrderModel()6PlazoletaService.WebApi.Models.OrderModel.OrderModel():
+Id.get0PlazoletaService.WebApi.Models.OrderModel.Id.get:
+Id.set0PlazoletaService.WebApi.Models.OrderModel.Id.setJ
+id_Cliente.get8PlazoletaService.WebApi.Models.OrderModel.id_Cliente.getJ
+id_Cliente.set8PlazoletaService.WebApi.Models.OrderModel.id_Cliente.set@
+	Fecha.get3PlazoletaService.WebApi.Models.OrderModel.Fecha.get@
+	Fecha.set3PlazoletaService.WebApi.Models.OrderModel.Fecha.setB
+
+Estado.get4PlazoletaService.WebApi.Models.OrderModel.Estado.getB
+
+Estado.set4PlazoletaService.WebApi.Models.OrderModel.Estado.setD
+id_Chef.get5PlazoletaService.WebApi.Models.OrderModel.id_Chef.getD
+id_Chef.set5PlazoletaService.WebApi.Models.OrderModel.id_Chef.setR
+id_Restaurante.get<PlazoletaService.WebApi.Models.OrderModel.id_Restaurante.getR
+id_Restaurante.set<PlazoletaService.WebApi.Models.OrderModel.id_Restaurante.set

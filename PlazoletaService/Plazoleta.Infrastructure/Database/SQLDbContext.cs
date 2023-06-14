@@ -11,10 +11,9 @@ namespace PlazoletaService.Infrastructure.Database
 {
     public class SQLDbContext:DbContext
     {
-        private readonly IConfiguration _configuration;
-        public SQLDbContext(DbContextOptions<SQLDbContext> options, IConfiguration configuration) : base(options)
+        public SQLDbContext(DbContextOptions<SQLDbContext> options) : base(options)
         {
-            _configuration = configuration;
+
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -23,10 +22,10 @@ namespace PlazoletaService.Infrastructure.Database
             modelBuilder.Entity<OrderProductDTO>().HasNoKey();
         }
 
-        public DbSet<RestaurantDTO> Restaurantes { get; set; }
-        public DbSet<ProductDTO> Platos { get; set; }
-        public DbSet<OrderDTO> Pedidos { get; set; }
-        public DbSet<OrderProductDTO> Pedidos_Platos { get; set; } 
+        public DbSet<RestaurantDTO> restaurantes { get; set; }
+        public DbSet<ProductDTO> platos { get; set; }
+        public DbSet<OrderDTO> pedidos { get; set; }
+        public DbSet<OrderProductDTO> pedidos_Platos { get; set; } 
         
     }
 }

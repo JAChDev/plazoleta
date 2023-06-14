@@ -10,11 +10,11 @@ namespace PlazoletaService.Domain.DTO
     public class RestaurantDTO
     {
         public int Id { get; set; }
-        public string Nombre { get; set; }
-        public string Direccion { get; set; }
+        public string? Nombre { get; set; }
+        public string? Direccion { get; set; }
         public int id_propietario { get; set; }
-        public string Telefono { get; set; }
-        public string UrlLogo { get; set; }
-        public string Nit { get; set; }
+        public string? Telefono { get; set; }
+        public string? UrlLogo { get; set; }
+        public string? Nit { get; set; }
     }
 }

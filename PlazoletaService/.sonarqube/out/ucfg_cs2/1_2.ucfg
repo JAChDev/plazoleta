@@ -1,0 +1,28 @@
+
+‹PlazoletaService.Infrastructure.Database.SQLDbContext.SQLDbContext(Microsoft.EntityFrameworkCore.DbContextOptions<PlazoletaService.Infrastructure.Database.SQLDbContext>, Microsoft.Extensions.Configuration.IConfiguration)è
+ÑC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\Database\SQLDbContext.cs ("1*
+1	 (	*
+0*Á
+0b (*Ù
+Ò
+b (q
+
+%0void"aMicrosoft.EntityFrameworkCore.DbContext.DbContext(Microsoft.EntityFrameworkCore.DbContextOptions)*-+)
+'Microsoft.EntityFrameworkCore.DbContext*GE
+C
+options8Microsoft.EntityFrameworkCore.DbContextOptions<TContext>€
+ÿ
+ (*~7
+5PlazoletaService.Infrastructure.Database.SQLDbContext"C
+_configuration1Microsoft.Extensions.Configuration.IConfiguration"__id*FD
+B
+configuration1Microsoft.Extensions.Configuration.IConfiguration*
+2*.
+2	 (	"
+ (	
+implicit return:O
+ (BC
+options8Microsoft.EntityFrameworkCore.DbContextOptions<TContext>:N
+D (`B
+configuration1Microsoft.Extensions.Configuration.IConfigurationB97
+5PlazoletaService.Infrastructure.Database.SQLDbContext

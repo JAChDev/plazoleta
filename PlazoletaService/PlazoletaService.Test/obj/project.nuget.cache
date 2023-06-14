@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6287LijKTR4DedrarQZ2Nc7bITbm1cU1a2Cad5ITtECZYQcS8KPyhRK/kkhBUnJcHs82ektBFUksfzn3wYQOxw==",
+  "dgSpecHash": "Key9rUhpFgawLHHLdAkVWf6KvN/q7Eu1I98cx2T4sceqO/WKvtUtpkAXIUksdga6HSw5xDKl32C9284wsC4CuA==",
   "success": true,
   "projectFilePath": "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\AppPlazoleta\\PlazoletaService\\PlazoletaService.Test\\PlazoletaService.Test.csproj",
   "expectedPackageFiles": [
@@ -41,6 +41,7 @@
     "C:\\Users\\jonatan.amado_pragma\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\jonatan.amado_pragma\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.5.0\\microsoft.testplatform.objectmodel.17.5.0.nupkg.sha512",
     "C:\\Users\\jonatan.amado_pragma\\.nuget\\packages\\microsoft.testplatform.testhost\\17.5.0\\microsoft.testplatform.testhost.17.5.0.nupkg.sha512",
+    "C:\\Users\\jonatan.amado_pragma\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512",
     "C:\\Users\\jonatan.amado_pragma\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\jonatan.amado_pragma\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\jonatan.amado_pragma\\.nuget\\packages\\moq\\4.18.4\\moq.4.18.4.nupkg.sha512",

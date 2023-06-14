@@ -46,7 +46,7 @@ namespace PlazoletaService.WebApi.Controllers
             product.id_categoria = productModel.id_categoria;
             product.Descripcion = productModel.Descripcion;
             product.Precio = productModel.Precio;
-            product.id_restaurante = productModel.id_restaurante;
+            product.Id_Restaurante = productModel.Id_Restaurante;
             product.url_imagen = productModel.url_imagen;
             product.Activo = productModel.Activo;
             GeneralResponse response = _restaurantService.CreateProduct(product);
@@ -114,11 +114,11 @@ namespace PlazoletaService.WebApi.Controllers
         public IActionResult CreateOrder(OrderModel orderModel)
         {
             Order order = new Order();
-            order.id_Cliente = orderModel.id_Cliente;
+            order.Id_Cliente = orderModel.Id_Cliente;
             order.Fecha = orderModel.Fecha;
             order.Estado = orderModel.Estado;
-            order.id_Chef = orderModel.id_Chef;
-            order.id_Restaurante = orderModel.id_Restaurante;
+            order.Id_Chef = orderModel.Id_Chef;
+            order.Id_Restaurante = orderModel.Id_Restaurante;
 
             GeneralResponse response = _restaurantService.CreateOrder(order);
             return response.StatusCode == HttpStatusCode.OK ? Ok(response) : BadRequest(response);

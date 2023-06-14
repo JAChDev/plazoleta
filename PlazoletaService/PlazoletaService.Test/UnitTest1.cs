@@ -21,11 +21,11 @@ namespace PlazoletaService.Test
             OrderModel order = new OrderModel
             {
                 Id = 1,
-                id_Cliente = 323232,
+                Id_Cliente = 323232,
                 Fecha = DateTime.Now,
                 Estado = "Pendiente",
-                id_Chef = 23232,
-                id_Restaurante = 3,
+                Id_Chef = 23232,
+                Id_Restaurante = 3,
             };
             GeneralResponse response = new GeneralResponse { StatusCode = HttpStatusCode.OK, Description = "Pedido creado" };
             mockRestauranService.Setup(service => service.CreateOrder(It.IsAny<Order>())).Returns(response);

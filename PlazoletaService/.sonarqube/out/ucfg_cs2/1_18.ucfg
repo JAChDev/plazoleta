@@ -1,0 +1,144 @@
+
+gPlazoletaService.Infrastructure.Repositories.MySQLRepository.GetOrdersWithFilter(int, string, int, int)˜
+‹C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\Repositories\MySQLRepository.csÐ Ð(1"0*
+0
+ã	 ã(	*
+1
+2*†
+1
+Ô Ý( à
+Ý
+
+Ô Ô(';
+%05PlazoletaService.Infrastructure.Database.SQLDbContext"__id*‹ˆ*…>
+<PlazoletaService.Infrastructure.Repositories.MySQLRepository"C
+
+_dbContext5PlazoletaService.Infrastructure.Database.SQLDbContextÇ
+Ä
+
+Ô Ô(/2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"APlazoletaService.Infrastructure.Database.SQLDbContext.pedidos.get*?=
+;
+%05PlazoletaService.Infrastructure.Database.SQLDbContext—
+”
+
+Ô Ô(f
+%2System.Linq.IQueryable<T>"…System.Linq.Queryable.Where<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*64
+2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""Õ
+Ò
+
+Ô Ô(o(
+%3"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*#!
+
+%2System.Linq.IQueryable<T>p
+n
+
+Ô Ô(o,
+Orders"System.Collections.Generic.List<T>"__id*,*
+(
+%3"System.Collections.Generic.List<T>Â
+¿
+
+Õ Õ(*	
+%4int"VSystem.Linq.Enumerable.Count<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*0.
+,
+Orders"System.Collections.Generic.List<T>1
+/
+
+Õ Õ(*
+totalint"__id*
+	
+%4int,
+*
+
+Ö. Ö(;
+%5"__id*
+
+totalintV
+T
+
+Ö! Ö(G
+%6double"System.Math.Ceiling(double)*"
+System.Math*
+"",
+*
+
+Ö Ö(G
+%7"__id*
+
+%6double,
+*
+
+Ö Ö(G
+pagesint"__id*
+
+%7ï
+ì
+
+Ø  Ù(#/
+%8)System.Collections.Generic.IEnumerable<T>"]System.Linq.Enumerable.AsEnumerable<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*0.
+,
+Orders"System.Collections.Generic.List<T>ù
+ö
+
+Ø  Ú(6/
+%9)System.Collections.Generic.IEnumerable<T>"ZSystem.Linq.Enumerable.Skip<TSource>(System.Collections.Generic.IEnumerable<TSource>, int)*"
+System.Linq.Enumerable*31
+/
+%8)System.Collections.Generic.IEnumerable<T>*
+""ú
+÷
+
+Ø  Û(#0
+%10)System.Collections.Generic.IEnumerable<T>"ZSystem.Linq.Enumerable.Take<TSource>(System.Collections.Generic.IEnumerable<TSource>, int)*"
+System.Linq.Enumerable*31
+/
+%9)System.Collections.Generic.IEnumerable<T>*
+""ç
+ä
+
+Ø  Ü()
+%11"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*42
+0
+%10)System.Collections.Generic.IEnumerable<T>t
+r
+
+Ø Ü(/
+	resultado"System.Collections.Generic.List<T>"__id*-+
+)
+%11"System.Collections.Generic.List<T>"?
+
+Ý Ý(!1
+/
+	resultado"System.Collections.Generic.List<T>*%
+2
+á á("
+
+á á(
+""*2
+3
+ã	 ã(	"!
+
+ã ã(	
+implicit return:
+
+Ð2 Ð(8	
+idint:
+
+Ð: Ð(G
+filterstring:
+
+ÐI Ð(W
+
+pageNumberint:
+
+ÐY Ð(e
+pageSizeintB@>
+<PlazoletaService.Infrastructure.Repositories.MySQLRepository

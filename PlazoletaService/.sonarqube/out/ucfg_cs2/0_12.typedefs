@@ -1,0 +1,9 @@
+Ó
+-PlazoletaService.Domain.Entities.OrderProductobjectN
+OrderProduct()<PlazoletaService.Domain.Entities.OrderProduct.OrderProduct()L
+id_Pedido.get;PlazoletaService.Domain.Entities.OrderProduct.id_Pedido.getL
+id_Pedido.set;PlazoletaService.Domain.Entities.OrderProduct.id_Pedido.setJ
+id_Plato.get:PlazoletaService.Domain.Entities.OrderProduct.id_Plato.getJ
+id_Plato.set:PlazoletaService.Domain.Entities.OrderProduct.id_Plato.setJ
+Cantidad.get:PlazoletaService.Domain.Entities.OrderProduct.Cantidad.getJ
+Cantidad.set:PlazoletaService.Domain.Entities.OrderProduct.Cantidad.set

@@ -23,7 +23,7 @@ namespace PlazoletaService.Infrastructure.Repositories
         {
             try
             {
-                _dbContext.Platos.Add(productDTO);
+                _dbContext.platos.Add(productDTO);
                 _dbContext.SaveChanges();
                 return new DbResponse { Success = true, Message = "Plato insertado" };
             }
@@ -37,7 +37,7 @@ namespace PlazoletaService.Infrastructure.Repositories
         {
             try
             {
-                _dbContext.Restaurantes.Add(restaurantDTO);
+                _dbContext.restaurantes.Add(restaurantDTO);
                 _dbContext.SaveChanges();
                 return new DbResponse { Success = true, Message = "Restaurante insertado" };
             }
@@ -51,7 +51,7 @@ namespace PlazoletaService.Infrastructure.Repositories
         {
             try
             {
-                var restaurant = _dbContext.Restaurantes.Where(x => x.id_propietario == id).ToList();
+                var restaurant = _dbContext.restaurantes.Where(x => x.id_propietario == id).ToList();
                 if (restaurant.FirstOrDefault() != null)
                 {
                     return restaurant.FirstOrDefault();
@@ -60,7 +60,7 @@ namespace PlazoletaService.Infrastructure.Repositories
                     return null;
                 }
             }
-            catch (Exception ex) 
+            catch
             {
                 return null;
             }
@@ -70,18 +70,18 @@ namespace PlazoletaService.Infrastructure.Repositories
         {
             try
             {
-                var plato = _dbContext.Platos.Find(id);
+                var plato = _dbContext.platos.Find(id);
                 if (plato != null) { return plato; }
                 else { return null; }
             }
-            catch (Exception ex) { return null; }
+            catch { return null; }
         }
 
         public DbResponse UpdateProduct(ModifyProductDTO productDTO)
         {
             try
             {
-                var plato = _dbContext.Platos.Find(productDTO.Id);
+                var plato = _dbContext.platos.Find(productDTO.Id);
                 if (plato != null) 
                 {
                     plato.Nombre = productDTO.Nombre;
@@ -104,7 +104,7 @@ namespace PlazoletaService.Infrastructure.Repositories
         {
             try
             {
-                var plato = _dbContext.Platos.Find(productId);
+                var plato = _dbContext.platos.Find(productId);
                 if (plato != null)
                 {
                     plato.Activo = !plato.Activo;
@@ -126,7 +126,7 @@ namespace PlazoletaService.Infrastructure.Repositories
         {
             try
             {
-                var restaurants = _dbContext.Restaurantes.AsQueryable();
+                var restaurants = _dbContext.restaurantes.AsQueryable();
                 int total = restaurants.Count();
                 int pages = (int)Math.Ceiling((double)total / pageSize);
                 pageNumber = Math.Max(1, Math.Min(pageNumber, pageSize));
@@ -145,17 +145,17 @@ namespace PlazoletaService.Infrastructure.Repositories
         {
             try
             {
-                var products = _dbContext.Platos.Where(p => p.id_restaurante == restaurantId)
+                var products = _dbContext.platos.Where(p => p.Id_Restaurante == restaurantId)
                     .GroupBy(p => p.id_categoria)
-                    .Select(g => new {Categoria = g.Key, Platos = g.ToList() });
+                    .Select(g => new {Categoria = g.Key, platos = g.ToList() });
                 int total = products.Count();
-                int pages = (int)Math.Ceiling((double)total / pageSize);
+                //int pages = (int)Math.Ceiling((double)total / pageSize);
 
                 var resultado = products
                     .AsEnumerable()
                     .Skip((pageNumber - 1) * pageSize)
                     .Take(pageSize)
-                    .SelectMany(g => g.Platos)
+                    .SelectMany(g => g.platos)
                     .ToList();
                 return resultado;
 
@@ -170,7 +170,7 @@ namespace PlazoletaService.Infrastructure.Repositories
         {
             try
             {
-                _dbContext.Pedidos.Add(order);
+                _dbContext.pedidos.Add(order);
                 _dbContext.SaveChanges();
                 return new DbResponse { Success = true, Message = "Pedido creado" };
 
@@ -186,12 +186,12 @@ namespace PlazoletaService.Infrastructure.Repositories
         {
             try
             {
-                var order = _dbContext.Pedidos.Find(orderProduct.id_Pedido);
+                var order = _dbContext.pedidos.Find(orderProduct.id_Pedido);
                 if (order != null)
                 {
-                    _dbContext.Pedidos_Platos.Add(orderProduct);
+                    _dbContext.pedidos_Platos.Add(orderProduct);
                     _dbContext.SaveChanges();
-                    return new DbResponse { Success = true, Message = "Platos agregados al pedido" };
+                    return new DbResponse { Success = true, Message = "platos agregados al pedido" };
                 }
                 else
                 {
@@ -209,7 +209,7 @@ namespace PlazoletaService.Infrastructure.Repositories
         {
             try
             {
-                var Orders = _dbContext.Pedidos.Where(p => p.id_Restaurante == id && p.Estado==filter).ToList();
+                var Orders = _dbContext.pedidos.Where(p => p.Id_Restaurante == id && p.Estado==filter).ToList();
                 int total = Orders.Count();
                 int pages = (int)Math.Ceiling((double)total / pageSize);
 

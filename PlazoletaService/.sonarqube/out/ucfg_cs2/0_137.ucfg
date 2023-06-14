@@ -1,0 +1,95 @@
+
+LPlazoletaService.Domain.Servicios.AuthService.GetTokenValidationParameters()†
+|C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Servicios\AuthService.cs) (E"0*»
+0 &('c
+a
+$ (1
+%0System.Text.Encoding"System.Text.Encoding.UTF8.get*"
+System.Text.EncodingÁ
+¾
+; (B7
+%11Microsoft.Extensions.Configuration.IConfiguration"__id*sq*o/
+-PlazoletaService.Domain.Servicios.AuthService"<
+_config1Microsoft.Extensions.Configuration.IConfigurationñî
+; (V>
+%28Microsoft.Extensions.Configuration.IConfigurationSection"DMicrosoft.Extensions.Configuration.IConfiguration.GetSection(string)*;9
+7
+%11Microsoft.Extensions.Configuration.IConfiguration*	
+Token2GetSection(string)®«
+; (\
+%3string"BMicrosoft.Extensions.Configuration.IConfigurationSection.Value.get*B@
+>
+%28Microsoft.Extensions.Configuration.IConfigurationSection2	Value.get†ƒ
+$ (]
+%4byte[]"%System.Text.Encoding.GetBytes(string)*
+
+%0System.Text.Encoding*
+
+%3string2GetBytes(string)>
+<
+ (]
+secretKeyBytesbyte[]"__id*
+
+%4byte[]‡„
+' %(>
+%58Microsoft.IdentityModel.Tokens.TokenValidationParameters"8Microsoft.IdentityModel.Tokens.TokenValidationParameters³
+°
++ (D
+
+%6void"TMicrosoft.IdentityModel.Tokens.TokenValidationParameters.TokenValidationParameters()*B@
+>
+%58Microsoft.IdentityModel.Tokens.TokenValidationParameters¾
+»
+   (/
+
+%7bool"UMicrosoft.IdentityModel.Tokens.TokenValidationParameters.ValidateIssuerSigningKey.set*B@
+>
+%58Microsoft.IdentityModel.Tokens.TokenValidationParameters*
+""|z
+!# !(K9
+%83Microsoft.IdentityModel.Tokens.SymmetricSecurityKey"3Microsoft.IdentityModel.Tokens.SymmetricSecurityKeyÈ
+Å
+!' !(;
+
+%9void"PMicrosoft.IdentityModel.Tokens.SymmetricSecurityKey.SymmetricSecurityKey(byte[])*=;
+9
+%83Microsoft.IdentityModel.Tokens.SymmetricSecurityKey*
+
+secretKeyBytesbyte[]’
+
+! !(K1
+%10*Microsoft.IdentityModel.Tokens.SecurityKey"MMicrosoft.IdentityModel.Tokens.TokenValidationParameters.IssuerSigningKey.set*B@
+>
+%58Microsoft.IdentityModel.Tokens.TokenValidationParameters*=;
+9
+%83Microsoft.IdentityModel.Tokens.SymmetricSecurityKeyµ
+²
+" "(&
+%11bool"KMicrosoft.IdentityModel.Tokens.TokenValidationParameters.ValidateIssuer.set*B@
+>
+%58Microsoft.IdentityModel.Tokens.TokenValidationParameters*
+""·
+´
+# #((
+%12bool"MMicrosoft.IdentityModel.Tokens.TokenValidationParameters.ValidateAudience.set*B@
+>
+%58Microsoft.IdentityModel.Tokens.TokenValidationParameters*
+""·
+´
+$ $((
+%13bool"MMicrosoft.IdentityModel.Tokens.TokenValidationParameters.ValidateLifetime.set*B@
+>
+%58Microsoft.IdentityModel.Tokens.TokenValidationParameters*
+""©
+¦
+ %(P
+validationParameters8Microsoft.IdentityModel.Tokens.TokenValidationParameters"__id*B@
+>
+%58Microsoft.IdentityModel.Tokens.TokenValidationParameters"^
+& &((R
+P
+validationParameters8Microsoft.IdentityModel.Tokens.TokenValidationParameters*.
+1'	 '(	"
+' '(	
+implicit returnB1/
+-PlazoletaService.Domain.Servicios.AuthService

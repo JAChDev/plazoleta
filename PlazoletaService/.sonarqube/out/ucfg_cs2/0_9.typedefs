@@ -1,0 +1,17 @@
+—
+&PlazoletaService.Domain.Entities.Orderobject9
+Order().PlazoletaService.Domain.Entities.Order.Order()7
+Id.get-PlazoletaService.Domain.Entities.Order.Id.get7
+Id.set-PlazoletaService.Domain.Entities.Order.Id.setG
+id_Cliente.get5PlazoletaService.Domain.Entities.Order.id_Cliente.getG
+id_Cliente.set5PlazoletaService.Domain.Entities.Order.id_Cliente.set=
+	Fecha.get0PlazoletaService.Domain.Entities.Order.Fecha.get=
+	Fecha.set0PlazoletaService.Domain.Entities.Order.Fecha.set?
+
+Estado.get1PlazoletaService.Domain.Entities.Order.Estado.get?
+
+Estado.set1PlazoletaService.Domain.Entities.Order.Estado.setA
+id_Chef.get2PlazoletaService.Domain.Entities.Order.id_Chef.getA
+id_Chef.set2PlazoletaService.Domain.Entities.Order.id_Chef.setO
+id_Restaurante.get9PlazoletaService.Domain.Entities.Order.id_Restaurante.getO
+id_Restaurante.set9PlazoletaService.Domain.Entities.Order.id_Restaurante.set

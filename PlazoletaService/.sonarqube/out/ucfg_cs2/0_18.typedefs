@@ -1,0 +1,6 @@
+»
+-PlazoletaService.Domain.Servicios.AuthServiceobject/PlazoletaService.Domain.Interfaces.IAuthService®
+>AuthService(Microsoft.Extensions.Configuration.IConfiguration)lPlazoletaService.Domain.Servicios.AuthService.AuthService(Microsoft.Extensions.Configuration.IConfiguration)R
+GetRoles(string)>PlazoletaService.Domain.Servicios.AuthService.GetRoles(string)n
+GetTokenValidationParameters()LPlazoletaService.Domain.Servicios.AuthService.GetTokenValidationParameters()\
+ValidateToken(string)CPlazoletaService.Domain.Servicios.AuthService.ValidateToken(string)

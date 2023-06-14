@@ -1,0 +1,811 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.5.0.0",
+        "fileVersion": "4.5.2-3.23171.7 (d17f7415)",
+        "semanticVersion": "4.5.0",
+        "language": "es-ES"
+      },
+      "results": [
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"restaurantes\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Database/SQLDbContext.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 16,
+                  "endLine": 15,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Database/SQLDbContext.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 37,
+                  "endLine": 26,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"platos\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Database/SQLDbContext.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 16,
+                  "endLine": 15,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Database/SQLDbContext.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 34,
+                  "endLine": 27,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"pedidos\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Database/SQLDbContext.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 16,
+                  "endLine": 15,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Database/SQLDbContext.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 32,
+                  "endLine": 28,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"pedidos_Platos\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Database/SQLDbContext.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 16,
+                  "endLine": 15,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Database/SQLDbContext.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 39,
+                  "endLine": 29,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Repositories/MySQLRepository.cs",
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 28,
+                  "endLine": 57,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Repositories/MySQLRepository.cs",
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 28,
+                  "endLine": 60,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Repositories/MySQLRepository.cs",
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 24,
+                  "endLine": 65,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0168",
+          "level": "warning",
+          "message": "La variable 'ex' se ha declarado pero nunca se usa",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Repositories/MySQLRepository.cs",
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 30,
+                  "endLine": 63,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Repositories/MySQLRepository.cs",
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 31,
+                  "endLine": 75,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Repositories/MySQLRepository.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 43,
+                  "endLine": 77,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0168",
+          "level": "warning",
+          "message": "La variable 'ex' se ha declarado pero nunca se usa",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Repositories/MySQLRepository.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 30,
+                  "endLine": 77,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Repositories/MySQLRepository.cs",
+                "region": {
+                  "startLine": 140,
+                  "startColumn": 24,
+                  "endLine": 140,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Repositories/MySQLRepository.cs",
+                "region": {
+                  "startLine": 165,
+                  "startColumn": 24,
+                  "endLine": 165,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Repositories/MySQLRepository.cs",
+                "region": {
+                  "startLine": 225,
+                  "startColumn": 24,
+                  "endLine": 225,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0168",
+          "level": "warning",
+          "message": "La variable 'ex' se ha declarado pero nunca se usa",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Repositories/MySQLRepository.cs",
+                "region": {
+                  "startLine": 223,
+                  "startColumn": 30,
+                  "endLine": 223,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_configuration' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Database/SQLDbContext.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 41,
+                  "endLine": 14,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'SQLDbContext' to match pascal case naming rules, consider using 'SqlDbContext'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Database/SQLDbContext.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 18,
+                  "endLine": 12,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'MySQLRepository' to match pascal case naming rules, consider using 'MySqlRepository'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Repositories/MySQLRepository.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 18,
+                  "endLine": 14,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1125",
+          "level": "warning",
+          "message": "Remove the unnecessary Boolean literal(s).",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Repositories/MySQLRepository.cs",
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 84,
+                  "endLine": 112,
+                  "endColumn": 91
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1168",
+          "level": "warning",
+          "message": "Return an empty collection instead of null.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Repositories/MySQLRepository.cs",
+                "region": {
+                  "startLine": 140,
+                  "startColumn": 24,
+                  "endLine": 140,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1168",
+          "level": "warning",
+          "message": "Return an empty collection instead of null.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Repositories/MySQLRepository.cs",
+                "region": {
+                  "startLine": 165,
+                  "startColumn": 24,
+                  "endLine": 165,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'pages'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Repositories/MySQLRepository.cs",
+                "region": {
+                  "startLine": 131,
+                  "startColumn": 21,
+                  "endLine": 131,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2971",
+          "level": "warning",
+          "message": "Use 'Count' property here instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Repositories/MySQLRepository.cs",
+                "region": {
+                  "startLine": 213,
+                  "startColumn": 36,
+                  "endLine": 213,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1168",
+          "level": "warning",
+          "message": "Return an empty collection instead of null.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Repositories/MySQLRepository.cs",
+                "region": {
+                  "startLine": 225,
+                  "startColumn": 24,
+                  "endLine": 225,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'pages'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Repositories/MySQLRepository.cs",
+                "region": {
+                  "startLine": 152,
+                  "startColumn": 21,
+                  "endLine": 152,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Repositories/MySQLRepository.cs",
+                "region": {
+                  "startLine": 213,
+                  "startColumn": 29,
+                  "endLine": 213,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'pages'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/Plazoleta.Infrastructure/Repositories/MySQLRepository.cs",
+                "region": {
+                  "startLine": 214,
+                  "startColumn": 21,
+                  "endLine": 214,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1829": {
+          "id": "CA1829",
+          "shortDescription": "Use Length/Count property instead of Count() when available",
+          "fullDescription": "Enumerable.Count() potentially enumerates the sequence while a Length/Count property is a direct access.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1829",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CS0168": {
+          "id": "CS0168",
+          "shortDescription": "La variable está declarada pero nunca se usa",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0168)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8603": {
+          "id": "CS8603",
+          "shortDescription": "Posible tipo de valor devuelto de referencia nulo",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8603)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Un campo que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declararlo como que admite un valor NULL.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S101": {
+          "id": "S101",
+          "shortDescription": "Types should be named in PascalCase",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently. This rule checks whether or not type names are using PascalCase. To reduce noise, two consecutive upper case characters are allowed unless they form the whole type name. So, MyXClass is compliant, but XC on its own is not.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-101",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1125": {
+          "id": "S1125",
+          "shortDescription": "Boolean literals should not be redundant",
+          "fullDescription": "Redundant Boolean literals should be removed from expressions to improve readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1125",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1168": {
+          "id": "S1168",
+          "shortDescription": "Empty arrays and collections should be returned instead of null",
+          "fullDescription": "Returning null or default instead of an actual collection forces the method callers to explicitly test for null, making the code more complex and less readable.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1168",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1481": {
+          "id": "S1481",
+          "shortDescription": "Unused local variables should be removed",
+          "fullDescription": "If a local variable is declared but not used, it is dead code and should be removed. Doing so will improve maintainability because developers will not wonder what the variable is used for.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1481",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2971": {
+          "id": "S2971",
+          "shortDescription": "\"IEnumerable\" LINQs should be simplified",
+          "fullDescription": "In the interests of readability, code that can be simplified should be simplified. To that end, there are several ways IEnumerable language integrated queries (LINQ) can be simplified",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2971",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S4487": {
+          "id": "S4487",
+          "shortDescription": "Unread \"private\" fields should be removed",
+          "fullDescription": "Private fields which are written but never read are a case of \"dead store\". Changing the value of such a field is useless and most probably indicates an error in the code.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4487",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

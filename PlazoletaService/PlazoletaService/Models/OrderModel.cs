@@ -8,18 +8,18 @@ namespace PlazoletaService.WebApi.Models
         public int Id { get; set; }
         [Required]
         [NotNull]
-        public int id_Cliente { get; set; }
+        public int Id_Cliente { get; set; }
         [Required]
         [NotNull]
         public DateTime Fecha { get; set; }
         [Required]
         [NotNull]
-        public string Estado { get; set; }
+        public string? Estado { get; set; }
         [Required]
         [NotNull]
-        public int id_Chef { get; set; }
+        public int Id_Chef { get; set; }
         [Required]
         [NotNull]
-        public int id_Restaurante { get; set; }
+        public int Id_Restaurante { get; set; }
     }
 }
