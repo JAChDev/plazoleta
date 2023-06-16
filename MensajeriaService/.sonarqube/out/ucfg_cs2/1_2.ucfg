@@ -1,0 +1,25 @@
+
+TMensajeriaService.Infrastructure.InfrastructureModule.Load(Autofac.ContainerBuilder)—
+ŒC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Infrastructure\InfrastructureModule.cs  ($"0* 
+0 (_‰
+†
+ (0V
+%0PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>"SAutofac.RegistrationExtensions.RegisterType<TImplementer>(Autofac.ContainerBuilder)*$"" 
+Autofac.RegistrationExtensions*'%
+#
+builderAutofac.ContainerBuilder²¯
+ (DV
+%1PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>"_Autofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>.As<TService>()*ZX
+V
+%0PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>2As<TService>()ÊÇ
+ (_V
+%2PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>"kAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>.InstancePerLifetimeScope()*ZX
+V
+%1PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>2InstancePerLifetimeScope()*
+1*.
+1	 (	"
+ (	
+implicit return:/
+% (=#
+builderAutofac.ContainerBuilderB97
+5MensajeriaService.Infrastructure.InfrastructureModule

@@ -1,0 +1,62 @@
+
+yMensajeriaService.Infrastructure.WhatsappApi.MessagingApi.MessagingApi(Microsoft.Extensions.Configuration.IConfiguration)õ
+êC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Infrastructure\WhatsappApi\MessagingApi.cs ("1*
+1	 (	*
+0*º
+
+0 (3‡
+›
+ (*Ç;
+9MensajeriaService.Infrastructure.WhatsappApi.MessagingApi"C
+_configuration1Microsoft.Extensions.Configuration.IConfiguration"__id*FD
+B
+configuration1Microsoft.Extensions.Configuration.IConfiguration◊
+‘
+ (+7
+%01Microsoft.Extensions.Configuration.IConfiguration"__id*àÖ*Ç;
+9MensajeriaService.Infrastructure.WhatsappApi.MessagingApi"C
+_configuration1Microsoft.Extensions.Configuration.IConfiguration¿Ω
+ (9
+%1string"BMicrosoft.Extensions.Configuration.IConfiguration.this[string].get*;9
+7
+%01Microsoft.Extensions.Configuration.IConfiguration*
+
+Twilio:Sid2this[string].get:
+8
+ (9
+
+accountSidstring"__id*
+
+%1string◊
+‘
+ (*7
+%21Microsoft.Extensions.Configuration.IConfiguration"__id*àÖ*Ç;
+9MensajeriaService.Infrastructure.WhatsappApi.MessagingApi"C
+_configuration1Microsoft.Extensions.Configuration.IConfiguration¬ø
+ (:
+%3string"BMicrosoft.Extensions.Configuration.IConfiguration.this[string].get*;9
+7
+%21Microsoft.Extensions.Configuration.IConfiguration*
+Twilio:Token2this[string].get9
+7
+ (:
+	authTokenstring"__id*
+
+%3stringë
+é
+ (4
+
+%4void"(Twilio.TwilioClient.Init(string, string)*"
+Twilio.TwilioClient*
+
+
+accountSidstring*
+
+	authTokenstring*
+2*.
+2	 (	"
+ (	
+implicit return:N
+ (8B
+configuration1Microsoft.Extensions.Configuration.IConfigurationB=;
+9MensajeriaService.Infrastructure.WhatsappApi.MessagingApi

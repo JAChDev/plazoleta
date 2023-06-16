@@ -1,0 +1,105 @@
+
+qMensajeriaService.WebApi.Controllers.MessageController.SendWhatsapp(MensajeriaService.WebApi.Models.MessageModel)ë
+ÜC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService\Controllers\MessageController.cs() ((5"4*¸
+0* 2(pn
+* .(3
+%0-MensajeriaService.Domain.Entities.MessageData"-MensajeriaService.Domain.Entities.MessageDataè
+å
+*# *(.
+
+%1void";MensajeriaService.Domain.Entities.MessageData.MessageData()*75
+3
+%0-MensajeriaService.Domain.Entities.MessageDataê
+ç
+, ,(%
+%2string"6MensajeriaService.WebApi.Models.MessageModel.Phone.get*;9
+7
+message,MensajeriaService.WebApi.Models.MessageModelü
+ú
+, ,(%
+%3string"7MensajeriaService.Domain.Entities.MessageData.Phone.set*75
+3
+%0-MensajeriaService.Domain.Entities.MessageData*
+
+%2stringí
+è
+- -()
+%4string"8MensajeriaService.WebApi.Models.MessageModel.Message.get*;9
+7
+message,MensajeriaService.WebApi.Models.MessageModel°
+û
+- -()
+%5string"9MensajeriaService.Domain.Entities.MessageData.Message.set*75
+3
+%0-MensajeriaService.Domain.Entities.MessageData*
+
+%4stringÉ
+Ä
+* .(5
+data-MensajeriaService.Domain.Entities.MessageData"__id*75
+3
+%0-MensajeriaService.Domain.Entities.MessageDataŸ
+÷
+0  0(/9
+%63MensajeriaService.Domain.Interfaces.IMessageService"__id*àÖ*Ç8
+6MensajeriaService.WebApi.Controllers.MessageController"F
+_messageService3MensajeriaService.Domain.Interfaces.IMessageService·ﬁ
+0  0(B*
+%7$System.Threading.Tasks.Task<TResult>"oMensajeriaService.Domain.Interfaces.IMessageService.SendWhatsapp(MensajeriaService.Domain.Entities.MessageData)*=;
+9
+%63MensajeriaService.Domain.Interfaces.IMessageService*97
+5
+data-MensajeriaService.Domain.Entities.MessageData2;SendWhatsapp(MensajeriaService.Domain.Entities.MessageData)-
++
+0 0(B
+successbool"__id*
+""*
+1
+2*™
+14 4(D›⁄
+4 4(E-
+%8'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*.,*
+(Mensaje de whatsapp enviado exitosamente2Ok(object?)";
+4 4(F/
+-
+%8'Microsoft.AspNetCore.Mvc.OkObjectResult*º
+28 8(>Á‰
+8 8(?5
+%9/Microsoft.AspNetCore.Mvc.BadRequestObjectResult";Microsoft.AspNetCore.Mvc.ControllerBase.BadRequest(object?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase* 
+Error al enviar el mensaje2BadRequest(object?)"C
+8 8(@7
+5
+%9/Microsoft.AspNetCore.Mvc.BadRequestObjectResult*.
+3:	 :(	"
+: :(	
+implicit return*˚
+4(V ((Vw
+u
+() ((5[
+7
+message,MensajeriaService.WebApi.Models.MessageModel" 
+<Phone>k__BackingFieldstring"__entrypointf
+d
+() ((5J
+7
+message,MensajeriaService.WebApi.Models.MessageModel"
+Phonestring"__entrypointy
+w
+() ((5]
+7
+message,MensajeriaService.WebApi.Models.MessageModel""
+<Message>k__BackingFieldstring"__entrypointh
+f
+() ((5L
+7
+message,MensajeriaService.WebApi.Models.MessageModel"
+Messagestring"__entrypoint!
+
+() ((5
+%10"__entrypoint*
+0:C
+(6 ((U7
+message,MensajeriaService.WebApi.Models.MessageModelB:8
+6MensajeriaService.WebApi.Controllers.MessageController

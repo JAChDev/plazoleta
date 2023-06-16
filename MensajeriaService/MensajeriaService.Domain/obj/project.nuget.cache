@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "P5XUUBj74loQgw+maaYufCH4mqflrTh3QZk8dJ3lrvYW7XBpL6nwrOk8j/IgOu1VBrA9wUBOLRv1CtUy0RIeMA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jonatan.amado_pragma\\Documents\\Repositorios\\AppPlazoleta\\MensajeriaService\\MensajeriaService.Domain\\MensajeriaService.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jonatan.amado_pragma\\.nuget\\packages\\autofac\\7.0.1\\autofac.7.0.1.nupkg.sha512",
+    "C:\\Users\\jonatan.amado_pragma\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

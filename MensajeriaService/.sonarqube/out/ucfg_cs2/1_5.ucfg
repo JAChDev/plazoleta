@@ -1,0 +1,111 @@
+
+pMensajeriaService.Infrastructure.WhatsappApi.MessagingApi.SendSMS(MensajeriaService.Domain.Entities.MessageData)›
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Infrastructure\WhatsappApi\MessagingApi.cs  ('"0*
+0.	 .(	*
+1
+2*Ÿ
+1  (()×
+Ô
+ &  (47
+%01Microsoft.Extensions.Configuration.IConfiguration"__id*ˆ…*‚;
+9MensajeriaService.Infrastructure.WhatsappApi.MessagingApi"C
+_configuration1Microsoft.Extensions.Configuration.IConfigurationÃÀ
+ &  (E
+%1string"BMicrosoft.Extensions.Configuration.IConfiguration.this[string].get*;9
+7
+%01Microsoft.Extensions.Configuration.IConfiguration*
+Twilio:Number2this[string].get?
+=
+   (E
+fromPhoneNumberstring"__id*
+
+%1string˜
+•
+# #(-
+%2string"9MensajeriaService.Domain.Entities.MessageData.Message.get*@>
+<
+messageData-MensajeriaService.Domain.Entities.MessageDataFD
+$ $(G
+%3Twilio.Types.PhoneNumber"Twilio.Types.PhoneNumberŠ
+‡
+$ $(6
+
+%4void",Twilio.Types.PhoneNumber.PhoneNumber(string)*" 
+
+%3Twilio.Types.PhoneNumber*
+
+fromPhoneNumberstring–
+“
+%5 %(F
+%5string"7MensajeriaService.Domain.Entities.MessageData.Phone.get*@>
+<
+messageData-MensajeriaService.Domain.Entities.MessageDataFD
+% %(G
+%6Twilio.Types.PhoneNumber"Twilio.Types.PhoneNumber|
+z
+% %(4
+
+%7void",Twilio.Types.PhoneNumber.PhoneNumber(string)*" 
+
+%6Twilio.Types.PhoneNumber*
+
+%5stringÑ
+Î
+"' &(*
+%8$System.Threading.Tasks.Task<TResult>"´Twilio.Rest.Api.V2010.Account.MessageResource.CreateAsync(Twilio.Types.PhoneNumber, string, Twilio.Types.PhoneNumber, string, string, System.Collections.Generic.List<System.Uri>, System.Uri, string, decimal?, bool?, int?, int?, bool?, Twilio.Rest.Api.V2010.Account.MessageResource.ContentRetentionEnum, Twilio.Rest.Api.V2010.Account.MessageResource.AddressRetentionEnum, bool?, System.Collections.Generic.List<string>, bool?, Twilio.Rest.Api.V2010.Account.MessageResource.ScheduleTypeEnum, System.DateTime?, bool?, string, string, Twilio.Clients.ITwilioRestClient)*31"/
+-Twilio.Rest.Api.V2010.Account.MessageResource*" 
+
+%6Twilio.Types.PhoneNumber*
+""*" 
+
+%3Twilio.Types.PhoneNumber*
+""*
+
+%2string*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+""Y
+W
+" &(;
+
+smsMessage-Twilio.Rest.Api.V2010.Account.MessageResource"__id*
+""–
+“
+( (()
+
+%9bool""object.operator !=(object, object)*
+"
+object*?=
+;
+
+smsMessage-Twilio.Rest.Api.V2010.Account.MessageResource*
+"""
+( ((*
+
+
+%9bool*!
+2, ,("
+, ,(
+""*.
+3.	 .(	"
+. .(	
+implicit return:H
+( (?<
+messageData-MensajeriaService.Domain.Entities.MessageDataB=;
+9MensajeriaService.Infrastructure.WhatsappApi.MessagingApi
