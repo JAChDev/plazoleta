@@ -1,13 +1,15 @@
 
-7PlazoletaService.Domain.DTO.RestaurantDTO.Direccion.get‚
-xC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\RestaurantDTO.cs" (%"0*“
-0& (&h
-f
-" (&
-%0string"__id*FD*B+
-)PlazoletaService.Domain.DTO.RestaurantDTO"
-	Direccionstring"
-" (&
-
-%0stringB-+
-)PlazoletaService.Domain.DTO.RestaurantDTO
+6PlazoletaService.Domain.Entities.Restaurant.Nombre.set„
+zC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Restaurant.cs% (("0*Ê
+0) ()j
+h
+% ()A-
++PlazoletaService.Domain.Entities.Restaurant"
+Nombrestring"__id*
+
+valuestring"O
+% ()C*A-
++PlazoletaService.Domain.Entities.Restaurant"
+Nombrestring:
+valuestringB/-
++PlazoletaService.Domain.Entities.Restaurant

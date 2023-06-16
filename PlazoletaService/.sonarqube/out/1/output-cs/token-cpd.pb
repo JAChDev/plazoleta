@@ -1,4 +1,4 @@
-é
+Ü
 „C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\Database\SQLDbContext.cs
 	namespace
 
@@ -26,116 +26,104 @@
 SQLDbContext 
 : 
 	DbContext '
-{ 
-private 
-readonly 
-IConfiguration '
-_configuration( 6
-;6 7
-public 
-SQLDbContext 
-( 
-DbContextOptions ,
-<, -
-SQLDbContext- 9
->9 :
-options; B
-,B C
-IConfigurationD R
-configurationS `
-)` a
-:b c
-based h
-(h i
-optionsi p
-)p q
-{ 	
-_configuration 
-= 
-configuration *
-;* +
-} 	
-	protected 
-override 
-void 
-OnModelCreating  /
-(/ 0
-ModelBuilder0 <
-modelBuilder= I
-)I J
-{ 	
-base 
-. 
-OnModelCreating  
-(  !
-modelBuilder! -
-)- .
-;. /
-modelBuilder 
-. 
-Entity 
-<  
-OrderProductDTO  /
->/ 0
-(0 1
-)1 2
-.2 3
-HasNoKey3 ;
-(; <
-)< =
-;= >
-} 	
+{ 
+public 
+SQLDbContext 
+( 
+DbContextOptions ,
+<, -
+SQLDbContext- 9
+>9 :
+options; B
+)B C
+:D E
+baseF J
+(J K
+optionsK R
+)R S
+{ 	
+} 	
+	protected 
+override 
+void 
+OnModelCreating  /
+(/ 0
+ModelBuilder0 <
+modelBuilder= I
+)I J
+{ 	
+base 
+. 
+OnModelCreating  
+(  !
+modelBuilder! -
+)- .
+;. /
+modelBuilder 
+. 
+Entity 
+<  
+OrderProductDTO  /
+>/ 0
+(0 1
+)1 2
+.2 3
+HasNoKey3 ;
+(; <
+)< =
+;= >
+} 	
+public 
+DbSet 
+< 
+RestaurantDTO "
+>" #
+restaurantes$ 0
+{1 2
+get3 6
+;6 7
+set8 ;
+;; <
+}= >
 public 
 DbSet 
-< 
-RestaurantDTO "
->" #
-restaurantes$ 0
-{1 2
-get3 6
-;6 7
-set8 ;
-;; <
-}= >
+< 
+
+ProductDTO 
+>  
+platos! '
+{( )
+get* -
+;- .
+set/ 2
+;2 3
+}4 5
 public 
 DbSet 
-< 
-
-ProductDTO 
->  
-platos! '
-{( )
-get* -
-;- .
-set/ 2
-;2 3
-}4 5
+< 
+OrderDTO 
+> 
+pedidos &
+{' (
+get) ,
+;, -
+set. 1
+;1 2
+}3 4
 public 
 DbSet 
-< 
-OrderDTO 
-> 
-pedidos &
-{' (
-get) ,
-;, -
-set. 1
-;1 2
-}3 4
-public 
-DbSet 
-< 
-OrderProductDTO $
->$ %
-pedidos_Platos& 4
-{5 6
-get7 :
-;: ;
-set< ?
-;? @
-}A B
-} 
-}   º
+< 
+OrderProductDTO $
+>$ %
+pedidos_Platos& 4
+{5 6
+get7 :
+;: ;
+set< ?
+;? @
+}A B
+} 
+} º
 ƒC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\InfrastructureModule.cs
 	namespace
 
@@ -189,7 +177,7 @@ ProductDTO 
 ;e f
 } 	
 } 
-} €™
+} £•
 ‹C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\Repositories\MySQLRepository.cs
 	namespace 	
 PlazoletaService
@@ -425,10 +413,6 @@ restaurant99 %
 }== 
 }>> 
 catch?? 
-(?? 
-	Exception?? 
-ex?? 
-)??  
 {@@ 
 returnAA 
 nullAA 
@@ -478,15 +462,11 @@ _dbContextII &
 }KK$ %
 }LL 
 catchMM 
-(MM 
-	ExceptionMM 
-exMM 
-)MM  
-{MM! "
-returnMM# )
-nullMM* .
-;MM. /
-}MM0 1
+{MM 
+returnMM 
+nullMM 
+;MM  
+}MM! "
 }NN 	
 publicPP 
 
@@ -1116,42 +1096,6 @@ _dbContext
 ——+ ,
 ;
 ——, -
-int
-˜˜ 
-pages
-˜˜ 
-=
-˜˜ 
-(
-˜˜ 
-int
-˜˜  
-)
-˜˜  !
-Math
-˜˜! %
-.
-˜˜% &
-Ceiling
-˜˜& -
-(
-˜˜- .
-(
-˜˜. /
-double
-˜˜/ 5
-)
-˜˜5 6
-total
-˜˜6 ;
-/
-˜˜< =
-pageSize
-˜˜> F
-)
-˜˜F G
-;
-˜˜G H
 var
 šš 
 	resultado

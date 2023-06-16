@@ -1,90 +1,26 @@
 
-PPlazoletaService.WebApi.Controllers.PlazoletaController.GetRestaurants(int, int)ë
-ÜC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Controllers\PlazoletaController.csU U(+"4*
-0W X( ·
-ﬁ
-W W(-;
-%05PlazoletaService.Domain.Interfaces.IRestaurantService"__id*éã*à9
-7PlazoletaService.WebApi.Controllers.PlazoletaController"K
-_restaurantService5PlazoletaService.Domain.Interfaces.IRestaurantServiceˆÛ
-W W(R(
-%1"System.Collections.Generic.List<T>"NPlazoletaService.Domain.Interfaces.IRestaurantService.GetRestaurants(int, int)*?=
-;
-%05PlazoletaService.Domain.Interfaces.IRestaurantService*
-""*
-""2GetRestaurants(int, int)p
-n
-W W(R.
-response"System.Collections.Generic.List<T>"__id*,*
-(
-%1"System.Collections.Generic.List<T>â
-Ü
-X X( 
+DPlazoletaService.WebApi.Controllers.PlazoletaController.HealtCheck()ì
+ÜC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Controllers\PlazoletaController.csù ù('"2*Ê
+0
+ü ü(õò
 
-%2bool""object.operator !=(object, object)*
-"
-object*20
-.
-response"System.Collections.Generic.List<T>*
-""*
-1
-2*Æ
-1Z Z("·ﬁ
-Z Z(#-
-%3'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
-'Microsoft.AspNetCore.Mvc.ControllerBase*20
-.
-response"System.Collections.Generic.List<T>2Ok(object?)";
-Z Z($/
--
-%3'Microsoft.AspNetCore.Mvc.OkObjectResult*ô
-2	^ ^(ëyw
-	^" ^(ì7
-%41PlazoletaService.Domain.Responses.GeneralResponse"1PlazoletaService.Domain.Responses.GeneralResponseõ
-ò
-^& ^(5
+ü ü('
+%0!Microsoft.AspNetCore.Mvc.OkResult",Microsoft.AspNetCore.Mvc.ControllerBase.Ok()*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Ok()"7
 
-%5void"CPlazoletaService.Domain.Responses.GeneralResponse.GeneralResponse()*;9
-7
-%41PlazoletaService.Domain.Responses.GeneralResponse"
+ü ü()
+'
+%0!Microsoft.AspNetCore.Mvc.OkResult*2
+1
+†	 †(	"!
+
+† †(	
+implicit return*8
+2
+ù) ù()"
  
-^E ^(^
-%6"__id*
-""∑
-¥
-^8 ^(^
-%7System.Net.HttpStatusCode"@PlazoletaService.Domain.Responses.GeneralResponse.StatusCode.set*;9
-7
-%41PlazoletaService.Domain.Responses.GeneralResponse*
-
-%6≈
-¬
-	^` ^(ë
-%8string"APlazoletaService.Domain.Responses.GeneralResponse.Description.set*;9
-7
-%41PlazoletaService.Domain.Responses.GeneralResponse*'%#
-!Error al obtener los restaurantesÉÄ
-	^ ^(î5
-%9/Microsoft.AspNetCore.Mvc.BadRequestObjectResult";Microsoft.AspNetCore.Mvc.ControllerBase.BadRequest(object?)*-+)
-'Microsoft.AspNetCore.Mvc.ControllerBase*;9
-7
-%41PlazoletaService.Domain.Responses.GeneralResponse2BadRequest(object?)"D
-	^ ^(ï7
-5
-%9/Microsoft.AspNetCore.Mvc.BadRequestObjectResult*.
-3`	 `(	"
-` `(	
-implicit return*I
-4UI U(I5
-3
-U U(+
-%10"__entrypoint*
-""*
-""*
-0:
-U, U(:
 
-pageNumberint:
-U< U(H
-pageSizeintB;9
+ù ù('
+%1"__entrypoint*
+0B;9
 7PlazoletaService.WebApi.Controllers.PlazoletaController

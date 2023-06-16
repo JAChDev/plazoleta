@@ -1,20 +1,11 @@
 
-ƒPlazoletaService.Infrastructure.Repositories.MySQLRepository.MySQLRepository(PlazoletaService.Infrastructure.Database.SQLDbContext)–
-‹C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\Repositories\MySQLRepository.cs ("1*
-1	 (	*
-0*ø
-0 ("ã
-à
- ("…>
-<PlazoletaService.Infrastructure.Repositories.MySQLRepository"C
+KPlazoletaService.Infrastructure.InfrastructureModule.InfrastructureModule()Ž
+ƒC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\InfrastructureModule.cs (%"0*m
+0 (=
+;
 
-_dbContext5PlazoletaService.Infrastructure.Database.SQLDbContext"__id*FD
-B
-	dbContext5PlazoletaService.Infrastructure.Database.SQLDbContext*
-2*.
-2	 (	"
- (	
-implicit return:N
- (5B
-	dbContext5PlazoletaService.Infrastructure.Database.SQLDbContextB@>
-<PlazoletaService.Infrastructure.Repositories.MySQLRepository
+%0void"Autofac.Module.Module()*
+Autofac.Module"
+ (
+implicit returnB86
+4PlazoletaService.Infrastructure.InfrastructureModule

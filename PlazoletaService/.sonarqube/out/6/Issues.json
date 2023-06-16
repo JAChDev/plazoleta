@@ -1,0 +1,144 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.5.0.0",
+        "fileVersion": "4.5.2-3.23171.7 (d17f7415)",
+        "semanticVersion": "4.5.0",
+        "language": "es-ES"
+      },
+      "results": [
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Posible argumento de referencia nulo para el parámetro \"s\" en \"byte[] Encoding.GetBytes(string s)\".",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/PlazoletaService/Program.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 80,
+                  "endLine": 28,
+                  "endColumn": 119
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Posible argumento de referencia nulo para el parámetro \"connectionString\" en \"DbContextOptionsBuilder MySQLDbContextOptionsExtensions.UseMySQL(DbContextOptionsBuilder optionsBuilder, string connectionString, Action<MySQLDbContextOptionsBuilder>? mySqlOptionsAction = null)\".",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/PlazoletaService/Program.cs",
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 73,
+                  "endLine": 51,
+                  "endColumn": 127
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "ASP0000",
+          "level": "warning",
+          "message": "Calling 'BuildServiceProvider' from application code results in an additional copy of singleton services being created. Consider alternatives such as dependency injecting services as parameters to 'Configure'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/PlazoletaService/Program.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 21,
+                  "endLine": 20,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6608",
+          "level": "warning",
+          "message": "Indexing at Count-1 should be used instead of the \"Enumerable\" extension method \"Last\"",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/PlazoletaService/Authorization/JwtAuthorizationFilter.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 107,
+                  "endLine": 21,
+                  "endColumn": 111
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "ASP0000": {
+          "id": "ASP0000",
+          "shortDescription": "Do not call 'IServiceCollection.BuildServiceProvider' in 'ConfigureServices'",
+          "defaultLevel": "warning",
+          "helpUri": "https://aka.ms/AA5k895",
+          "properties": {
+            "category": "Design",
+            "isEnabledByDefault": true
+          }
+        },
+        "CS8604": {
+          "id": "CS8604",
+          "shortDescription": "Posible argumento de referencia nulo",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8604)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S6608": {
+          "id": "S6608",
+          "shortDescription": "Prefer indexing instead of \"Enumerable\" methods on types implementing \"IList\"",
+          "fullDescription": "Indexes in C# provide direct access to an element at a specific position within an array or collection. When compared to Enumerable methods, indexing can be more efficient for certain scenarios, such as iterating over a large collection, due to avoiding the overhead of checking the underlying collection type before accessing it.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6608",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

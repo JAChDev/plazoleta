@@ -1,15 +1,15 @@
 
-:PlazoletaService.WebApi.Models.RestaurantModel.UrlLogo.set‡
-}C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\RestaurantModel.cs% (("0*Ò
-0) ()n
-l
-% ()E0
-.PlazoletaService.WebApi.Models.RestaurantModel"
-UrlLogostring"__id*
-
-valuestring"S
-% ()G*E0
-.PlazoletaService.WebApi.Models.RestaurantModel"
-UrlLogostring:
-valuestringB20
-.PlazoletaService.WebApi.Models.RestaurantModel
+3PlazoletaService.WebApi.Models.OrderModel.Fecha.set‚
+xC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\OrderModel.cs% (("0*ß
+0) ()y
+w
+% ()G+
+)PlazoletaService.WebApi.Models.OrderModel"
+FechaSystem.DateTime"__id*
+
+valueSystem.DateTime"U
+% ()I*G+
+)PlazoletaService.WebApi.Models.OrderModel"
+FechaSystem.DateTime:
+valueSystem.DateTimeB-+
+)PlazoletaService.WebApi.Models.OrderModel

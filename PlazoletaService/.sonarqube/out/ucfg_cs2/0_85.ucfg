@@ -1,14 +1,13 @@
 
-5PlazoletaService.Domain.DTO.ProductDTO.url_imagen.get
-uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\ProductDTO.cs# (&"0*ë
-0' ('f
-d
-# ('
-%0string"__id*DB*@(
-&PlazoletaService.Domain.DTO.ProductDTO"
-
-url_imagenstring"
-# ('
-
-%0stringB*(
-&PlazoletaService.Domain.DTO.ProductDTO
+9PlazoletaService.Domain.Entities.Product.id_categoria.getÅ
+wC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Product.cs" (%"0*å
+0& (&d
+b
+" (&	
+%0int"__id*EC*A*
+(PlazoletaService.Domain.Entities.Product"
+id_categoriaint"
+" (&
+	
+%0intB,*
+(PlazoletaService.Domain.Entities.Product

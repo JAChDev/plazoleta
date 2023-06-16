@@ -1,221 +1,224 @@
 
-rPlazoletaService.WebApi.Controllers.PlazoletaController.CreateProduct(PlazoletaService.WebApi.Models.ProductModel)ë
-ÜC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Controllers\PlazoletaController.cs* *(*"5*–
-0, 6(;fd
-, ,(+.
-%0(PlazoletaService.Domain.Entities.Product"(PlazoletaService.Domain.Entities.ProductÄ
-~
-," ,()
+xPlazoletaService.WebApi.Controllers.PlazoletaController.CreateRestaurant(PlazoletaService.WebApi.Models.RestaurantModel)ë
+ÜC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Controllers\PlazoletaController.cs (-"5*®
+0 %(;lj
+$ (41
+%0+PlazoletaService.Domain.Entities.Restaurant"+PlazoletaService.Domain.Entities.Restaurantä
+á
+( (2
 
-%1void"2PlazoletaService.Domain.Entities.Product.Product()*20
-.
-%0(PlazoletaService.Domain.Entities.Product{
-y
-, ,(+3
-product(PlazoletaService.Domain.Entities.Product"__id*20
-.
-%0(PlazoletaService.Domain.Entities.Productî
-ë
-- -(0
-%2string"6PlazoletaService.WebApi.Models.ProductModel.Nombre.get*?=
-;
-productModel+PlazoletaService.WebApi.Models.ProductModelõ
-ò
-- -(0
-%3string"3PlazoletaService.Domain.Entities.Product.Nombre.set*75
-3
-product(PlazoletaService.Domain.Entities.Product*
+%1void"8PlazoletaService.Domain.Entities.Restaurant.Restaurant()*53
+1
+%0+PlazoletaService.Domain.Entities.RestaurantÖ
+Ç
+ (49
+
+restaurant+PlazoletaService.Domain.Entities.Restaurant"__id*53
+1
+%0+PlazoletaService.Domain.Entities.Restaurantù
+ö
+  (6
+%2string"9PlazoletaService.WebApi.Models.RestaurantModel.Nombre.get*EC
+A
+restaurantModel.PlazoletaService.WebApi.Models.RestaurantModel§
+°
+ (6
+%3string"6PlazoletaService.Domain.Entities.Restaurant.Nombre.set*=;
+9
+
+restaurant+PlazoletaService.Domain.Entities.Restaurant*
 
-%2stringó
-î
-.# .(<	
-%4int"<PlazoletaService.WebApi.Models.ProductModel.id_categoria.get*?=
-;
-productModel+PlazoletaService.WebApi.Models.ProductModelõ
-ò
-. .(<	
-%5int"9PlazoletaService.Domain.Entities.Product.id_categoria.set*75
-3
-product(PlazoletaService.Domain.Entities.Product*
-	
-%4intô
-ñ
-/" /(:
-%6string";PlazoletaService.WebApi.Models.ProductModel.Descripcion.get*?=
-;
-productModel+PlazoletaService.WebApi.Models.ProductModel†
+%2string†
 ù
-/ /(:
-%7string"8PlazoletaService.Domain.Entities.Product.Descripcion.set*75
-3
-product(PlazoletaService.Domain.Entities.Product*
-
-%6stringî
-ë
-0 0(0
-%8string"6PlazoletaService.WebApi.Models.ProductModel.Precio.get*?=
-;
-productModel+PlazoletaService.WebApi.Models.ProductModelõ
-ò
-0 0(0
-%9string"3PlazoletaService.Domain.Entities.Product.Precio.set*75
-3
-product(PlazoletaService.Domain.Entities.Product*
-
-%8stringö
-ó
-1% 1(@
+# (<
+%4string"<PlazoletaService.WebApi.Models.RestaurantModel.Direccion.get*EC
+A
+restaurantModel.PlazoletaService.WebApi.Models.RestaurantModelß
+§
+ (<
+%5string"9PlazoletaService.Domain.Entities.Restaurant.Direccion.set*=;
+9
 
-%10int">PlazoletaService.WebApi.Models.ProductModel.id_restaurante.get*?=
-;
-productModel+PlazoletaService.WebApi.Models.ProductModelü
+restaurant+PlazoletaService.Domain.Entities.Restaurant*
+
+%4string¢
+ü
+( (F	
+%6int"APlazoletaService.WebApi.Models.RestaurantModel.id_propietario.get*EC
+A
+restaurantModel.PlazoletaService.WebApi.Models.RestaurantModel¶
+£
+ (F	
+%7int">PlazoletaService.Domain.Entities.Restaurant.id_propietario.set*=;
+9
+
+restaurant+PlazoletaService.Domain.Entities.Restaurant*
+	
+%6intü
 ú
-1 1(@
+ "  (:
+%8string";PlazoletaService.WebApi.Models.RestaurantModel.Telefono.get*EC
+A
+restaurantModel.PlazoletaService.WebApi.Models.RestaurantModel¶
+£
+   (:
+%9string"8PlazoletaService.Domain.Entities.Restaurant.Telefono.set*=;
+9
 
-%11int";PlazoletaService.Domain.Entities.Product.id_restaurante.set*75
-3
-product(PlazoletaService.Domain.Entities.Product*
+restaurant+PlazoletaService.Domain.Entities.Restaurant*
+
+%8stringü
+ú
+!! !(8
+%10string":PlazoletaService.WebApi.Models.RestaurantModel.UrlLogo.get*EC
+A
+restaurantModel.PlazoletaService.WebApi.Models.RestaurantModelß
+§
+! !(8
+%11string"7PlazoletaService.Domain.Entities.Restaurant.UrlLogo.set*=;
+9
 
+restaurant+PlazoletaService.Domain.Entities.Restaurant*
 
-%10intô
-ñ
-2! 2(8
-%12string":PlazoletaService.WebApi.Models.ProductModel.url_imagen.get*?=
-;
-productModel+PlazoletaService.WebApi.Models.ProductModel°
-û
-2 2(8
-%13string"7PlazoletaService.Domain.Entities.Product.url_imagen.set*75
-3
-product(PlazoletaService.Domain.Entities.Product*
+%10stringõ
+ò
+" "(0
+%12string"6PlazoletaService.WebApi.Models.RestaurantModel.Nit.get*EC
+A
+restaurantModel.PlazoletaService.WebApi.Models.RestaurantModel£
+†
+" "(0
+%13string"3PlazoletaService.Domain.Entities.Restaurant.Nit.set*=;
+9
 
-%12stringì
-ê
-3 3(0
-%14bool"6PlazoletaService.WebApi.Models.ProductModel.Activo.get*?=
-;
-productModel+PlazoletaService.WebApi.Models.ProductModelô
-ñ
-3 3(0
-%15bool"3PlazoletaService.Domain.Entities.Product.Activo.set*75
-3
-product(PlazoletaService.Domain.Entities.Product*
-
-%14bool‚
+restaurant+PlazoletaService.Domain.Entities.Restaurant*
+
+%12string‚
 ﬂ
-4' 4(9<
-%165PlazoletaService.Domain.Interfaces.IRestaurantService"__id*éã*à9
+#' #(9<
+%145PlazoletaService.Domain.Interfaces.IRestaurantService"__id*éã*à9
 7PlazoletaService.WebApi.Controllers.PlazoletaController"K
-_restaurantService5PlazoletaService.Domain.Interfaces.IRestaurantServiceÍÁ
-4' 4(P8
-%171PlazoletaService.Domain.Responses.GeneralResponse"mPlazoletaService.Domain.Interfaces.IRestaurantService.CreateProduct(PlazoletaService.Domain.Entities.Product)*@>
+_restaurantService5PlazoletaService.Domain.Interfaces.IRestaurantService¸˘
+#' #(V8
+%151PlazoletaService.Domain.Responses.GeneralResponse"sPlazoletaService.Domain.Interfaces.IRestaurantService.CreateRestaurant(PlazoletaService.Domain.Entities.Restaurant)*@>
 <
-%165PlazoletaService.Domain.Interfaces.IRestaurantService*75
-3
-product(PlazoletaService.Domain.Entities.Product27CreateProduct(PlazoletaService.Domain.Entities.Product)ê
+%145PlazoletaService.Domain.Interfaces.IRestaurantService*=;
+9
+
+restaurant+PlazoletaService.Domain.Entities.Restaurant2=CreateRestaurant(PlazoletaService.Domain.Entities.Restaurant)ê
 ç
-4 4(P=
+# #(V=
 response1PlazoletaService.Domain.Responses.GeneralResponse"__id*<:
 8
-%171PlazoletaService.Domain.Responses.GeneralResponse¥
+%151PlazoletaService.Domain.Responses.GeneralResponse¥
 ±
-6 6(& 
-%18System.Net.HttpStatusCode"@PlazoletaService.Domain.Responses.GeneralResponse.StatusCode.get*A?
+% %(& 
+%16System.Net.HttpStatusCode"@PlazoletaService.Domain.Responses.GeneralResponse.StatusCode.get*A?
 =
 response1PlazoletaService.Domain.Responses.GeneralResponse#
 !
-6* 6(;
-%19"__id*
+%* %(;
+%17"__id*
 ""*
 1
 2*ı
-16> 6(IÒÓ
-6> 6(J.
-%23'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
+1%> %(IÒÓ
+%> %(J.
+%21'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
 'Microsoft.AspNetCore.Mvc.ControllerBase*A?
 =
 response1PlazoletaService.Domain.Responses.GeneralResponse2Ok(object?)v
 t
-6> 6(J.
-%21'Microsoft.AspNetCore.Mvc.OkObjectResult"__id*20
+%> %(J.
+%19'Microsoft.AspNetCore.Mvc.OkObjectResult"__id*20
 .
-%23'Microsoft.AspNetCore.Mvc.OkObjectResultu
+%21'Microsoft.AspNetCore.Mvc.OkObjectResultu
 s
-6> 6(J-
-%20&Microsoft.AspNetCore.Mvc.IActionResult"__id*20
+%> %(J-
+%18&Microsoft.AspNetCore.Mvc.IActionResult"__id*20
 .
-%21'Microsoft.AspNetCore.Mvc.OkObjectResult*
+%19'Microsoft.AspNetCore.Mvc.OkObjectResult*
 3*ß
-26M 6(`âÜ
-6M 6(a6
-%24/Microsoft.AspNetCore.Mvc.BadRequestObjectResult";Microsoft.AspNetCore.Mvc.ControllerBase.BadRequest(object?)*-+)
+2%M %(`âÜ
+%M %(a6
+%22/Microsoft.AspNetCore.Mvc.BadRequestObjectResult";Microsoft.AspNetCore.Mvc.ControllerBase.BadRequest(object?)*-+)
 'Microsoft.AspNetCore.Mvc.ControllerBase*A?
 =
 response1PlazoletaService.Domain.Responses.GeneralResponse2BadRequest(object?)á
 Ñ
-6M 6(a6
-%22/Microsoft.AspNetCore.Mvc.BadRequestObjectResult"__id*:8
+%M %(a6
+%20/Microsoft.AspNetCore.Mvc.BadRequestObjectResult"__id*:8
 6
-%24/Microsoft.AspNetCore.Mvc.BadRequestObjectResult}
+%22/Microsoft.AspNetCore.Mvc.BadRequestObjectResult}
 {
-6M 6(a-
-%20&Microsoft.AspNetCore.Mvc.IActionResult"__id*:8
+%M %(a-
+%18&Microsoft.AspNetCore.Mvc.IActionResult"__id*:8
 6
-%22/Microsoft.AspNetCore.Mvc.BadRequestObjectResult*
+%20/Microsoft.AspNetCore.Mvc.BadRequestObjectResult*
 3*J
-37	 7(	";
-6 6(b/
+3&	 &(	";
+% %(b/
 -
-%20&Microsoft.AspNetCore.Mvc.IActionResult*.
-47	 7(	"
-7 7(	
-implicit return*ı
-5*E *(E|
-z
-* *(*`
-;
-productModel+PlazoletaService.WebApi.Models.ProductModel"!
-<Nombre>k__BackingFieldstring"__entrypointk
-i
-* *(*O
-;
-productModel+PlazoletaService.WebApi.Models.ProductModel"
-Nombrestring"__entrypointÅ
-
-* *(*e
-;
-productModel+PlazoletaService.WebApi.Models.ProductModel"&
-<Descripcion>k__BackingFieldstring"__entrypointp
-n
-* *(*T
-;
-productModel+PlazoletaService.WebApi.Models.ProductModel"
-Descripcionstring"__entrypoint|
-z
-* *(*`
-;
-productModel+PlazoletaService.WebApi.Models.ProductModel"!
-<Precio>k__BackingFieldstring"__entrypointk
-i
-* *(*O
-;
-productModel+PlazoletaService.WebApi.Models.ProductModel"
-Preciostring"__entrypointÄ
-~
-* *(*d
-;
-productModel+PlazoletaService.WebApi.Models.ProductModel"%
-<url_imagen>k__BackingFieldstring"__entrypointo
-m
-* *(*S
-;
-productModel+PlazoletaService.WebApi.Models.ProductModel"
+%18&Microsoft.AspNetCore.Mvc.IActionResult*.
+4&	 &(	"
+& &(	
+implicit return*ñ
 
-url_imagenstring"__entrypoint!
+5N (NÉ
+Ä
+ (-f
+A
+restaurantModel.PlazoletaService.WebApi.Models.RestaurantModel"!
+<Nombre>k__BackingFieldstring"__entrypointq
+o
+ (-U
+A
+restaurantModel.PlazoletaService.WebApi.Models.RestaurantModel"
+Nombrestring"__entrypointÜ
+É
+ (-i
+A
+restaurantModel.PlazoletaService.WebApi.Models.RestaurantModel"$
+<Direccion>k__BackingFieldstring"__entrypointt
+r
+ (-X
+A
+restaurantModel.PlazoletaService.WebApi.Models.RestaurantModel"
+	Direccionstring"__entrypointÖ
+Ç
+ (-h
+A
+restaurantModel.PlazoletaService.WebApi.Models.RestaurantModel"#
+<Telefono>k__BackingFieldstring"__entrypoints
+q
+ (-W
+A
+restaurantModel.PlazoletaService.WebApi.Models.RestaurantModel"
+Telefonostring"__entrypointÑ
+Å
+ (-g
+A
+restaurantModel.PlazoletaService.WebApi.Models.RestaurantModel""
+<UrlLogo>k__BackingFieldstring"__entrypointr
+p
+ (-V
+A
+restaurantModel.PlazoletaService.WebApi.Models.RestaurantModel"
+UrlLogostring"__entrypoint
+}
+ (-c
+A
+restaurantModel.PlazoletaService.WebApi.Models.RestaurantModel"
+<Nit>k__BackingFieldstring"__entrypointn
+l
+ (-R
+A
+restaurantModel.PlazoletaService.WebApi.Models.RestaurantModel"
+Nitstring"__entrypoint!
 
-* *(*
-%25"__entrypoint*
-0:G
-*+ *(D;
-productModel+PlazoletaService.WebApi.Models.ProductModelB;9
+ (-
+%23"__entrypoint*
+0:M
+. (MA
+restaurantModel.PlazoletaService.WebApi.Models.RestaurantModelB;9
 7PlazoletaService.WebApi.Controllers.PlazoletaController

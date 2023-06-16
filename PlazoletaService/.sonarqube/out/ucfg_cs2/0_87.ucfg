@@ -1,15 +1,15 @@
 
-0PlazoletaService.Domain.Entities.Order.Fecha.set
-uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Order.cs% (("0*Ÿ
-0) ()v
-t
-% ()D(
-&PlazoletaService.Domain.Entities.Order"
-FechaSystem.DateTime"__id*
-
-valueSystem.DateTime"R
-% ()F*D(
-&PlazoletaService.Domain.Entities.Order"
-FechaSystem.DateTime:
-valueSystem.DateTimeB*(
-&PlazoletaService.Domain.Entities.Order
+9PlazoletaService.Domain.Entities.Product.id_categoria.setÅ
+wC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Product.cs' (*"0*«
+0+ (+g
+e
+' (+A*
+(PlazoletaService.Domain.Entities.Product"
+id_categoriaint"__id*
+
+valueint"O
+' (+C*A*
+(PlazoletaService.Domain.Entities.Product"
+id_categoriaint:
+valueintB,*
+(PlazoletaService.Domain.Entities.Product

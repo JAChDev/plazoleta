@@ -1,13 +1,15 @@
 
-APlazoletaService.WebApi.Models.ModifyProductModel.Descripcion.getã
-ÄC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\ModifyProductModel.cs$ ('"0*ù
-0( ((r
-p
-$ ((
-%0string"__id*PN*L3
-1PlazoletaService.WebApi.Models.ModifyProductModel"
-Descripcionstring"
-$ ((
+APlazoletaService.WebApi.Models.RestaurantModel.id_propietario.setá
+}C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\RestaurantModel.cs) (,"0*◊
+0- (-o
+m
+) (-I0
+.PlazoletaService.WebApi.Models.RestaurantModel"
+id_propietarioint"__id*
 
-%0stringB53
-1PlazoletaService.WebApi.Models.ModifyProductModel
+valueint"W
+) (-K*I0
+.PlazoletaService.WebApi.Models.RestaurantModel"
+id_propietarioint:
+valueintB20
+.PlazoletaService.WebApi.Models.RestaurantModel

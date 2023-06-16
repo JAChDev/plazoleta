@@ -1,17 +1,15 @@
 
-8PlazoletaService.WebApi.Models.OrderModel.id_Cliente.set‚
-xC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\OrderModel.cs% (("0*Å
-0) ()f
-d
-% ()@+
-)PlazoletaService.WebApi.Models.OrderModel"
-
-id_Clienteint"__id*
-
-valueint"N
-% ()B*@+
-)PlazoletaService.WebApi.Models.OrderModel"
-
-id_Clienteint:
-valueintB-+
-)PlazoletaService.WebApi.Models.OrderModel
+;PlazoletaService.WebApi.Models.RestaurantModel.Telefono.set‡
+}C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\RestaurantModel.cs' (*"0*Ô
+0+ (+o
+m
+' (+F0
+.PlazoletaService.WebApi.Models.RestaurantModel"
+Telefonostring"__id*
+
+valuestring"T
+' (+H*F0
+.PlazoletaService.WebApi.Models.RestaurantModel"
+Telefonostring:
+valuestringB20
+.PlazoletaService.WebApi.Models.RestaurantModel

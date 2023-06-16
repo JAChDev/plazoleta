@@ -1,13 +1,15 @@
 
-8PlazoletaService.Domain.Responses.DbResponse.Message.getÖ
-{C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Responses\DbResponse.cs  (#"0*î
-0$ ($i
-g
-  ($
-%0string"__id*GE*C.
-,PlazoletaService.Domain.Responses.DbResponse"
-Messagestring"
-  ($
-
-%0stringB0.
-,PlazoletaService.Domain.Responses.DbResponse
+3PlazoletaService.Domain.Entities.Product.Activo.setÅ
+wC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Product.cs" (%"0*æ
+0& (&c
+a
+" (&<*
+(PlazoletaService.Domain.Entities.Product"
+Activobool"__id*
+
+valuebool"J
+" (&>*<*
+(PlazoletaService.Domain.Entities.Product"
+Activobool:
+valueboolB,*
+(PlazoletaService.Domain.Entities.Product

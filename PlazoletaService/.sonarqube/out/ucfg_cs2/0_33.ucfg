@@ -1,15 +1,13 @@
 
->PlazoletaService.Domain.Entities.Restaurant.id_propietario.set„
-zC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Restaurant.cs) (,"0*Ñ
-0- (-l
-j
-) (-F-
-+PlazoletaService.Domain.Entities.Restaurant"
-id_propietarioint"__id*
+<PlazoletaService.Domain.DTO.ModifyProductDTO.Descripcion.get…
+{C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\ModifyProductDto.cs% (("0*˜
+0) ()m
+k
+% ()
+%0string"__id*KI*G.
+,PlazoletaService.Domain.DTO.ModifyProductDTO"
+Descripcionstring"
+% ()
 
-valueint"T
-) (-H*F-
-+PlazoletaService.Domain.Entities.Restaurant"
-id_propietarioint:
-valueintB/-
-+PlazoletaService.Domain.Entities.Restaurant
+%0stringB0.
+,PlazoletaService.Domain.DTO.ModifyProductDTO

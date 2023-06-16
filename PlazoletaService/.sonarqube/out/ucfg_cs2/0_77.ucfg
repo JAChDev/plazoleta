@@ -1,15 +1,17 @@
 
-3PlazoletaService.Domain.Entities.Product.Precio.set
-wC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Product.cs$ ('"0*Ä
-0( ((g
-e
-$ ((>*
-(PlazoletaService.Domain.Entities.Product"
-Preciostring"__id*
-
-valuestring"L
-$ ((@*>*
-(PlazoletaService.Domain.Entities.Product"
-Preciostring:
-valuestringB,*
-(PlazoletaService.Domain.Entities.Product
+3PlazoletaService.Domain.DTO.OrderDTO.Id_Cliente.set}
+sC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\OrderDto.cs% (("0*»
+0) ()a
+_
+% ();&
+$PlazoletaService.Domain.DTO.OrderDTO"
+
+Id_Clienteint"__id*
+
+valueint"I
+% ()=*;&
+$PlazoletaService.Domain.DTO.OrderDTO"
+
+Id_Clienteint:
+valueintB(&
+$PlazoletaService.Domain.DTO.OrderDTO

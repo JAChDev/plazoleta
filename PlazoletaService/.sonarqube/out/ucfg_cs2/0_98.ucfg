@@ -1,15 +1,13 @@
 
-9PlazoletaService.Domain.Entities.Order.id_Restaurante.set
-uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Order.cs) (,"0*Ç
-0- (-g
-e
-) (-A(
-&PlazoletaService.Domain.Entities.Order"
-id_Restauranteint"__id*
+3PlazoletaService.Domain.Entities.Product.Precio.get
+wC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Product.cs  (#"0*
+0$ ($d
+b
+  ($
+%0string"__id*B@*>*
+(PlazoletaService.Domain.Entities.Product"
+Preciostring"
+  ($
 
-valueint"O
-) (-C*A(
-&PlazoletaService.Domain.Entities.Order"
-id_Restauranteint:
-valueintB*(
-&PlazoletaService.Domain.Entities.Order
+%0stringB,*
+(PlazoletaService.Domain.Entities.Product

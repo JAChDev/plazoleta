@@ -1,15 +1,13 @@
 
--PlazoletaService.Domain.Entities.Order.Id.set
-uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Order.cs ( "0*Ø
-0! (![
-Y
- (!5(
-&PlazoletaService.Domain.Entities.Order"	
-Idint"__id*
-
-valueint"C
- (!7*5(
-&PlazoletaService.Domain.Entities.Order"	
-Idint:
-valueintB*(
-&PlazoletaService.Domain.Entities.Order
+:PlazoletaService.Domain.Entities.OrderProduct.id_Plato.getÜ
+|C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\OrderProduct.cs (!"0*ç
+0" ("e
+c
+ ("	
+%0int"__id*FD*B/
+-PlazoletaService.Domain.Entities.OrderProduct"
+id_Platoint"
+ ("
+	
+%0intB1/
+-PlazoletaService.Domain.Entities.OrderProduct

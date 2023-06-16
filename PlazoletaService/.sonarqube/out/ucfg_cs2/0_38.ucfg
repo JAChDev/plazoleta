@@ -1,15 +1,15 @@
 
-7PlazoletaService.Domain.DTO.RestaurantDTO.Direccion.set‚
-xC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\RestaurantDTO.cs' (*"0*Ì
-0+ (+k
-i
-' (+B+
-)PlazoletaService.Domain.DTO.RestaurantDTO"
-	Direccionstring"__id*
+>PlazoletaService.Domain.Entities.ModifyProduct.Descripcion.set‡
+}C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\ModifyProduct.cs* (-"0*Ú
+0. (.r
+p
+* (.I0
+.PlazoletaService.Domain.Entities.ModifyProduct"
+Descripcionstring"__id*
 
-valuestring"P
-' (+D*B+
-)PlazoletaService.Domain.DTO.RestaurantDTO"
-	Direccionstring:
-valuestringB-+
-)PlazoletaService.Domain.DTO.RestaurantDTO
+valuestring"W
+* (.K*I0
+.PlazoletaService.Domain.Entities.ModifyProduct"
+Descripcionstring:
+valuestringB20
+.PlazoletaService.Domain.Entities.ModifyProduct

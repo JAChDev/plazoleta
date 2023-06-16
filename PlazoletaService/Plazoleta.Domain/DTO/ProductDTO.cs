@@ -13,7 +13,7 @@ namespace PlazoletaService.Domain.DTO
         public int id_categoria { get; set; }
         public string? Descripcion { get; set; }
         public string? Precio { get; set; }
-        public int Id_Restaurante { get; set; }
+        public int id_restaurante { get; set; }
         public string? url_imagen { get; set; }
         public bool Activo { get; set; }
     }

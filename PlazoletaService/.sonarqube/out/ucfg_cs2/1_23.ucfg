@@ -1,174 +1,187 @@
 
-QPlazoletaService.Infrastructure.Repositories.MySQLRepository.ActivateProduct(int)ñ
-ãC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\Repositories\MySQLRepository.csg g()"0*†
-0k l(!ﬁ
-€
-k k(&;
+yPlazoletaService.Infrastructure.Repositories.MySQLRepository.AddOrderProduct(PlazoletaService.Domain.DTO.OrderProductDTO)ò
+ãC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\Repositories\MySQLRepository.csπ π()"0*√
+0
+Ω æ(!‡
+›
+
+Ω Ω(&;
 %05PlazoletaService.Infrastructure.Database.SQLDbContext"__id*ãà*Ö>
 <PlazoletaService.Infrastructure.Repositories.MySQLRepository"C
 
-_dbContext5PlazoletaService.Infrastructure.Database.SQLDbContextƒ
-¡
-k k(-2
-%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"@PlazoletaService.Infrastructure.Database.SQLDbContext.platos.get*?=
-;
-%05PlazoletaService.Infrastructure.Database.SQLDbContext‹Ÿ
-k k(=,
-%2&PlazoletaService.Domain.DTO.ProductDTO"DMicrosoft.EntityFrameworkCore.DbSet<TEntity>.Find(params object?[]?)*64
-2
-%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
-""2Find(params object?[]?)u
-s
-k k(=/
-plato&PlazoletaService.Domain.DTO.ProductDTO"__id*0.
-,
-%2&PlazoletaService.Domain.DTO.ProductDTOä
-á
-l l(!
+_dbContext5PlazoletaService.Infrastructure.Database.SQLDbContext«
+ƒ
 
-%3bool""object.operator !=(object, object)*
+Ω Ω(.2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"APlazoletaService.Infrastructure.Database.SQLDbContext.pedidos.get*?=
+;
+%05PlazoletaService.Infrastructure.Database.SQLDbContextñ
+ì
+
+Ω4 Ω(J	
+%2int"9PlazoletaService.Domain.DTO.OrderProductDTO.id_Pedido.get*?=
+;
+orderProduct+PlazoletaService.Domain.DTO.OrderProductDTO·ﬁ
+
+Ω Ω(K*
+%3$PlazoletaService.Domain.DTO.OrderDTO"DMicrosoft.EntityFrameworkCore.DbSet<TEntity>.Find(params object?[]?)*64
+2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+	
+%2int2Find(params object?[]?)s
+q
+
+Ω Ω(K-
+order$PlazoletaService.Domain.DTO.OrderDTO"__id*.,
+*
+%3$PlazoletaService.Domain.DTO.OrderDTOä
+á
+
+æ æ(!
+
+%4bool""object.operator !=(object, object)*
 "
-object*31
-/
-plato&PlazoletaService.Domain.DTO.ProductDTO*
+object*1/
+-
+order$PlazoletaService.Domain.DTO.OrderDTO*
 ""*
 1
-2*∆	
-1n p(ZÄ
-~
-n$ n(0
+2*Ñ
+1
+¿ ¬(b‡
+›
 
-%4bool"1PlazoletaService.Domain.DTO.ProductDTO.Activo.get*31
-/
-plato&PlazoletaService.Domain.DTO.ProductDTOã
-à
-n n(0
-
-%5bool"1PlazoletaService.Domain.DTO.ProductDTO.Activo.set*31
-/
-plato&PlazoletaService.Domain.DTO.ProductDTO*
-""ﬁ
-€
-o o(;
-%65PlazoletaService.Infrastructure.Database.SQLDbContext"__id*ãà*Ö>
+¿ ¿(;
+%55PlazoletaService.Infrastructure.Database.SQLDbContext"__id*ãà*Ö>
 <PlazoletaService.Infrastructure.Repositories.MySQLRepository"C
 
-_dbContext5PlazoletaService.Infrastructure.Database.SQLDbContextüú
-o o(,	
-%7int"5Microsoft.EntityFrameworkCore.DbContext.SaveChanges()*?=
+_dbContext5PlazoletaService.Infrastructure.Database.SQLDbContextŒ
+À
+
+¿ ¿(-2
+%6,Microsoft.EntityFrameworkCore.DbSet<TEntity>"HPlazoletaService.Infrastructure.Database.SQLDbContext.pedidos_Platos.get*?=
 ;
-%65PlazoletaService.Infrastructure.Database.SQLDbContext2SaveChanges()om
-	p p(Ö2
-%8,PlazoletaService.Domain.Responses.DbResponse",PlazoletaService.Domain.Responses.DbResponseå
-â
-p p()
+%55PlazoletaService.Infrastructure.Database.SQLDbContextöó
 
-%9void"9PlazoletaService.Domain.Responses.DbResponse.DbResponse()*64
+¿ ¿(?G
+%7AMicrosoft.EntityFrameworkCore.ChangeTracking.EntityEntry<TEntity>"9Microsoft.EntityFrameworkCore.DbSet<TEntity>.Add(TEntity)*64
 2
-%8,PlazoletaService.Domain.Responses.DbResponseñ
-ì
-p, p(:
-%10bool"8PlazoletaService.Domain.Responses.DbResponse.Success.set*64
-2
-%8,PlazoletaService.Domain.Responses.DbResponse*
-""Å
-
-pF p(R
-%11bool"1PlazoletaService.Domain.DTO.ProductDTO.Activo.get*31
-/
-plato&PlazoletaService.Domain.DTO.ProductDTO*
-3
-4*q
-3p] p(m/
--
-p] p(m
-%13"__id*
-Plato activado,
-*
-p] p(m
-%12string"__id*	
-
-%13*
-5*w
-4	pp p(É3
-1
-	pp p(É
-%14"__id*
-Plato desactivado-
-+
-	pp p(É
-%12string"__id*	
-
-%14*
-5*ˆ
-5	p* p(É¢
-ü
-	p< p(É
-%15string"8PlazoletaService.Domain.Responses.DbResponse.Message.set*64
-2
-%8,PlazoletaService.Domain.Responses.DbResponse*
+%6,Microsoft.EntityFrameworkCore.DbSet<TEntity>*?=
+;
+orderProduct+PlazoletaService.Domain.DTO.OrderProductDTO2Add(TEntity)‡
+›
 
-%12string"A
-	p p(Ü4
-2
-%8,PlazoletaService.Domain.Responses.DbResponse*•
-2t t(hom
-t t(j3
-%16,PlazoletaService.Domain.Responses.DbResponse",PlazoletaService.Domain.Responses.DbResponseé
-ã
-t t()
-%17void"9PlazoletaService.Domain.Responses.DbResponse.DbResponse()*75
+¡ ¡(;
+%85PlazoletaService.Infrastructure.Database.SQLDbContext"__id*ãà*Ö>
+<PlazoletaService.Infrastructure.Repositories.MySQLRepository"C
+
+_dbContext5PlazoletaService.Infrastructure.Database.SQLDbContext°û
+
+¡ ¡(,	
+%9int"5Microsoft.EntityFrameworkCore.DbContext.SaveChanges()*?=
+;
+%85PlazoletaService.Infrastructure.Database.SQLDbContext2SaveChanges()qo
+
+¬ ¬(d3
+%10,PlazoletaService.Domain.Responses.DbResponse",PlazoletaService.Domain.Responses.DbResponseê
+ç
+
+¬ ¬()
+%11void"9PlazoletaService.Domain.Responses.DbResponse.DbResponse()*75
 3
-%16,PlazoletaService.Domain.Responses.DbResponseó
-î
-t, t(;
-%18bool"8PlazoletaService.Domain.Responses.DbResponse.Success.set*75
+%10,PlazoletaService.Domain.Responses.DbResponseô
+ñ
+
+¬, ¬(:
+%12bool"8PlazoletaService.Domain.Responses.DbResponse.Success.set*75
 3
-%16,PlazoletaService.Domain.Responses.DbResponse*
+%10,PlazoletaService.Domain.Responses.DbResponse*
+""≥
+∞
+
+¬< ¬(b
+%13string"8PlazoletaService.Domain.Responses.DbResponse.Message.set*75
+3
+%10,PlazoletaService.Domain.Responses.DbResponse* 
+platos agregados al pedido"C
+
+¬ ¬(e5
+3
+%10,PlazoletaService.Domain.Responses.DbResponse*Ø
+2
+∆ ∆(fqo
+
+∆ ∆(h3
+%14,PlazoletaService.Domain.Responses.DbResponse",PlazoletaService.Domain.Responses.DbResponseê
+ç
+
+∆ ∆()
+%15void"9PlazoletaService.Domain.Responses.DbResponse.DbResponse()*75
+3
+%14,PlazoletaService.Domain.Responses.DbResponseô
+ñ
+
+∆, ∆(;
+%16bool"8PlazoletaService.Domain.Responses.DbResponse.Success.set*75
+3
+%14,PlazoletaService.Domain.Responses.DbResponse*
 ""∂
 ≥
-t= t(h
-%19string"8PlazoletaService.Domain.Responses.DbResponse.Message.set*75
-3
-%16,PlazoletaService.Domain.Responses.DbResponse*%#!
-El plato especificado no existe"A
-t t(k5
-3
-%16,PlazoletaService.Domain.Responses.DbResponse*
-6{	 {(	*
-7
-8*ı
-7y y(Mom
-y y(O3
-%20,PlazoletaService.Domain.Responses.DbResponse",PlazoletaService.Domain.Responses.DbResponseé
-ã
-y y(%
-%21void"9PlazoletaService.Domain.Responses.DbResponse.DbResponse()*75
-3
-%20,PlazoletaService.Domain.Responses.DbResponseó
-î
-y( y(7
-%22bool"8PlazoletaService.Domain.Responses.DbResponse.Success.set*75
-3
-%20,PlazoletaService.Domain.Responses.DbResponse*
-""b`
-yC y(M
-%23string"System.Exception.Message.get*
-
-exSystem.Exception2Message.get¢
-ü
-y9 y(M
-%24string"8PlazoletaService.Domain.Responses.DbResponse.Message.set*75
-3
-%20,PlazoletaService.Domain.Responses.DbResponse*
 
-%23string"A
-y y(P5
+∆= ∆(f
+%17string"8PlazoletaService.Domain.Responses.DbResponse.Message.set*75
 3
-%20,PlazoletaService.Domain.Responses.DbResponse*.
-8{	 {(	"
-{ {(	
-implicit return:
-g* g(7
-	productIdintB@>
+%14,PlazoletaService.Domain.Responses.DbResponse*#!
+No existe la orden solicitada"C
+
+∆ ∆(i5
+3
+%14,PlazoletaService.Domain.Responses.DbResponse*
+3
+Œ	 Œ(	*
+4
+5*É
+4
+À À(Mqo
+
+À À(O3
+%18,PlazoletaService.Domain.Responses.DbResponse",PlazoletaService.Domain.Responses.DbResponseê
+ç
+
+À À(%
+%19void"9PlazoletaService.Domain.Responses.DbResponse.DbResponse()*75
+3
+%18,PlazoletaService.Domain.Responses.DbResponseô
+ñ
+
+À( À(7
+%20bool"8PlazoletaService.Domain.Responses.DbResponse.Success.set*75
+3
+%18,PlazoletaService.Domain.Responses.DbResponse*
+""db
+
+ÀC À(M
+%21string"System.Exception.Message.get*
+
+exSystem.Exception2Message.get§
+°
+
+À9 À(M
+%22string"8PlazoletaService.Domain.Responses.DbResponse.Message.set*75
+3
+%18,PlazoletaService.Domain.Responses.DbResponse*
+
+%21string"C
+
+À À(P5
+3
+%18,PlazoletaService.Domain.Responses.DbResponse*2
+5
+Œ	 Œ(	"!
+
+Œ Œ(	
+implicit return:I
+
+π* π(F;
+orderProduct+PlazoletaService.Domain.DTO.OrderProductDTOB@>
 <PlazoletaService.Infrastructure.Repositories.MySQLRepository

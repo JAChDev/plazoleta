@@ -1,13 +1,13 @@
 
-7PlazoletaService.Domain.DTO.ProductDTO.id_categoria.get
-uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\ProductDTO.cs" (%"0*Š
-0& (&b
-`
-" (&	
-%0int"__id*CA*?(
-&PlazoletaService.Domain.DTO.ProductDTO"
-id_categoriaint"
-" (&
-	
-%0intB*(
-&PlazoletaService.Domain.DTO.ProductDTO
+3PlazoletaService.Domain.Entities.Restaurant.Nit.get„
+zC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Restaurant.cs ( "0*
+0! (!d
+b
+ (!
+%0string"__id*B@*>-
++PlazoletaService.Domain.Entities.Restaurant"
+Nitstring"
+ (!
+
+%0stringB/-
++PlazoletaService.Domain.Entities.Restaurant

@@ -14,7 +14,7 @@ namespace PlazoletaService.WebApi.Models
         [RegularExpression("^[1-9]\\d*$", ErrorMessage = "Escriba un valor numérico mayor a 0")]
         public string? Precio { get; set; }
         [Required]
-        public int Id_Restaurante { get; set; }
+        public int id_restaurante { get; set; }
         [Required]
         public string? url_imagen { get; set; }
         [Required]

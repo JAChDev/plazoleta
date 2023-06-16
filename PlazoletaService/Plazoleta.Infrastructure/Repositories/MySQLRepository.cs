@@ -145,7 +145,7 @@ namespace PlazoletaService.Infrastructure.Repositories
         {
             try
             {
-                var products = _dbContext.platos.Where(p => p.Id_Restaurante == restaurantId)
+                var products = _dbContext.platos.Where(p => p.id_restaurante == restaurantId)
                     .GroupBy(p => p.id_categoria)
                     .Select(g => new {Categoria = g.Key, platos = g.ToList() });
                 int total = products.Count();
@@ -209,7 +209,7 @@ namespace PlazoletaService.Infrastructure.Repositories
         {
             try
             {
-                var Orders = _dbContext.pedidos.Where(p => p.Id_Restaurante == id && p.Estado==filter).ToList();
+                var Orders = _dbContext.pedidos.Where(p => p.id_Restaurante == id && p.Estado==filter).ToList();
                 int total = Orders.Count();
                 int pages = (int)Math.Ceiling((double)total / pageSize);
 

@@ -13,6 +13,6 @@ namespace PlazoletaService.Domain.Entities
         public DateTime Fecha { get; set; }
         public string? Estado { get; set; }
         public int Id_Chef { get; set; }
-        public int Id_Restaurante { get; set; }
+        public int id_Restaurante { get; set; }
     }
 }

@@ -1,18 +1,4 @@
-Å
-$PlazoletaService.Domain.DTO.OrderDTOobject=
-
-OrderDTO()/PlazoletaService.Domain.DTO.OrderDTO.OrderDTO()5
-Id.get+PlazoletaService.Domain.DTO.OrderDTO.Id.get5
-Id.set+PlazoletaService.Domain.DTO.OrderDTO.Id.setE
-id_Cliente.get3PlazoletaService.Domain.DTO.OrderDTO.id_Cliente.getE
-id_Cliente.set3PlazoletaService.Domain.DTO.OrderDTO.id_Cliente.set;
-	Fecha.get.PlazoletaService.Domain.DTO.OrderDTO.Fecha.get;
-	Fecha.set.PlazoletaService.Domain.DTO.OrderDTO.Fecha.set=
-
-Estado.get/PlazoletaService.Domain.DTO.OrderDTO.Estado.get=
-
-Estado.set/PlazoletaService.Domain.DTO.OrderDTO.Estado.set?
-id_Chef.get0PlazoletaService.Domain.DTO.OrderDTO.id_Chef.get?
-id_Chef.set0PlazoletaService.Domain.DTO.OrderDTO.id_Chef.setM
-id_Restaurante.get7PlazoletaService.Domain.DTO.OrderDTO.id_Restaurante.getM
-id_Restaurante.set7PlazoletaService.Domain.DTO.OrderDTO.id_Restaurante.set
+Ï
+$PlazoletaService.Domain.DomainModuleAutofac.Moduleobjecte
+Load(Autofac.ContainerBuilder)CPlazoletaService.Domain.DomainModule.Load(Autofac.ContainerBuilder)E
+DomainModule()3PlazoletaService.Domain.DomainModule.DomainModule()

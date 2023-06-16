@@ -1,15 +1,15 @@
 
-8PlazoletaService.Domain.DTO.OrderProductDTO.id_Plato.set„
-zC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\OrderProductDTO.cs# (&"0*Å
-0' ('f
-d
-# ('@-
-+PlazoletaService.Domain.DTO.OrderProductDTO"
-id_Platoint"__id*
+9PlazoletaService.Domain.DTO.OrderProductDTO.id_Pedido.set„
+zC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\OrderProductDto.cs$ ('"0*Ç
+0( ((g
+e
+$ ((A-
++PlazoletaService.Domain.DTO.OrderProductDTO"
+	id_Pedidoint"__id*
 
-valueint"N
-# ('B*@-
-+PlazoletaService.Domain.DTO.OrderProductDTO"
-id_Platoint:
+valueint"O
+$ ((C*A-
++PlazoletaService.Domain.DTO.OrderProductDTO"
+	id_Pedidoint:
 valueintB/-
 +PlazoletaService.Domain.DTO.OrderProductDTO

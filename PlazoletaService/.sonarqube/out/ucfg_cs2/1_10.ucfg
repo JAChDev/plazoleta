@@ -1,25 +1,13 @@
 
-SPlazoletaService.Infrastructure.InfrastructureModule.Load(Autofac.ContainerBuilder)é
-ÉC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\InfrastructureModule.cs  ($"0*†
-0 (eâ
-Ü
- (3V
-%0PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>"SAutofac.RegistrationExtensions.RegisterType<TImplementer>(Autofac.ContainerBuilder)*$"" 
-Autofac.RegistrationExtensions*'%
-#
-builderAutofac.ContainerBuilder≤Ø
- (JV
-%1PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>"_Autofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>.As<TService>()*ZX
-V
-%0PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>2As<TService>() «
- (eV
-%2PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>"kAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>.InstancePerLifetimeScope()*ZX
-V
-%1PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>2InstancePerLifetimeScope()*
-1*.
-1	 (	"
- (	
-implicit return:/
-% (=#
-builderAutofac.ContainerBuilderB86
-4PlazoletaService.Infrastructure.InfrastructureModule
+APlazoletaService.Infrastructure.Database.SQLDbContext.pedidos.getè
+ÑC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\Database\SQLDbContext.cs) (,"0*ë
+0- (-ø
+º
+) (-2
+%0,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__id*vt*r7
+5PlazoletaService.Infrastructure.Database.SQLDbContext"7
+pedidos,Microsoft.EntityFrameworkCore.DbSet<TEntity>"@
+) (-4
+2
+%0,Microsoft.EntityFrameworkCore.DbSet<TEntity>B97
+5PlazoletaService.Infrastructure.Database.SQLDbContext

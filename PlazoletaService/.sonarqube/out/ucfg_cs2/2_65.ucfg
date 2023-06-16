@@ -1,186 +1,143 @@
 
-nPlazoletaService.WebApi.Controllers.PlazoletaController.CreateOrder(PlazoletaService.WebApi.Models.OrderModel)ë
-ÜC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Controllers\PlazoletaController.csr r(("5*â
-0t |(;b`
-t t(%,
-%0&PlazoletaService.Domain.Entities.Order"&PlazoletaService.Domain.Entities.Orderz
-x
-t t(#
+cPlazoletaService.WebApi.Controllers.PlazoletaController.GetOrderByRestaurant(int, string, int, int)ì
+ÜC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Controllers\PlazoletaController.csê ê(1"4*æ
+0
+í ì( „
+‡
 
-%1void".PlazoletaService.Domain.Entities.Order.Order()*0.
-,
-%0&PlazoletaService.Domain.Entities.Orderu
-s
-t t(%/
-order&PlazoletaService.Domain.Entities.Order"__id*0.
-,
-%0&PlazoletaService.Domain.Entities.Orderè
-å
-u u(4	
-%2int"8PlazoletaService.WebApi.Models.OrderModel.id_Cliente.get*;9
-7
-
-orderModel)PlazoletaService.WebApi.Models.OrderModelì
-ê
-u u(4	
-%3int"5PlazoletaService.Domain.Entities.Order.id_Cliente.set*31
-/
-order&PlazoletaService.Domain.Entities.Order*
-	
-%2intñ
-ì
-v v(*
-%4System.DateTime"3PlazoletaService.WebApi.Models.OrderModel.Fecha.get*;9
-7
-
-orderModel)PlazoletaService.WebApi.Models.OrderModel¶
-£
-v v(*
-%5System.DateTime"0PlazoletaService.Domain.Entities.Order.Fecha.set*31
-/
-order&PlazoletaService.Domain.Entities.Order*
-
-%4System.DateTimeé
-ã
-w w(,
-%6string"4PlazoletaService.WebApi.Models.OrderModel.Estado.get*;9
-7
-
-orderModel)PlazoletaService.WebApi.Models.OrderModelï
-í
-w w(,
-%7string"1PlazoletaService.Domain.Entities.Order.Estado.set*31
-/
-order&PlazoletaService.Domain.Entities.Order*
-
-%6stringå
-â
-x x(.	
-%8int"5PlazoletaService.WebApi.Models.OrderModel.id_Chef.get*;9
-7
-
-orderModel)PlazoletaService.WebApi.Models.OrderModelê
-ç
-x x(.	
-%9int"2PlazoletaService.Domain.Entities.Order.id_Chef.set*31
-/
-order&PlazoletaService.Domain.Entities.Order*
-	
-%8intî
-ë
-y# y(<
-
-%10int"<PlazoletaService.WebApi.Models.OrderModel.id_Restaurante.get*;9
-7
-
-orderModel)PlazoletaService.WebApi.Models.OrderModelô
-ñ
-y y(<
-
-%11int"9PlazoletaService.Domain.Entities.Order.id_Restaurante.set*31
-/
-order&PlazoletaService.Domain.Entities.Order*
-
-
-%10int‚
-ﬂ
-{' {(9<
-%125PlazoletaService.Domain.Interfaces.IRestaurantService"__id*éã*à9
+í í(-;
+%05PlazoletaService.Domain.Interfaces.IRestaurantService"__id*éã*à9
 7PlazoletaService.WebApi.Controllers.PlazoletaController"K
-_restaurantService5PlazoletaService.Domain.Interfaces.IRestaurantServiceﬁ€
-{' {(L8
-%131PlazoletaService.Domain.Responses.GeneralResponse"iPlazoletaService.Domain.Interfaces.IRestaurantService.CreateOrder(PlazoletaService.Domain.Entities.Order)*@>
-<
-%125PlazoletaService.Domain.Interfaces.IRestaurantService*31
-/
-order&PlazoletaService.Domain.Entities.Order23CreateOrder(PlazoletaService.Domain.Entities.Order)ê
-ç
-{ {(L=
-response1PlazoletaService.Domain.Responses.GeneralResponse"__id*<:
-8
-%131PlazoletaService.Domain.Responses.GeneralResponse¥
-±
-| |(& 
-%14System.Net.HttpStatusCode"@PlazoletaService.Domain.Responses.GeneralResponse.StatusCode.get*A?
-=
-response1PlazoletaService.Domain.Responses.GeneralResponse#
-!
-|* |(;
-%15"__id*
+_restaurantService5PlazoletaService.Domain.Interfaces.IRestaurantServiceºπ
+
+í í(m(
+%1"System.Collections.Generic.List<T>"`PlazoletaService.Domain.Interfaces.IRestaurantService.GetOrdersWithFilter(int, string, int, int)*?=
+;
+%05PlazoletaService.Domain.Interfaces.IRestaurantService*
+""*
+
+Statusstring*
+""*
+""2*GetOrdersWithFilter(int, string, int, int)r
+p
+
+í í(m.
+response"System.Collections.Generic.List<T>"__id*,*
+(
+%1"System.Collections.Generic.List<T>ã
+à
+
+ì ì( 
+
+%2bool""object.operator ==(object, object)*
+"
+object*20
+.
+response"System.Collections.Generic.List<T>*
 ""*
 1
-2*ı
-1|> |(IÒÓ
-|> |(J.
-%19'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
-'Microsoft.AspNetCore.Mvc.ControllerBase*A?
-=
-response1PlazoletaService.Domain.Responses.GeneralResponse2Ok(object?)v
-t
-|> |(J.
-%17'Microsoft.AspNetCore.Mvc.OkObjectResult"__id*20
+2*§
+1ï ï(å{y
+ï" ï(é7
+%31PlazoletaService.Domain.Responses.GeneralResponse"1PlazoletaService.Domain.Responses.GeneralResponseù
+ö
+
+ï& ï(5
+
+%4void"CPlazoletaService.Domain.Responses.GeneralResponse.GeneralResponse()*;9
+7
+%31PlazoletaService.Domain.Responses.GeneralResponse$
+"
+
+ïE ï(^
+%5"__id*
+""π
+∂
+
+ï8 ï(^
+%6System.Net.HttpStatusCode"@PlazoletaService.Domain.Responses.GeneralResponse.StatusCode.set*;9
+7
+%31PlazoletaService.Domain.Responses.GeneralResponse*
+
+%5¬
+ø
+ï` ï(å
+%7string"APlazoletaService.Domain.Responses.GeneralResponse.Description.set*;9
+7
+%31PlazoletaService.Domain.Responses.GeneralResponse*" 
+Error al obtener los pedidosÖÇ
+ï ï(è5
+%8/Microsoft.AspNetCore.Mvc.BadRequestObjectResult";Microsoft.AspNetCore.Mvc.ControllerBase.BadRequest(object?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*;9
+7
+%31PlazoletaService.Domain.Responses.GeneralResponse2BadRequest(object?)"F
+ï ï(ê7
+5
+%8/Microsoft.AspNetCore.Mvc.BadRequestObjectResult*¥
+2
+ò ò("„‡
+
+ò ò(#-
+%9'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*20
 .
-%19'Microsoft.AspNetCore.Mvc.OkObjectResultu
-s
-|> |(J-
-%16&Microsoft.AspNetCore.Mvc.IActionResult"__id*20
-.
-%17'Microsoft.AspNetCore.Mvc.OkObjectResult*
-3*ß
-2|M |(`âÜ
-|M |(a6
-%20/Microsoft.AspNetCore.Mvc.BadRequestObjectResult";Microsoft.AspNetCore.Mvc.ControllerBase.BadRequest(object?)*-+)
-'Microsoft.AspNetCore.Mvc.ControllerBase*A?
-=
-response1PlazoletaService.Domain.Responses.GeneralResponse2BadRequest(object?)á
-Ñ
-|M |(a6
-%18/Microsoft.AspNetCore.Mvc.BadRequestObjectResult"__id*:8
-6
-%20/Microsoft.AspNetCore.Mvc.BadRequestObjectResult}
-{
-|M |(a-
-%16&Microsoft.AspNetCore.Mvc.IActionResult"__id*:8
-6
-%18/Microsoft.AspNetCore.Mvc.BadRequestObjectResult*
-3*J
-3~	 ~(	";
-| |(b/
+response"System.Collections.Generic.List<T>2Ok(object?)"=
+
+ò ò($/
 -
-%16&Microsoft.AspNetCore.Mvc.IActionResult*.
-4~	 ~(	"
-~ ~(	
-implicit return*å
-5r? r(?Ä
-~
-r r((d
-7
+%9'Microsoft.AspNetCore.Mvc.OkObjectResult*2
+3
+ö	 ö(	"!
 
-orderModel)PlazoletaService.WebApi.Models.OrderModel")
-<Fecha>k__BackingFieldSystem.DateTime"__entrypointo
-m
-r r((S
-7
+ö ö(	
+implicit return*«
+4
+êp ê(pW
+U
 
-orderModel)PlazoletaService.WebApi.Models.OrderModel"
-FechaSystem.DateTime"__entrypointx
-v
-r r((\
-7
+ê ê(1
+%10"__entrypoint*
+""*
+
+Statusstring*
+""*
+""ç
+ä
 
-orderModel)PlazoletaService.WebApi.Models.OrderModel"!
-<Estado>k__BackingFieldstring"__entrypointg
-e
-r r((K
-7
+é	 é(U
+%11"
+__annotate*SQO
+MMicrosoft.AspNetCore.Mvc.TypeFilterAttribute.TypeFilterAttribute(System.Type)*
+
+StatusstringÅ
+
 
-orderModel)PlazoletaService.WebApi.Models.OrderModel"
-Estadostring"__entrypoint!
-
-r r((
-%21"__entrypoint*
-0:C
-r) r(>7
+è	 è((
+%12"
+__annotate*HFD
+BMicrosoft.AspNetCore.Mvc.HttpGetAttribute.HttpGetAttribute(string)*
+
+StatusstringD
+B
 
-orderModel)PlazoletaService.WebApi.Models.OrderModelB;9
+êD ê(Q
+Statusstring"__annotation*	
+
+%11*	
+
+%12*
+0:!
+
+ê2 ê(B
+idRestaurantint:
+
+êD ê(Q
+Statusstring:
+
+êS ê(a
+
+pageNumberint:
+
+êc ê(o
+pageSizeintB;9
 7PlazoletaService.WebApi.Controllers.PlazoletaController

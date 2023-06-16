@@ -1,15 +1,13 @@
 
-2PlazoletaService.Domain.Entities.Order.id_Chef.set
-uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Order.cs" (%"0*¹
-0& (&`
-^
-" (&:(
-&PlazoletaService.Domain.Entities.Order"
-id_Chefint"__id*
-
-valueint"H
-" (&<*:(
-&PlazoletaService.Domain.Entities.Order"
-id_Chefint:
-valueintB*(
-&PlazoletaService.Domain.Entities.Order
+0PlazoletaService.Domain.DTO.OrderDTO.Id_Chef.get}
+sC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\OrderDto.cs ( "0*ƒ
+0! (![
+Y
+ (!	
+%0int"__id*<:*8&
+$PlazoletaService.Domain.DTO.OrderDTO"
+Id_Chefint"
+ (!
+	
+%0intB(&
+$PlazoletaService.Domain.DTO.OrderDTO

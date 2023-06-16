@@ -20,6 +20,6 @@ namespace PlazoletaService.WebApi.Models
         public int Id_Chef { get; set; }
         [Required]
         [NotNull]
-        public int Id_Restaurante { get; set; }
+        public int id_Restaurante { get; set; }
     }
 }

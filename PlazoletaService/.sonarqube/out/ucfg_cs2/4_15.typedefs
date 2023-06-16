@@ -1,0 +1,25 @@
+ï	
+(PlazoletaService.Domain.Entities.Productobject?
+	Product()2PlazoletaService.Domain.Entities.Product.Product()9
+Id.get/PlazoletaService.Domain.Entities.Product.Id.get9
+Id.set/PlazoletaService.Domain.Entities.Product.Id.setA
+
+Nombre.get3PlazoletaService.Domain.Entities.Product.Nombre.getA
+
+Nombre.set3PlazoletaService.Domain.Entities.Product.Nombre.setM
+id_categoria.get9PlazoletaService.Domain.Entities.Product.id_categoria.getM
+id_categoria.set9PlazoletaService.Domain.Entities.Product.id_categoria.setK
+Descripcion.get8PlazoletaService.Domain.Entities.Product.Descripcion.getK
+Descripcion.set8PlazoletaService.Domain.Entities.Product.Descripcion.setA
+
+Precio.get3PlazoletaService.Domain.Entities.Product.Precio.getA
+
+Precio.set3PlazoletaService.Domain.Entities.Product.Precio.setQ
+id_restaurante.get;PlazoletaService.Domain.Entities.Product.id_restaurante.getQ
+id_restaurante.set;PlazoletaService.Domain.Entities.Product.id_restaurante.setI
+url_imagen.get7PlazoletaService.Domain.Entities.Product.url_imagen.getI
+url_imagen.set7PlazoletaService.Domain.Entities.Product.url_imagen.setA
+
+Activo.get3PlazoletaService.Domain.Entities.Product.Activo.getA
+
+Activo.set3PlazoletaService.Domain.Entities.Product.Activo.set

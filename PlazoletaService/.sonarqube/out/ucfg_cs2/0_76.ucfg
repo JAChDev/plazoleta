@@ -1,15 +1,13 @@
 
-1PlazoletaService.Domain.DTO.ProductDTO.Precio.set
-uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\ProductDTO.cs$ ('"0*À
-0( ((e
-c
-$ ((<(
+1PlazoletaService.Domain.DTO.ProductDTO.Nombre.get
+uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\ProductDto.cs  (#"0*
+0$ ($b
+`
+  ($
+%0string"__id*@>*<(
 &PlazoletaService.Domain.DTO.ProductDTO"
-Preciostring"__id*
-
-valuestring"J
-$ ((>*<(
-&PlazoletaService.Domain.DTO.ProductDTO"
-Preciostring:
-valuestringB*(
+Nombrestring"
+  ($
+
+%0stringB*(
 &PlazoletaService.Domain.DTO.ProductDTO

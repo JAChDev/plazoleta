@@ -1,13 +1,17 @@
 
-APlazoletaService.Domain.Responses.GeneralResponse.Description.getã
-ÄC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Responses\GeneralResponse.cs$ ('"0*ù
-0( ((r
-p
-$ ((
-%0string"__id*PN*L3
-1PlazoletaService.Domain.Responses.GeneralResponse"
-Descriptionstring"
-$ ((
-
-%0stringB53
+@PlazoletaService.Domain.Responses.GeneralResponse.StatusCode.setã
+ÄC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Responses\GeneralResponse.cs0 (3"0*ô
+04 (4õ
+ò
+0 (4^3
+1PlazoletaService.Domain.Responses.GeneralResponse"'
+
+StatusCodeSystem.Net.HttpStatusCode"__id*&$
+"
+valueSystem.Net.HttpStatusCode"l
+0 (4`*^3
+1PlazoletaService.Domain.Responses.GeneralResponse"'
+
+StatusCodeSystem.Net.HttpStatusCode:$"
+valueSystem.Net.HttpStatusCodeB53
 1PlazoletaService.Domain.Responses.GeneralResponse

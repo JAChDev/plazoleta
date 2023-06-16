@@ -1,15 +1,13 @@
 
-9PlazoletaService.WebApi.Models.RestaurantModel.Nombre.set‡
-}C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\RestaurantModel.cs	$ 	('"0*Ð
-0	( 	((m
-k
-	$ 	((D0
-.PlazoletaService.WebApi.Models.RestaurantModel"
-Nombrestring"__id*
-
-valuestring"R
-	$ 	((F*D0
-.PlazoletaService.WebApi.Models.RestaurantModel"
-Nombrestring:
-valuestringB20
+APlazoletaService.WebApi.Models.RestaurantModel.id_propietario.get‡
+}C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\RestaurantModel.cs$ ('"0*”
+0( ((l
+j
+$ ((	
+%0int"__id*MK*I0
+.PlazoletaService.WebApi.Models.RestaurantModel"
+id_propietarioint"
+$ ((
+	
+%0intB20
 .PlazoletaService.WebApi.Models.RestaurantModel

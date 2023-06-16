@@ -1,13 +1,19 @@
 
-0PlazoletaService.Domain.DTO.OrderDTO.id_Chef.get}
-sC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\OrderDTO.cs ( "0*ƒ
-0! (![
-Y
- (!	
-%0int"__id*<:*8&
-$PlazoletaService.Domain.DTO.OrderDTO"
-id_Chefint"
- (!
-	
-%0intB(&
-$PlazoletaService.Domain.DTO.OrderDTO
+>PlazoletaService.Domain.Servicios.AuthService.GetRoles(string)†
+|C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Servicios\AuthService.cs) (1"0*ä
+0 (/RP
+ (/$
+%0System.NotImplementedException"System.NotImplementedException|
+z
+ (-
+
+%1void"8System.NotImplementedException.NotImplementedException()*(&
+$
+%0System.NotImplementedException*
+1*.
+1	 (	"
+ (	
+implicit return:
+2 (;
+IdstringB1/
+-PlazoletaService.Domain.Servicios.AuthService

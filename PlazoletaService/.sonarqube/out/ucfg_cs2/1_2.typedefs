@@ -1,7 +1,6 @@
-â
-
-5PlazoletaService.Infrastructure.Database.SQLDbContext'Microsoft.EntityFrameworkCore.DbContextobjectˆ
-¦SQLDbContext(Microsoft.EntityFrameworkCore.DbContextOptions<PlazoletaService.Infrastructure.Database.SQLDbContext>, Microsoft.Extensions.Configuration.IConfiguration)ÜPlazoletaService.Infrastructure.Database.SQLDbContext.SQLDbContext(Microsoft.EntityFrameworkCore.DbContextOptions<PlazoletaService.Infrastructure.Database.SQLDbContext>, Microsoft.Extensions.Configuration.IConfiguration)°
+û	
+5PlazoletaService.Infrastructure.Database.SQLDbContext'Microsoft.EntityFrameworkCore.DbContextobject¡
+sSQLDbContext(Microsoft.EntityFrameworkCore.DbContextOptions<PlazoletaService.Infrastructure.Database.SQLDbContext>)©PlazoletaService.Infrastructure.Database.SQLDbContext.SQLDbContext(Microsoft.EntityFrameworkCore.DbContextOptions<PlazoletaService.Infrastructure.Database.SQLDbContext>)°
 ;OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)qPlazoletaService.Infrastructure.Database.SQLDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)Z
 restaurantes.getFPlazoletaService.Infrastructure.Database.SQLDbContext.restaurantes.getZ
 restaurantes.setFPlazoletaService.Infrastructure.Database.SQLDbContext.restaurantes.setN

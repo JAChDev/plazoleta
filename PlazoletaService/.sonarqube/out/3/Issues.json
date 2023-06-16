@@ -54,18 +54,39 @@
           }
         },
         {
-          "ruleId": "CS8625",
+          "ruleId": "CS8600",
           "level": "warning",
-          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "message": "Se va a convertir un literal nulo o un posible valor nulo en un tipo que no acepta valores NULL",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/PlazoletaService.Test/UnitTest1.cs",
                 "region": {
-                  "startLine": 69,
-                  "startColumn": 26,
-                  "endLine": 69,
-                  "endColumn": 30
+                  "startLine": 100,
+                  "startColumn": 25,
+                  "endLine": 100,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferencia de una referencia posiblemente NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jonatan.amado_pragma/Documents/Repositorios/AppPlazoleta/PlazoletaService/PlazoletaService.Test/UnitTest1.cs",
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 30,
+                  "endLine": 112,
+                  "endColumn": 36
                 }
               }
             }
@@ -95,20 +116,6 @@
           "shortDescription": "Desreferencia de una referencia posiblemente NULL.",
           "defaultLevel": "warning",
           "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8602)",
-          "properties": {
-            "category": "Compiler",
-            "isEnabledByDefault": true,
-            "tags": [
-              "Compiler",
-              "Telemetry"
-            ]
-          }
-        },
-        "CS8625": {
-          "id": "CS8625",
-          "shortDescription": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
-          "defaultLevel": "warning",
-          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8625)",
           "properties": {
             "category": "Compiler",
             "isEnabledByDefault": true,

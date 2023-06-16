@@ -1,15 +1,15 @@
 
-8PlazoletaService.WebApi.Models.ModifyProductModel.Id.set‹
-€C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\ModifyProductModel.cs ( "0*Å
-0! (!f
-d
- (!@3
-1PlazoletaService.WebApi.Models.ModifyProductModel"	
-Idint"__id*
-
-valueint"N
- (!B*@3
-1PlazoletaService.WebApi.Models.ModifyProductModel"	
-Idint:
-valueintB53
-1PlazoletaService.WebApi.Models.ModifyProductModel
+9PlazoletaService.WebApi.Models.RestaurantModel.Nombre.set‡
+}C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\RestaurantModel.cs	% 	(("0*Ð
+0	) 	()m
+k
+	% 	()D0
+.PlazoletaService.WebApi.Models.RestaurantModel"
+Nombrestring"__id*
+
+valuestring"R
+	% 	()F*D0
+.PlazoletaService.WebApi.Models.RestaurantModel"
+Nombrestring:
+valuestringB20
+.PlazoletaService.WebApi.Models.RestaurantModel

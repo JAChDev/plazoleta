@@ -1,0 +1,9 @@
+É
++PlazoletaService.Domain.DTO.OrderProductDTOobjectR
+OrderProductDTO()=PlazoletaService.Domain.DTO.OrderProductDTO.OrderProductDTO()J
+id_Pedido.get9PlazoletaService.Domain.DTO.OrderProductDTO.id_Pedido.getJ
+id_Pedido.set9PlazoletaService.Domain.DTO.OrderProductDTO.id_Pedido.setH
+id_Plato.get8PlazoletaService.Domain.DTO.OrderProductDTO.id_Plato.getH
+id_Plato.set8PlazoletaService.Domain.DTO.OrderProductDTO.id_Plato.setH
+Cantidad.get8PlazoletaService.Domain.DTO.OrderProductDTO.Cantidad.getH
+Cantidad.set8PlazoletaService.Domain.DTO.OrderProductDTO.Cantidad.set

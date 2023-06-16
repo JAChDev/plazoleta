@@ -1,158 +1,114 @@
 
-cPlazoletaService.Infrastructure.Repositories.MySQLRepository.GetProductsByRestaurant(int, int, int)ò
-ãC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\Repositories\MySQLRepository.csê  ê(7"0*
+nPlazoletaService.Infrastructure.Repositories.MySQLRepository.CreateOrder(PlazoletaService.Domain.DTO.OrderDTO)ò
+ãC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\Repositories\MySQLRepository.cs© ©(%"0*
 0
-ß	 ß(	*
+∑	 ∑(	*
 1
-2*Ú
+2*⁄
 1
-î †( ‡
+≠ Ø(Q‡
 ›
 
-î î();
+≠ ≠(;
 %05PlazoletaService.Infrastructure.Database.SQLDbContext"__id*ãà*Ö>
 <PlazoletaService.Infrastructure.Repositories.MySQLRepository"C
 
-_dbContext5PlazoletaService.Infrastructure.Database.SQLDbContext∆
-√
+_dbContext5PlazoletaService.Infrastructure.Database.SQLDbContext«
+ƒ
 
-î î(02
-%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"@PlazoletaService.Infrastructure.Database.SQLDbContext.platos.get*?=
+≠ ≠("2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"APlazoletaService.Infrastructure.Database.SQLDbContext.pedidos.get*?=
 ;
-%05PlazoletaService.Infrastructure.Database.SQLDbContextó
-î
+%05PlazoletaService.Infrastructure.Database.SQLDbContextåâ
 
-î î(]
-%2System.Linq.IQueryable<T>"ÖSystem.Linq.Queryable.Where<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
-System.Linq.Queryable*64
+≠ ≠(-G
+%2AMicrosoft.EntityFrameworkCore.ChangeTracking.EntityEntry<TEntity>"9Microsoft.EntityFrameworkCore.DbSet<TEntity>.Add(TEntity)*64
 2
-%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
-""å
-â
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>*1/
+-
+order$PlazoletaService.Domain.DTO.OrderDTO2Add(TEntity)‡
+›
 
-î ï(1
-%3System.Linq.IQueryable<T>"çSystem.Linq.Queryable.GroupBy<TSource, TKey>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, TKey>>)*"
-System.Linq.Queryable*#!
-
-%2System.Linq.IQueryable<T>*
-""ë
-é
+Æ Æ(;
+%35PlazoletaService.Infrastructure.Database.SQLDbContext"__id*ãà*Ö>
+<PlazoletaService.Infrastructure.Repositories.MySQLRepository"C
 
-î ñ(O
-%4System.Linq.IQueryable<T>"íSystem.Linq.Queryable.Select<TSource, TResult>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, TResult>>)*"
-System.Linq.Queryable*#!
-
-%3System.Linq.IQueryable<T>*
-""`
-^
+_dbContext5PlazoletaService.Infrastructure.Database.SQLDbContext°û
 
-î ñ(O%
-productsSystem.Linq.IQueryable<T>"__id*#!
-
-%4System.Linq.IQueryable<T>©
-¶
+Æ Æ((	
+%4int"5Microsoft.EntityFrameworkCore.DbContext.SaveChanges()*?=
+;
+%35PlazoletaService.Infrastructure.Database.SQLDbContext2SaveChanges()pn
 
-ó ó(,	
-%5int"ESystem.Linq.Queryable.Count<TSource>(System.Linq.IQueryable<TSource>)*"
-System.Linq.Queryable*)'
-%
-productsSystem.Linq.IQueryable<T>1
-/
+Ø Ø(S2
+%5,PlazoletaService.Domain.Responses.DbResponse",PlazoletaService.Domain.Responses.DbResponseé
+ã
 
-ó ó(,
-totalint"__id*
-	
-%5int,
-*
+Ø Ø(%
 
-ò. ò(;
-%6"__id*
-
-totalintV
-T
+%6void"9PlazoletaService.Domain.Responses.DbResponse.DbResponse()*64
+2
+%5,PlazoletaService.Domain.Responses.DbResponseó
+î
 
-ò! ò(G
-%7double"System.Math.Ceiling(double)*"
-System.Math*
-"",
-*
+Ø( Ø(6
 
-ò ò(G
-%8"__id*
-
-%7double,
-*
+%7bool"8PlazoletaService.Domain.Responses.DbResponse.Success.set*64
+2
+%5,PlazoletaService.Domain.Responses.DbResponse*
+""§
+°
 
-ò ò(G
-pagesint"__id*
-
-%8Ë
-Â
+Ø8 Ø(Q
+%8string"8PlazoletaService.Domain.Responses.DbResponse.Message.set*64
+2
+%5,PlazoletaService.Domain.Responses.DbResponse*
+Pedido creado"B
 
-ö  õ(#/
-%9)System.Collections.Generic.IEnumerable<T>"]System.Linq.Enumerable.AsEnumerable<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*)'
-%
-productsSystem.Linq.IQueryable<T>˙
-˜
-
-ö  ú(60
-%10)System.Collections.Generic.IEnumerable<T>"ZSystem.Linq.Enumerable.Skip<TSource>(System.Collections.Generic.IEnumerable<TSource>, int)*"
-System.Linq.Enumerable*31
-/
-%9)System.Collections.Generic.IEnumerable<T>*
-""˚
-¯
-
-ö  ù(#0
-%11)System.Collections.Generic.IEnumerable<T>"ZSystem.Linq.Enumerable.Take<TSource>(System.Collections.Generic.IEnumerable<TSource>, int)*"
-System.Linq.Enumerable*42
-0
-%10)System.Collections.Generic.IEnumerable<T>*
-""Õ
- 
-
-ö  û(.0
-%12)System.Collections.Generic.IEnumerable<T>"´System.Linq.Enumerable.SelectMany<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Collections.Generic.IEnumerable<TResult>>)*"
-System.Linq.Enumerable*42
-0
-%11)System.Collections.Generic.IEnumerable<T>*
-""Á
-‰
-
-ö  ü()
-%13"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*42
-0
-%12)System.Collections.Generic.IEnumerable<T>t
-r
-
-ö ü(/
-	resultado"System.Collections.Generic.List<T>"__id*-+
-)
-%13"System.Collections.Generic.List<T>"?
-
-† †(!1
-/
-	resultado"System.Collections.Generic.List<T>*%
+Ø Ø(T4
+2
+%5,PlazoletaService.Domain.Responses.DbResponse*˛
 2
-• •("
+¥ ¥(Mpn
 
-• •(
-""*2
+¥ ¥(O2
+%9,PlazoletaService.Domain.Responses.DbResponse",PlazoletaService.Domain.Responses.DbResponseè
+å
+
+¥ ¥(%
+%10void"9PlazoletaService.Domain.Responses.DbResponse.DbResponse()*64
+2
+%9,PlazoletaService.Domain.Responses.DbResponseò
+ï
+
+¥( ¥(7
+%11bool"8PlazoletaService.Domain.Responses.DbResponse.Success.set*64
+2
+%9,PlazoletaService.Domain.Responses.DbResponse*
+""db
+
+¥C ¥(M
+%12string"System.Exception.Message.get*
+
+exSystem.Exception2Message.get£
+†
+
+¥9 ¥(M
+%13string"8PlazoletaService.Domain.Responses.DbResponse.Message.set*64
+2
+%9,PlazoletaService.Domain.Responses.DbResponse*
+
+%12string"B
+
+¥ ¥(P4
+2
+%9,PlazoletaService.Domain.Responses.DbResponse*2
 3
-ß	 ß(	"!
+∑	 ∑(	"!
 
-ß ß(	
-implicit return:!
+∑ ∑(	
+implicit return:;
 
-ê8 ê(H
-restaurantIdint:
-
-êJ ê(X
-
-pageNumberint:
-
-êZ ê(f
-pageSizeintB@>
+©& ©(4-
+order$PlazoletaService.Domain.DTO.OrderDTOB@>
 <PlazoletaService.Infrastructure.Repositories.MySQLRepository

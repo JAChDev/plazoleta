@@ -1,26 +1,24 @@
-ª
+è
 ÑC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\Database\SQLDbContext.cs
- - 9
-( 6 
-; Bi p
-S ` *
+ - 9
+; BK R
 
-  /
-= I! - 
+  /
+= I! - 
 
-$ 0
+$ 0
 
-! '
+! '
 
- &
+ &
 
-& 4¥
+& 4¥
 ÉC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\InfrastructureModule.cs
 
  %
 
   $
-6 = ´
+6 = Ö
 ãC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\Repositories\MySQLRepository.cs
 
   ÿ
@@ -94,10 +92,9 @@
 îîP \
 
 êêN X
-úú %0
+úú %$
 
 êê^ f
-òò> F
 úú- 5
 ùù "$
 
@@ -113,12 +110,9 @@
 
 ññ 
 ññ2 3
-ññB C
+ññB C
 
-óó 
-òò6 ;
-
-òò 
+óó 
 
 öö 
 ††  

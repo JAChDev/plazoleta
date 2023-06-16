@@ -1,13 +1,15 @@
 
-9PlazoletaService.Domain.Entities.Order.id_Restaurante.get
-uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Order.cs$ ('"0*Œ
-0( ((d
-b
-$ ((	
-%0int"__id*EC*A(
-&PlazoletaService.Domain.Entities.Order"
-id_Restauranteint"
-$ ((
-	
-%0intB*(
-&PlazoletaService.Domain.Entities.Order
+6PlazoletaService.Domain.DTO.ProductDTO.Descripcion.set
+uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\ProductDto.cs* (-"0*Ê
+0. (.j
+h
+* (.A(
+&PlazoletaService.Domain.DTO.ProductDTO"
+Descripcionstring"__id*
+
+valuestring"O
+* (.C*A(
+&PlazoletaService.Domain.DTO.ProductDTO"
+Descripcionstring:
+valuestringB*(
+&PlazoletaService.Domain.DTO.ProductDTO

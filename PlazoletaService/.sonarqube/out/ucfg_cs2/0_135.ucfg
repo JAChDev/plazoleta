@@ -1,64 +1,95 @@
 
-[PlazoletaService.Domain.Servicios.RestaurantServices.GetProductsByRestaurant(int, int, int)ê
-ÉC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Servicios\RestaurantServices.csú ú(4"0*
-0
-ß	 ß(	*
-1
-2*§
-1
-† °(å
-â
+LPlazoletaService.Domain.Servicios.AuthService.GetTokenValidationParameters()Ü
+|C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Servicios\AuthService.cs) (E"0*ª
+0 &('c
+a
+$ (1
+%0System.Text.Encoding"System.Text.Encoding.UTF8.get*"
+System.Text.Encoding¡
+æ
+; (B7
+%11Microsoft.Extensions.Configuration.IConfiguration"__id*sq*o/
+-PlazoletaService.Domain.Servicios.AuthService"<
+_config1Microsoft.Extensions.Configuration.IConfigurationÒÓ
+; (V>
+%28Microsoft.Extensions.Configuration.IConfigurationSection"DMicrosoft.Extensions.Configuration.IConfiguration.GetSection(string)*;9
+7
+%11Microsoft.Extensions.Configuration.IConfiguration*	
+Token2GetSection(string)Æ´
+; (\
+%3string"BMicrosoft.Extensions.Configuration.IConfigurationSection.Value.get*B@
+>
+%28Microsoft.Extensions.Configuration.IConfigurationSection2	Value.getÜÉ
+$ (]
+%4byte[]"%System.Text.Encoding.GetBytes(string)*
+
+%0System.Text.Encoding*
+
+%3string2GetBytes(string)>
+<
+ (]
+secretKeyBytesbyte[]"__id*
+
+%4byte[]áÑ
+' %(>
+%58Microsoft.IdentityModel.Tokens.TokenValidationParameters"8Microsoft.IdentityModel.Tokens.TokenValidationParameters≥
+∞
++ (D
 
-†) †(0
-%0AutoMapper.IMapper"__id*[Y*W6
-4PlazoletaService.Domain.Servicios.RestaurantServices"
-_mapperAutoMapper.IMapper⁄
-◊
+%6void"TMicrosoft.IdentityModel.Tokens.TokenValidationParameters.TokenValidationParameters()*B@
+>
+%58Microsoft.IdentityModel.Tokens.TokenValidationParametersæ
+ª
+   (/
 
-†D †(T9
-%13PlazoletaService.Domain.Interfaces.IMySQLRepository"__id*áÑ*Å6
-4PlazoletaService.Domain.Servicios.RestaurantServices"G
-_mysqlRepository3PlazoletaService.Domain.Interfaces.IMySQLRepositoryõò
-†D †(ê(
-%2"System.Collections.Generic.List<T>"ZPlazoletaService.Domain.Interfaces.IMySQLRepository.GetProductsByRestaurant(int, int, int)*=;
+%7bool"UMicrosoft.IdentityModel.Tokens.TokenValidationParameters.ValidateIssuerSigningKey.set*B@
+>
+%58Microsoft.IdentityModel.Tokens.TokenValidationParameters*
+""|z
+!# !(K9
+%83Microsoft.IdentityModel.Tokens.SymmetricSecurityKey"3Microsoft.IdentityModel.Tokens.SymmetricSecurityKey»
+≈
+!' !(;
+
+%9void"PMicrosoft.IdentityModel.Tokens.SymmetricSecurityKey.SymmetricSecurityKey(byte[])*=;
 9
-%13PlazoletaService.Domain.Interfaces.IMySQLRepository*
-""*
-""*
-""2&GetProductsByRestaurant(int, int, int)”–
-†) †(ë(
-%3"System.Collections.Generic.List<T>"0AutoMapper.IMapperBase.Map<TDestination>(object)*
+%83Microsoft.IdentityModel.Tokens.SymmetricSecurityKey*
 
-%0AutoMapper.IMapper*,*
-(
-%2"System.Collections.Generic.List<T>2Map<TDestination>(object)s
-q
-† †(ë.
-products"System.Collections.Generic.List<T>"__id*,*
-(
-%3"System.Collections.Generic.List<T>">
-
-° °( 0
-.
-products"System.Collections.Generic.List<T>*%
-2
-• •("
-
-• •(
-""*2
-3
-ß	 ß(	"!
-
-ß ß(	
-implicit return:!
-
-ú5 ú(E
-restaurantIdint:
-
-úG ú(U
-
-pageNumberint:
-
-úW ú(c
-pageSizeintB86
-4PlazoletaService.Domain.Servicios.RestaurantServices
+secretKeyBytesbyte[]í
+è
+! !(K1
+%10*Microsoft.IdentityModel.Tokens.SecurityKey"MMicrosoft.IdentityModel.Tokens.TokenValidationParameters.IssuerSigningKey.set*B@
+>
+%58Microsoft.IdentityModel.Tokens.TokenValidationParameters*=;
+9
+%83Microsoft.IdentityModel.Tokens.SymmetricSecurityKeyµ
+≤
+" "(&
+%11bool"KMicrosoft.IdentityModel.Tokens.TokenValidationParameters.ValidateIssuer.set*B@
+>
+%58Microsoft.IdentityModel.Tokens.TokenValidationParameters*
+""∑
+¥
+# #((
+%12bool"MMicrosoft.IdentityModel.Tokens.TokenValidationParameters.ValidateAudience.set*B@
+>
+%58Microsoft.IdentityModel.Tokens.TokenValidationParameters*
+""∑
+¥
+$ $((
+%13bool"MMicrosoft.IdentityModel.Tokens.TokenValidationParameters.ValidateLifetime.set*B@
+>
+%58Microsoft.IdentityModel.Tokens.TokenValidationParameters*
+""©
+¶
+ %(P
+validationParameters8Microsoft.IdentityModel.Tokens.TokenValidationParameters"__id*B@
+>
+%58Microsoft.IdentityModel.Tokens.TokenValidationParameters"^
+& &((R
+P
+validationParameters8Microsoft.IdentityModel.Tokens.TokenValidationParameters*.
+1'	 '(	"
+' '(	
+implicit returnB1/
+-PlazoletaService.Domain.Servicios.AuthService

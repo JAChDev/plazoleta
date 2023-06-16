@@ -1,13 +1,15 @@
 
-<PlazoletaService.Domain.DTO.RestaurantDTO.id_propietario.get‚
-xC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\RestaurantDTO.cs$ ('"0*
-0( ((g
-e
-$ ((	
-%0int"__id*HF*D+
-)PlazoletaService.Domain.DTO.RestaurantDTO"
-id_propietarioint"
-$ ((
-	
-%0intB-+
-)PlazoletaService.Domain.DTO.RestaurantDTO
+0PlazoletaService.Domain.Entities.Order.Fecha.set
+uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Order.cs% (("0*Ù
+0) ()v
+t
+% ()D(
+&PlazoletaService.Domain.Entities.Order"
+FechaSystem.DateTime"__id*
+
+valueSystem.DateTime"R
+% ()F*D(
+&PlazoletaService.Domain.Entities.Order"
+FechaSystem.DateTime:
+valueSystem.DateTimeB*(
+&PlazoletaService.Domain.Entities.Order

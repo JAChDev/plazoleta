@@ -1,13 +1,15 @@
 
-<PlazoletaService.WebApi.Models.OrderModel.id_Restaurante.get‚
-xC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\OrderModel.cs$ ('"0*
-0( ((g
-e
-$ ((	
-%0int"__id*HF*D+
-)PlazoletaService.WebApi.Models.OrderModel"
-id_Restauranteint"
-$ ((
-	
-%0intB-+
-)PlazoletaService.WebApi.Models.OrderModel
+;PlazoletaService.WebApi.Models.ProductModel.Descripcion.set„
+zC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\ProductModel.cs* (-"0*Ô
+0. (.o
+m
+* (.F-
++PlazoletaService.WebApi.Models.ProductModel"
+Descripcionstring"__id*
+
+valuestring"T
+* (.H*F-
++PlazoletaService.WebApi.Models.ProductModel"
+Descripcionstring:
+valuestringB/-
++PlazoletaService.WebApi.Models.ProductModel

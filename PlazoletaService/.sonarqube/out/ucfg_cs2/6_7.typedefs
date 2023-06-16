@@ -1,0 +1,4 @@
+Ù
+<PlazoletaService.WebApi.Authorization.JwtAuthorizationFilterobject5Microsoft.AspNetCore.Mvc.Filters.IAuthorizationFilter}
+JwtAuthorizationFilter(string)[PlazoletaService.WebApi.Authorization.JwtAuthorizationFilter.JwtAuthorizationFilter(string)Ú
+LOnAuthorization(Microsoft.AspNetCore.Mvc.Filters.AuthorizationFilterContext)‰PlazoletaService.WebApi.Authorization.JwtAuthorizationFilter.OnAuthorization(Microsoft.AspNetCore.Mvc.Filters.AuthorizationFilterContext)

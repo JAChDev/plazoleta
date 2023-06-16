@@ -1,15 +1,13 @@
 
-5PlazoletaService.WebApi.Models.OrderModel.id_Chef.setÇ
-xC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\OrderModel.cs" (%"0*ø
-0& (&c
-a
-" (&=+
-)PlazoletaService.WebApi.Models.OrderModel"
-id_Chefint"__id*
+4PlazoletaService.WebApi.Models.OrderModel.Estado.getÇ
+xC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\OrderModel.cs  (#"0*ê
+0$ ($e
+c
+  ($
+%0string"__id*CA*?+
+)PlazoletaService.WebApi.Models.OrderModel"
+Estadostring"
+  ($
 
-valueint"K
-" (&?*=+
-)PlazoletaService.WebApi.Models.OrderModel"
-id_Chefint:
-valueintB-+
+%0stringB-+
 )PlazoletaService.WebApi.Models.OrderModel

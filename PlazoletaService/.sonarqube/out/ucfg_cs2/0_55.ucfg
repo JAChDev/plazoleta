@@ -1,27 +1,13 @@
 
-êPlazoletaService.Domain.Servicios.RestaurantServices.RestaurantServices(PlazoletaService.Domain.Interfaces.IMySQLRepository, AutoMapper.IMapper)é
-ÉC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Servicios\RestaurantServices.cs (!"1*
-1	 (	*
-0*â
-0 („
-‡
- (.Å6
-4PlazoletaService.Domain.Servicios.RestaurantServices"G
-_mysqlRepository3PlazoletaService.Domain.Interfaces.IMySQLRepository"__id*JH
-F
-mysqlRepository3PlazoletaService.Domain.Interfaces.IMySQLRepositoryé
-ã
- (W6
-4PlazoletaService.Domain.Servicios.RestaurantServices"
-_mapperAutoMapper.IMapper"__id* 
-
-mapperAutoMapper.IMapper*
-2*.
-2	 (	"
- (	
-implicit return:R
-" (BF
-mysqlRepository3PlazoletaService.Domain.Interfaces.IMySQLRepository:(
-D (R
-mapperAutoMapper.IMapperB86
-4PlazoletaService.Domain.Servicios.RestaurantServices
+8PlazoletaService.Domain.Entities.Restaurant.Telefono.getÑ
+zC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Restaurant.cs" (%"0*î
+0& (&i
+g
+" (&
+%0string"__id*GE*C-
++PlazoletaService.Domain.Entities.Restaurant"
+Telefonostring"
+" (&
+
+%0stringB/-
++PlazoletaService.Domain.Entities.Restaurant

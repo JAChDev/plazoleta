@@ -1,17 +1,14 @@
 
-@PlazoletaService.Domain.Responses.GeneralResponse.StatusCode.setã
-ÄC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Responses\GeneralResponse.cs0 (3"0*ô
-04 (4õ
-ò
-0 (4^3
-1PlazoletaService.Domain.Responses.GeneralResponse"'
+7PlazoletaService.Domain.Entities.Product.url_imagen.getÅ
+wC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Product.cs$ ('"0*ì
+0( ((h
+f
+$ ((
+%0string"__id*FD*B*
+(PlazoletaService.Domain.Entities.Product"
 
-StatusCodeSystem.Net.HttpStatusCode"__id*&$
-"
-valueSystem.Net.HttpStatusCode"l
-0 (4`*^3
-1PlazoletaService.Domain.Responses.GeneralResponse"'
-
-StatusCodeSystem.Net.HttpStatusCode:$"
-valueSystem.Net.HttpStatusCodeB53
-1PlazoletaService.Domain.Responses.GeneralResponse
+url_imagenstring"
+$ ((
+
+%0stringB,*
+(PlazoletaService.Domain.Entities.Product

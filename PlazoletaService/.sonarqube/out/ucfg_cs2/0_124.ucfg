@@ -1,15 +1,15 @@
 
-8PlazoletaService.Domain.Responses.DbResponse.Success.set…
-{C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Responses\DbResponse.cs# (&"0*È
-0' ('h
-f
-# ('A.
-,PlazoletaService.Domain.Responses.DbResponse"
-Successbool"__id*
+1PlazoletaService.Domain.DTO.ProductDTO.Activo.set
+uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\ProductDto.cs" (%"0*º
+0& (&a
+_
+" (&:(
+&PlazoletaService.Domain.DTO.ProductDTO"
+Activobool"__id*
 
-valuebool"O
-# ('C*A.
-,PlazoletaService.Domain.Responses.DbResponse"
-Successbool:
-valueboolB0.
-,PlazoletaService.Domain.Responses.DbResponse
+valuebool"H
+" (&<*:(
+&PlazoletaService.Domain.DTO.ProductDTO"
+Activobool:
+valueboolB*(
+&PlazoletaService.Domain.DTO.ProductDTO

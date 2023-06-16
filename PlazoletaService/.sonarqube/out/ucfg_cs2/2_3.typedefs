@@ -1,11 +1,3 @@
-ç
-1PlazoletaService.WebApi.Models.ModifyProductModelobject^
-ModifyProductModel()FPlazoletaService.WebApi.Models.ModifyProductModel.ModifyProductModel()B
-Id.get8PlazoletaService.WebApi.Models.ModifyProductModel.Id.getB
-Id.set8PlazoletaService.WebApi.Models.ModifyProductModel.Id.setJ
-
-Nombre.get<PlazoletaService.WebApi.Models.ModifyProductModel.Nombre.getJ
-
-Nombre.set<PlazoletaService.WebApi.Models.ModifyProductModel.Nombre.setT
-Descripcion.getAPlazoletaService.WebApi.Models.ModifyProductModel.Descripcion.getT
-Descripcion.setAPlazoletaService.WebApi.Models.ModifyProductModel.Descripcion.set
+1
+Programobject
+	Program()Program.Program()

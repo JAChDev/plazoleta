@@ -1,10 +1,7 @@
 
->PlazoletaService.Domain.Entities.ModifyProduct.ModifyProduct()‡
-}C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\ModifyProduct.cs
- 
-("0*.
-0 ("
-
- (
-implicit returnB20
-.PlazoletaService.Domain.Entities.ModifyProduct
+?PlazoletaService.Domain.DTO.ModifyProductDTO.ModifyProductDTO()…
+{C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\ModifyProductDto.cs	 	(!"0*.
+0 ("
+	 (
+implicit returnB0.
+,PlazoletaService.Domain.DTO.ModifyProductDTO

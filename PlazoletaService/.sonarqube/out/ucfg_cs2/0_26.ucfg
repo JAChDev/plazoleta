@@ -1,13 +1,14 @@
 
->PlazoletaService.Domain.Entities.ModifyProduct.Descripcion.get‡
-}C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\ModifyProduct.cs$ ('"0*š
-0( ((o
-m
-$ ((
-%0string"__id*MK*I0
-.PlazoletaService.Domain.Entities.ModifyProduct"
-Descripcionstring"
-$ ((
-
-%0stringB20
-.PlazoletaService.Domain.Entities.ModifyProduct
+5PlazoletaService.Domain.Entities.Order.Id_Cliente.get
+uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Order.cs  (#"0*ˆ
+0$ ($`
+^
+  ($	
+%0int"__id*A?*=(
+&PlazoletaService.Domain.Entities.Order"
+
+Id_Clienteint"
+  ($
+	
+%0intB*(
+&PlazoletaService.Domain.Entities.Order

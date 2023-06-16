@@ -1,15 +1,13 @@
 
-=PlazoletaService.WebApi.Models.OrderProductModel.id_Plato.set‰
-C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\OrderProductModel.cs# (&"0*Ï
-0' ('k
-i
-# ('E2
-0PlazoletaService.WebApi.Models.OrderProductModel"
-id_Platoint"__id*
-
-valueint"S
-# ('G*E2
-0PlazoletaService.WebApi.Models.OrderProductModel"
-id_Platoint:
-valueintB42
-0PlazoletaService.WebApi.Models.OrderProductModel
+0PlazoletaService.WebApi.Models.OrderModel.Id.get‚
+xC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\OrderModel.cs ("0*ƒ
+0 ([
+Y
+ (	
+%0int"__id*<:*8+
+)PlazoletaService.WebApi.Models.OrderModel"	
+Idint"
+ (
+	
+%0intB-+
+)PlazoletaService.WebApi.Models.OrderModel

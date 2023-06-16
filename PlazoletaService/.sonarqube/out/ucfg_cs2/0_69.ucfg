@@ -1,15 +1,13 @@
 
-6PlazoletaService.Domain.DTO.ProductDTO.Descripcion.set
-uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\ProductDTO.cs) (,"0* 
-0- (-j
-h
-) (-A(
-&PlazoletaService.Domain.DTO.ProductDTO"
-Descripcionstring"__id*
-
-valuestring"O
-) (-C*A(
-&PlazoletaService.Domain.DTO.ProductDTO"
-Descripcionstring:
-valuestringB*(
-&PlazoletaService.Domain.DTO.ProductDTO
+/PlazoletaService.Domain.Entities.Product.Id.getÅ
+wC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Product.cs ("0*Ç
+0 (Z
+X
+ (	
+%0int"__id*;9*7*
+(PlazoletaService.Domain.Entities.Product"	
+Idint"
+ (
+	
+%0intB,*
+(PlazoletaService.Domain.Entities.Product

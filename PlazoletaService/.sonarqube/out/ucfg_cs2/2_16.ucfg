@@ -1,13 +1,19 @@
 
-<PlazoletaService.WebApi.Models.RestaurantModel.Direccion.get‡
-}C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\RestaurantModel.cs" (%"0*˜
-0& (&m
-k
-" (&
-%0string"__id*KI*G0
-.PlazoletaService.WebApi.Models.RestaurantModel"
-	Direccionstring"
-" (&
-
-%0stringB20
-.PlazoletaService.WebApi.Models.RestaurantModel
+[PlazoletaService.WebApi.Authorization.JwtAuthorizationFilter.JwtAuthorizationFilter(string)–
+‹C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Authorization\JwtAuthorizationFilter.cs (%"1*
+1	 (	*
+0*
+0 (y
+w
+ (Q>
+<PlazoletaService.WebApi.Authorization.JwtAuthorizationFilter"
+_rolestring"__id*
+
+rolestring*
+2*.
+2	 (	"
+ (	
+implicit return:
+& (1
+rolestringB@>
+<PlazoletaService.WebApi.Authorization.JwtAuthorizationFilter

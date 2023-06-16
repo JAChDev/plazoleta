@@ -1,0 +1,109 @@
+
+MPlazoletaService.Domain.Servicios.RestaurantServices.GetRestaurants(int, int)ê
+ÉC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Servicios\RestaurantServices.csä ä(*"0*
+0
+ö	 ö(	*
+1
+2*ã
+
+1
+é! ê(<å
+â
+
+é/ é(6
+%0AutoMapper.IMapper"__id*[Y*W6
+4PlazoletaService.Domain.Servicios.RestaurantServices"
+_mapperAutoMapper.IMapper⁄
+◊
+
+éM é(]9
+%13PlazoletaService.Domain.Interfaces.IMySQLRepository"__id*áÑ*Å6
+4PlazoletaService.Domain.Servicios.RestaurantServices"G
+_mysqlRepository3PlazoletaService.Domain.Interfaces.IMySQLRepositoryıÚ
+éM é(Ç(
+%2"System.Collections.Generic.List<T>"LPlazoletaService.Domain.Interfaces.IMySQLRepository.GetRestaurants(int, int)*=;
+9
+%13PlazoletaService.Domain.Interfaces.IMySQLRepository*
+""*
+""2GetRestaurants(int, int)”–
+é/ é(É(
+%3"System.Collections.Generic.List<T>"0AutoMapper.IMapperBase.Map<TDestination>(object)*
+
+%0AutoMapper.IMapper*,*
+(
+%2"System.Collections.Generic.List<T>2Map<TDestination>(object)v
+t
+é! é(É1
+restaurants"System.Collections.Generic.List<T>"__id*,*
+(
+%3"System.Collections.Generic.List<T>\Z
+
+è è(/(
+%4"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>s
+q
+
+è! è(-
+
+%5void")System.Collections.Generic.List<T>.List()*,*
+(
+%4"System.Collections.Generic.List<T>p
+n
+
+è è(/,
+result"System.Collections.Generic.List<T>"__id*,*
+(
+%4"System.Collections.Generic.List<T>*
+3*
+3
+ö	 ö(	*
+4
+5*œ
+4
+í í(Zî
+ë
+
+í- í(>
+%6string"6PlazoletaService.Domain.Entities.Restaurant.Nombre.get*=;
+9
+
+restaurant+PlazoletaService.Domain.Entities.Restaurantï
+í
+
+íH í(Z
+%7string"7PlazoletaService.Domain.Entities.Restaurant.UrlLogo.get*=;
+9
+
+restaurant+PlazoletaService.Domain.Entities.Restaurantâ
+Ü
+
+í í(\
+
+%8void"0System.Collections.Generic.ICollection<T>.Add(T)*0.
+,
+result"System.Collections.Generic.List<T>*
+""*
+3*M
+5
+î î("<
+
+î î(.
+,
+result"System.Collections.Generic.List<T>*%
+2
+ò ò("
+
+ò ò(
+""*2
+6
+ö	 ö(	"!
+
+ö ö(	
+implicit return:
+
+ä+ ä(9
+
+pageNumberint:
+
+ä; ä(G
+pageSizeintB86
+4PlazoletaService.Domain.Servicios.RestaurantServices

@@ -1,13 +1,15 @@
 
-6PlazoletaService.Domain.DTO.RestaurantDTO.Telefono.get‚
-xC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\RestaurantDTO.cs! ($"0*’
-0% (%g
-e
-! (%
-%0string"__id*EC*A+
-)PlazoletaService.Domain.DTO.RestaurantDTO"
-Telefonostring"
-! (%
-
-%0stringB-+
-)PlazoletaService.Domain.DTO.RestaurantDTO
+9PlazoletaService.Domain.Entities.ModifyProduct.Nombre.set‡
+}C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\ModifyProduct.cs% (("0*Ð
+0) ()m
+k
+% ()D0
+.PlazoletaService.Domain.Entities.ModifyProduct"
+Nombrestring"__id*
+
+valuestring"R
+% ()F*D0
+.PlazoletaService.Domain.Entities.ModifyProduct"
+Nombrestring:
+valuestringB20
+.PlazoletaService.Domain.Entities.ModifyProduct

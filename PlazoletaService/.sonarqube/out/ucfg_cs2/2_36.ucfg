@@ -1,15 +1,13 @@
 
-4PlazoletaService.WebApi.Models.OrderModel.Estado.set‚
-xC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\OrderModel.cs$ ('"0*Æ
-0( ((h
-f
-$ ((?+
-)PlazoletaService.WebApi.Models.OrderModel"
-Estadostring"__id*
-
-valuestring"M
-$ ((A*?+
-)PlazoletaService.WebApi.Models.OrderModel"
-Estadostring:
-valuestringB-+
+3PlazoletaService.WebApi.Models.OrderModel.Fecha.get‚
+xC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\OrderModel.cs  (#"0*ª
+0$ ($v
+t
+  ($
+%0System.DateTime"__id*KI*G+
+)PlazoletaService.WebApi.Models.OrderModel"
+FechaSystem.DateTime"#
+  ($
+
+%0System.DateTimeB-+
 )PlazoletaService.WebApi.Models.OrderModel

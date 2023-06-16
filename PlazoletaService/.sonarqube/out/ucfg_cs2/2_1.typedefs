@@ -1,3 +1,9 @@
-1
-Programobject
-	Program()Program.Program()
+õ
+0PlazoletaService.WebApi.Models.OrderProductModelobject[
+OrderProductModel()DPlazoletaService.WebApi.Models.OrderProductModel.OrderProductModel()O
+id_Pedido.get>PlazoletaService.WebApi.Models.OrderProductModel.id_Pedido.getO
+id_Pedido.set>PlazoletaService.WebApi.Models.OrderProductModel.id_Pedido.setM
+id_Plato.get=PlazoletaService.WebApi.Models.OrderProductModel.id_Plato.getM
+id_Plato.set=PlazoletaService.WebApi.Models.OrderProductModel.id_Plato.setM
+Cantidad.get=PlazoletaService.WebApi.Models.OrderProductModel.Cantidad.getM
+Cantidad.set=PlazoletaService.WebApi.Models.OrderProductModel.Cantidad.set

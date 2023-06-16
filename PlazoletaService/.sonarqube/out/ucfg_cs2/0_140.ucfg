@@ -1,145 +1,64 @@
 
-rPlazoletaService.Domain.Servicios.RestaurantServices.CreateRestaurant(PlazoletaService.Domain.Entities.Restaurant)é
-ÉC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Servicios\RestaurantServices.cs. .(/"0*å
-02 4(,ä
-á
-2. 2(5
+[PlazoletaService.Domain.Servicios.RestaurantServices.GetProductsByRestaurant(int, int, int)ê
+ÉC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Servicios\RestaurantServices.csú ú(4"0*
+0
+ß	 ß(	*
+1
+2*§
+1
+† °(å
+â
+
+†) †(0
 %0AutoMapper.IMapper"__id*[Y*W6
 4PlazoletaService.Domain.Servicios.RestaurantServices"
-_mapperAutoMapper.IMapperËÂ
-2. 2(T/
-%1)PlazoletaService.Domain.DTO.RestaurantDTO"0AutoMapper.IMapperBase.Map<TDestination>(object)*
-
-%0AutoMapper.IMapper*=;
-9
+_mapperAutoMapper.IMapper⁄
+◊
 
-restaurant+PlazoletaService.Domain.Entities.Restaurant2Map<TDestination>(object)Ñ
-Å
-2 2(T:
-restaurantDTO)PlazoletaService.Domain.DTO.RestaurantDTO"__id*31
-/
-%1)PlazoletaService.Domain.DTO.RestaurantDTOÿ
-’
-3. 3(>9
-%23PlazoletaService.Domain.Interfaces.IMySQLRepository"__id*áÑ*Å6
+†D †(T9
+%13PlazoletaService.Domain.Interfaces.IMySQLRepository"__id*áÑ*Å6
 4PlazoletaService.Domain.Servicios.RestaurantServices"G
-_mysqlRepository3PlazoletaService.Domain.Interfaces.IMySQLRepositoryÓÎ
-3. 3(^2
-%3,PlazoletaService.Domain.Responses.DbResponse"oPlazoletaService.Domain.Interfaces.IMySQLRepository.CreateRestaurant(PlazoletaService.Domain.DTO.RestaurantDTO)*=;
+_mysqlRepository3PlazoletaService.Domain.Interfaces.IMySQLRepositoryõò
+†D †(ê(
+%2"System.Collections.Generic.List<T>"ZPlazoletaService.Domain.Interfaces.IMySQLRepository.GetProductsByRestaurant(int, int, int)*=;
 9
-%23PlazoletaService.Domain.Interfaces.IMySQLRepository*><
-:
-restaurantDTO)PlazoletaService.Domain.DTO.RestaurantDTO2;CreateRestaurant(PlazoletaService.Domain.DTO.RestaurantDTO)ç
-ä
-3 3(^@
-createRestaurant,PlazoletaService.Domain.Responses.DbResponse"__id*64
-2
-%3,PlazoletaService.Domain.Responses.DbResponseô
-ñ
-4 4(,
+%13PlazoletaService.Domain.Interfaces.IMySQLRepository*
+""*
+""*
+""2&GetProductsByRestaurant(int, int, int)”–
+†) †(ë(
+%3"System.Collections.Generic.List<T>"0AutoMapper.IMapperBase.Map<TDestination>(object)*
+
+%0AutoMapper.IMapper*,*
+(
+%2"System.Collections.Generic.List<T>2Map<TDestination>(object)s
+q
+† †(ë.
+products"System.Collections.Generic.List<T>"__id*,*
+(
+%3"System.Collections.Generic.List<T>">
 
-%4bool"8PlazoletaService.Domain.Responses.DbResponse.Success.get*DB
-@
-createRestaurant,PlazoletaService.Domain.Responses.DbResponse*
-1
-2*ì
-1	6 6(Äyw
-	6 6(Ç7
-%51PlazoletaService.Domain.Responses.GeneralResponse"1PlazoletaService.Domain.Responses.GeneralResponseõ
-ò
-6 6(.
+° °( 0
+.
+products"System.Collections.Generic.List<T>*%
+2
+• •("
 
-%6void"CPlazoletaService.Domain.Responses.GeneralResponse.GeneralResponse()*;9
-7
-%51PlazoletaService.Domain.Responses.GeneralResponse"
- 
-6> 6(O
-%7"__id*
-""∑
-¥
-61 6(O
-%8System.Net.HttpStatusCode"@PlazoletaService.Domain.Responses.GeneralResponse.StatusCode.set*;9
-7
-%51PlazoletaService.Domain.Responses.GeneralResponse*
-
-%7√
-¿
-	6Q 6(Ä
-%9string"APlazoletaService.Domain.Responses.GeneralResponse.Description.set*;9
-7
-%51PlazoletaService.Domain.Responses.GeneralResponse*%#!
-Restaurante creado exitosamente"F
-	6 6(É9
-7
-%51PlazoletaService.Domain.Responses.GeneralResponse*ó
-2	: :(Çzx
-	: :(Ñ8
-%101PlazoletaService.Domain.Responses.GeneralResponse"1PlazoletaService.Domain.Responses.GeneralResponseù
-ö
-: :(.
-%11void"CPlazoletaService.Domain.Responses.GeneralResponse.GeneralResponse()*<:
-8
-%101PlazoletaService.Domain.Responses.GeneralResponse#
-!
-:> :(W
-%12"__id*
-""∫
-∑
-:1 :(W 
-%13System.Net.HttpStatusCode"@PlazoletaService.Domain.Responses.GeneralResponse.StatusCode.set*<:
-8
-%101PlazoletaService.Domain.Responses.GeneralResponse*	
-
-%12ø
-º
-	:Y :(Ç
-%14string"APlazoletaService.Domain.Responses.GeneralResponse.Description.set*<:
-8
-%101PlazoletaService.Domain.Responses.GeneralResponse*
-Error creando restaurante"G
-	: :(Ö:
-8
-%101PlazoletaService.Domain.Responses.GeneralResponse*
-3A	 A(	*
-4
-5*È
-4? ?(myw
-? ?(o8
-%151PlazoletaService.Domain.Responses.GeneralResponse"1PlazoletaService.Domain.Responses.GeneralResponseù
-ö
-? ?(*
-%16void"CPlazoletaService.Domain.Responses.GeneralResponse.GeneralResponse()*<:
-8
-%151PlazoletaService.Domain.Responses.GeneralResponse#
-!
-?: ?(S
-%17"__id*
-""∫
-∑
-?- ?(S 
-%18System.Net.HttpStatusCode"@PlazoletaService.Domain.Responses.GeneralResponse.StatusCode.set*<:
-8
-%151PlazoletaService.Domain.Responses.GeneralResponse*	
-
-%17b`
-?c ?(m
-%19string"System.Exception.Message.get*
-
-exSystem.Exception2Message.get∞
-≠
-?U ?(m
-%20string"APlazoletaService.Domain.Responses.GeneralResponse.Description.set*<:
-8
-%151PlazoletaService.Domain.Responses.GeneralResponse*
+• •(
+""*2
+3
+ß	 ß(	"!
 
-%19string"F
-? ?(p:
-8
-%151PlazoletaService.Domain.Responses.GeneralResponse*.
-5A	 A(	"
-A A(	
-implicit return:E
-.0 .(E9
+ß ß(	
+implicit return:!
 
-restaurant+PlazoletaService.Domain.Entities.RestaurantB86
+ú5 ú(E
+restaurantIdint:
+
+úG ú(U
+
+pageNumberint:
+
+úW ú(c
+pageSizeintB86
 4PlazoletaService.Domain.Servicios.RestaurantServices

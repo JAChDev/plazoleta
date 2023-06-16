@@ -1,15 +1,15 @@
 
-.PlazoletaService.Domain.DTO.OrderDTO.Fecha.set}
-sC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\OrderDTO.cs# (&"0*º
-0' ('b
-`
-# ('9&
-$PlazoletaService.Domain.DTO.OrderDTO"
-Fechastring"__id*
-
-valuestring"G
-# (';*9&
-$PlazoletaService.Domain.DTO.OrderDTO"
-Fechastring:
-valuestringB(&
-$PlazoletaService.Domain.DTO.OrderDTO
+1PlazoletaService.Domain.DTO.ProductDTO.Activo.get
+uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\ProductDto.cs ( "0*‡
+0! (!^
+\
+ (!
+
+%0bool"__id*><*:(
+&PlazoletaService.Domain.DTO.ProductDTO"
+Activobool"
+ (!
+
+
+%0boolB*(
+&PlazoletaService.Domain.DTO.ProductDTO

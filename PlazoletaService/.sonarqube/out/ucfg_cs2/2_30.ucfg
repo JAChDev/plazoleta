@@ -1,13 +1,13 @@
 
-=PlazoletaService.WebApi.Models.OrderProductModel.Cantidad.getâ
-C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\OrderProductModel.cs (!"0*ê
-0" ("h
+=PlazoletaService.WebApi.Models.OrderProductModel.id_Plato.getâ
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\OrderProductModel.cs (!"0*ê
+0" ("h
 f
- ("	
+ ("	
 %0int"__id*IG*E2
 0PlazoletaService.WebApi.Models.OrderProductModel"
-Cantidadint"
- ("
+id_Platoint"
+ ("
 	
 %0intB42
 0PlazoletaService.WebApi.Models.OrderProductModel

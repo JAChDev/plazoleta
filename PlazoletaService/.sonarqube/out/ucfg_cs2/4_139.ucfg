@@ -1,0 +1,69 @@
+
+_PlazoletaService.Domain.Servicios.RestaurantServices.GetOrdersWithFilter(int, string, int, int)
+ƒC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Servicios\RestaurantServices.csÔ Ô(."0*
+0
+ß	 ß(	*
+1
+2*¾
+1
+Ø Ù(Œ
+‰
+
+Ø% Ø(,
+%0AutoMapper.IMapper"__id*[Y*W6
+4PlazoletaService.Domain.Servicios.RestaurantServices"
+_mapperAutoMapper.IMapperÚ
+×
+
+Ø> Ø(N9
+%13PlazoletaService.Domain.Interfaces.IMySQLRepository"__id*‡„*6
+4PlazoletaService.Domain.Servicios.RestaurantServices"G
+_mysqlRepository3PlazoletaService.Domain.Interfaces.IMySQLRepository¹¶
+Ø> Ø(„(
+%2"System.Collections.Generic.List<T>"^PlazoletaService.Domain.Interfaces.IMySQLRepository.GetOrdersWithFilter(int, string, int, int)*=;
+9
+%13PlazoletaService.Domain.Interfaces.IMySQLRepository*
+""*
+
+filterstring*
+""*
+""2*GetOrdersWithFilter(int, string, int, int)ÓÐ
+Ø% Ø(…(
+%3"System.Collections.Generic.List<T>"0AutoMapper.IMapperBase.Map<TDestination>(object)*
+
+%0AutoMapper.IMapper*,*
+(
+%2"System.Collections.Generic.List<T>2Map<TDestination>(object)q
+o
+Ø Ø(…,
+orders"System.Collections.Generic.List<T>"__id*,*
+(
+%3"System.Collections.Generic.List<T>"<
+
+Ù Ù(.
+,
+orders"System.Collections.Generic.List<T>*%
+2
+Ý Ý("
+
+Ý Ý(
+""*2
+3
+ß	 ß(	"!
+
+ß ß(	
+implicit return:
+
+Ô/ Ô(5	
+idint:
+
+Ô7 Ô(D
+filterstring:
+
+ÔF Ô(T
+
+pageNumberint:
+
+ÔV Ô(b
+pageSizeintB86
+4PlazoletaService.Domain.Servicios.RestaurantServices

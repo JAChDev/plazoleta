@@ -1,13 +1,13 @@
 
-5PlazoletaService.Domain.Entities.ModifyProduct.Id.get‡
-}C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\ModifyProduct.cs ("0*ˆ
-0 (`
-^
- (	
-%0int"__id*A?*=0
-.PlazoletaService.Domain.Entities.ModifyProduct"	
+2PlazoletaService.Domain.Entities.Restaurant.Id.get„
+zC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Restaurant.cs ("0*…
+0 (]
+[
+ (	
+%0int"__id*><*:-
++PlazoletaService.Domain.Entities.Restaurant"	
 Idint"
- (
+ (
 	
-%0intB20
-.PlazoletaService.Domain.Entities.ModifyProduct
+%0intB/-
++PlazoletaService.Domain.Entities.Restaurant

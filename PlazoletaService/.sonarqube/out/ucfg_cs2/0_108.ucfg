@@ -1,15 +1,15 @@
 
-8PlazoletaService.Domain.DTO.OrderProductDTO.Cantidad.set„
-zC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\OrderProductDTO.cs# (&"0*Å
-0' ('f
-d
-# ('@-
-+PlazoletaService.Domain.DTO.OrderProductDTO"
-Cantidadint"__id*
+9PlazoletaService.Domain.DTO.ProductDTO.id_restaurante.set
+uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\ProductDto.cs) (,"0*Ç
+0- (-g
+e
+) (-A(
+&PlazoletaService.Domain.DTO.ProductDTO"
+id_restauranteint"__id*
 
-valueint"N
-# ('B*@-
-+PlazoletaService.Domain.DTO.OrderProductDTO"
-Cantidadint:
-valueintB/-
-+PlazoletaService.Domain.DTO.OrderProductDTO
+valueint"O
+) (-C*A(
+&PlazoletaService.Domain.DTO.ProductDTO"
+id_restauranteint:
+valueintB*(
+&PlazoletaService.Domain.DTO.ProductDTO

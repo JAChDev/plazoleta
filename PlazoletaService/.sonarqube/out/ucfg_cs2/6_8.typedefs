@@ -1,0 +1,13 @@
+§
+7PlazoletaService.WebApi.Controllers.PlazoletaController'Microsoft.AspNetCore.Mvc.ControllerBaseobjectÑ
+JPlazoletaController(PlazoletaService.Domain.Interfaces.IRestaurantService)‚PlazoletaService.WebApi.Controllers.PlazoletaController.PlazoletaController(PlazoletaService.Domain.Interfaces.IRestaurantService)¼
+@CreateRestaurant(PlazoletaService.WebApi.Models.RestaurantModel)xPlazoletaService.WebApi.Controllers.PlazoletaController.CreateRestaurant(PlazoletaService.WebApi.Models.RestaurantModel)°
+:CreateProduct(PlazoletaService.WebApi.Models.ProductModel)rPlazoletaService.WebApi.Controllers.PlazoletaController.CreateProduct(PlazoletaService.WebApi.Models.ProductModel)¼
+@UpdateProduct(PlazoletaService.WebApi.Models.ModifyProductModel)xPlazoletaService.WebApi.Controllers.PlazoletaController.UpdateProduct(PlazoletaService.WebApi.Models.ModifyProductModel)f
+ProductStatus(string)MPlazoletaService.WebApi.Controllers.PlazoletaController.ProductStatus(string)l
+GetRestaurants(int, int)PPlazoletaService.WebApi.Controllers.PlazoletaController.GetRestaurants(int, int)ˆ
+&GetProductsByRestaurant(int, int, int)^PlazoletaService.WebApi.Controllers.PlazoletaController.GetProductsByRestaurant(int, int, int)¨
+6CreateOrder(PlazoletaService.WebApi.Models.OrderModel)nPlazoletaService.WebApi.Controllers.PlazoletaController.CreateOrder(PlazoletaService.WebApi.Models.OrderModel)¾
+AAddProductOrder(PlazoletaService.WebApi.Models.OrderProductModel)yPlazoletaService.WebApi.Controllers.PlazoletaController.AddProductOrder(PlazoletaService.WebApi.Models.OrderProductModel)’
++GetOrderByRestaurant(int, string, int, int)cPlazoletaService.WebApi.Controllers.PlazoletaController.GetOrderByRestaurant(int, string, int, int)T
+HealtCheck()DPlazoletaService.WebApi.Controllers.PlazoletaController.HealtCheck()

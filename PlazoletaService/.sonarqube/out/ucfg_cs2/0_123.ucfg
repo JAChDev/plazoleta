@@ -1,15 +1,13 @@
 
-0PlazoletaService.Domain.DTO.OrderDTO.id_Chef.set}
-sC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\OrderDTO.cs" (%"0*µ
-0& (&^
-\
-" (&8&
-$PlazoletaService.Domain.DTO.OrderDTO"
-id_Chefint"__id*
+APlazoletaService.Domain.Responses.GeneralResponse.Description.getã
+ÄC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Responses\GeneralResponse.cs$ ('"0*ù
+0( ((r
+p
+$ ((
+%0string"__id*PN*L3
+1PlazoletaService.Domain.Responses.GeneralResponse"
+Descriptionstring"
+$ ((
 
-valueint"F
-" (&:*8&
-$PlazoletaService.Domain.DTO.OrderDTO"
-id_Chefint:
-valueintB(&
-$PlazoletaService.Domain.DTO.OrderDTO
+%0stringB53
+1PlazoletaService.Domain.Responses.GeneralResponse

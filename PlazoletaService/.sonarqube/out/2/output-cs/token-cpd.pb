@@ -240,7 +240,7 @@ ClaimTypes$$2 <
 }<< 
 }== 	
 }>> 
-}?? ”î
+}?? Æó
 ÜC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Controllers\PlazoletaController.cs
 	namespace 	
 PlazoletaService
@@ -1032,13 +1032,13 @@ orderModelrr4 >
 orderuu 
 .uu 
 
-id_Clienteuu 
+Id_Clienteuu 
 =uu 
 
 orderModeluu )
 .uu) *
 
-id_Clienteuu* 4
+Id_Clienteuu* 4
 ;uu4 5
 ordervv 
 .vv 
@@ -1060,12 +1060,12 @@ orderModelww %
 ;ww, -
 orderxx 
 .xx 
-id_Chefxx 
+Id_Chefxx 
 =xx 
 
 orderModelxx &
 .xx& '
-id_Chefxx' .
+Id_Chefxx' .
 ;xx. /
 orderyy 
 .yy 
@@ -1495,9 +1495,46 @@ BadRequest
 ôô 
 }
 öö 	
+[
+úú 	
+HttpGet
+úú	 
+(
+úú 
+$str
+úú 
+)
+úú 
+]
+úú 
+public
+ùù 
+IActionResult
+ùù 
+
+HealtCheck
+ùù '
+(
+ùù' (
+)
+ùù( )
+{
+ûû 	
+return
+üü 
+Ok
+üü 
+(
+üü 
+)
+üü 
+;
+üü 
 }
-õõ 
-}úú „
+†† 	
+}
+°° 
+}¢¢ Å
 ÄC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\ModifyProductModel.cs
 	namespace 	
 PlazoletaService
@@ -1532,42 +1569,46 @@ BadRequest
  
 string
 
- 
+ 
+?
+
+ 
 Nombre
 
- 
+ 
 {
 
- 
+ 
 get
 
- "
+  #
 ;
 
-" #
+# $
 set
 
-$ '
+% (
 ;
 
-' (
+( )
 }
 
-) *
+* +
 [ 	
 Required	 
 ] 
 public 
-string 
-Descripcion !
-{" #
-get$ '
-;' (
-set) ,
-;, -
-}. /
+string 
+? 
+Descripcion "
+{# $
+get% (
+;( )
+set* -
+;- .
+}/ 0
 } 
-} á
+} ñ
 xC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\OrderModel.cs
 	namespace 	
 PlazoletaService
@@ -1607,7 +1648,7 @@ OrderModel 
 public 
 int 
 
-id_Cliente 
+Id_Cliente 
 { 
 get  #
 ;# $
@@ -1636,14 +1677,15 @@ id_Cliente 
 NotNull	 
 ] 
 public 
-string 
-Estado 
-{ 
-get "
-;" #
-set$ '
-;' (
-}) *
+string 
+? 
+Estado 
+{ 
+get  #
+;# $
+set% (
+;( )
+}* +
 [ 	
 Required	 
 ] 
@@ -1652,7 +1694,7 @@ id_Cliente 
 ] 
 public 
 int 
-id_Chef 
+Id_Chef 
 { 
 get  
 ;  !
@@ -1718,7 +1760,7 @@ id_Cliente 
 ;& '
 }( )
 } 
-}		 ÷
+}		 í
 zC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\ProductModel.cs
 	namespace 	
 PlazoletaService
@@ -1737,14 +1779,15 @@ zC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaServ
 Required	 
 ] 
 public 
-string 
-Nombre 
-{ 
-get "
-;" #
-set$ '
-;' (
-}) *
+string 
+? 
+Nombre 
+{ 
+get  #
+;# $
+set% (
+;( )
+}* +
 [		 	
 Required			 
 ]		 
@@ -1779,14 +1822,15 @@ zC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaServ
 Required	 
 ] 
 public 
-string 
-Descripcion !
-{" #
-get$ '
-;' (
-set) ,
-;, -
-}. /
+string 
+? 
+Descripcion "
+{# $
+get% (
+;( )
+set* -
+;- .
+}/ 0
 [ 	
 Required	 
 ] 
@@ -1801,14 +1845,15 @@ zC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaServ
 )^ _
 ]_ `
 public 
-string 
-Precio 
-{ 
-get "
-;" #
-set$ '
-;' (
-}) *
+string 
+? 
+Precio 
+{ 
+get  #
+;# $
+set% (
+;( )
+}* +
 [ 	
 Required	 
 ] 
@@ -1825,15 +1870,16 @@ zC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaServ
 Required	 
 ] 
 public 
-string 
+string 
+? 
 
-url_imagen  
-{! "
-get# &
-;& '
-set( +
-;+ ,
-}- .
+url_imagen !
+{" #
+get$ '
+;' (
+set) ,
+;, -
+}. /
 [ 	
 Required	 
 ] 
@@ -1847,7 +1893,7 @@ url_imagen  
 ;% &
 }' (
 } 
-} ﬁ
+} ©
 }C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\RestaurantModel.cs
 	namespace 	
 PlazoletaService
@@ -1876,14 +1922,15 @@ url_imagen  
 )~ 
 ]	 Ä
 public		 
-string		 
-Nombre		 
-{		 
-get		 "
-;		" #
-set		$ '
-;		' (
-}		) *
+string		 
+?		 
+Nombre		 
+{		 
+get		  #
+;		# $
+set		% (
+;		( )
+}		* +
 [
 
  	
@@ -1894,14 +1941,15 @@ url_imagen  
 
  
 public 
-string 
-	Direccion 
-{  !
-get" %
-;% &
-set' *
-;* +
-}, -
+string 
+? 
+	Direccion  
+{! "
+get# &
+;& '
+set( +
+;+ ,
+}- .
 [ 	
 Required	 
 ] 
@@ -1934,26 +1982,28 @@ url_imagen  
 )v w
 ]w x
 public 
-string 
-Telefono 
-{  
-get! $
-;$ %
-set& )
-;) *
-}+ ,
+string 
+? 
+Telefono 
+{  !
+get" %
+;% &
+set' *
+;* +
+}, -
 [ 	
 Required	 
 ] 
 public 
-string 
-UrlLogo 
-{ 
-get  #
-;# $
-set% (
-;( )
-}* +
+string 
+? 
+UrlLogo 
+{  
+get! $
+;$ %
+set& )
+;) *
+}+ ,
 [ 	
 Required	 
 ] 
@@ -1968,14 +2018,15 @@ url_imagen  
 )P Q
 ]Q R
 public 
-string 
-Nit 
-{ 
-get 
-;  
-set! $
-;$ %
-}& '
+string 
+? 
+Nit 
+{ 
+get  
+;  !
+set" %
+;% &
+}' (
 } 
 } ı*
 nC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Program.cs

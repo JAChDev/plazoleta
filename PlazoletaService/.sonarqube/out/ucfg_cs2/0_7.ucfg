@@ -1,7 +1,10 @@
 
-.PlazoletaService.Domain.Entities.Order.Order()
-uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Order.cs	 	("0*.
-0 ("
-	 (
-implicit returnB*(
-&PlazoletaService.Domain.Entities.Order
+CPlazoletaService.Domain.Responses.GeneralResponse.GeneralResponse()‹
+€C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Responses\GeneralResponse.cs
+ 
+( "0*.
+0 ("
+
+ (
+implicit returnB53
+1PlazoletaService.Domain.Responses.GeneralResponse

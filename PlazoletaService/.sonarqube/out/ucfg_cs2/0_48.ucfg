@@ -1,13 +1,13 @@
 
-3PlazoletaService.Domain.Entities.Restaurant.Nit.get„
-zC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Restaurant.cs ("0*
-0  ( d
-b
- ( 
-%0string"__id*B@*>-
-+PlazoletaService.Domain.Entities.Restaurant"
-Nitstring"
- ( 
-
-%0stringB/-
-+PlazoletaService.Domain.Entities.Restaurant
+2PlazoletaService.Domain.Entities.Order.Id_Chef.get
+uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Order.cs ( "0*…
+0! (!]
+[
+ (!	
+%0int"__id*><*:(
+&PlazoletaService.Domain.Entities.Order"
+Id_Chefint"
+ (!
+	
+%0intB*(
+&PlazoletaService.Domain.Entities.Order

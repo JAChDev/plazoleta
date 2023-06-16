@@ -1,144 +1,92 @@
 
-gPlazoletaService.Infrastructure.Repositories.MySQLRepository.GetOrdersWithFilter(int, string, int, int)ò
-ãC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\Repositories\MySQLRepository.cs– –(1"0*
-0
-„	 „(	*
+xPlazoletaService.Infrastructure.Repositories.MySQLRepository.CreateRestaurant(PlazoletaService.Domain.DTO.RestaurantDTO)ñ
+ãC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\Repositories\MySQLRepository.cs$ $(*"0*
+00	 0(	*
 1
-2*Ü
-1
-‘ ›( ‡
-›
-
-‘ ‘(';
+2*ﬁ
+1( *(Yﬁ
+€
+( ((;
 %05PlazoletaService.Infrastructure.Database.SQLDbContext"__id*ãà*Ö>
 <PlazoletaService.Infrastructure.Repositories.MySQLRepository"C
 
-_dbContext5PlazoletaService.Infrastructure.Database.SQLDbContext«
-ƒ
-
-‘ ‘(/2
-%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"APlazoletaService.Infrastructure.Database.SQLDbContext.pedidos.get*?=
+_dbContext5PlazoletaService.Infrastructure.Database.SQLDbContext 
+«
+( (('2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"FPlazoletaService.Infrastructure.Database.SQLDbContext.restaurantes.get*?=
 ;
-%05PlazoletaService.Infrastructure.Database.SQLDbContextó
-î
-
-‘ ‘(f
-%2System.Linq.IQueryable<T>"ÖSystem.Linq.Queryable.Where<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
-System.Linq.Queryable*64
+%05PlazoletaService.Infrastructure.Database.SQLDbContextóî
+( ((:G
+%2AMicrosoft.EntityFrameworkCore.ChangeTracking.EntityEntry<TEntity>"9Microsoft.EntityFrameworkCore.DbSet<TEntity>.Add(TEntity)*64
 2
-%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
-""’
-“
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>*><
+:
+restaurantDTO)PlazoletaService.Domain.DTO.RestaurantDTO2Add(TEntity)ﬁ
+€
+) )(;
+%35PlazoletaService.Infrastructure.Database.SQLDbContext"__id*ãà*Ö>
+<PlazoletaService.Infrastructure.Repositories.MySQLRepository"C
 
-‘ ‘(o(
-%3"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*#!
-
-%2System.Linq.IQueryable<T>p
-n
+_dbContext5PlazoletaService.Infrastructure.Database.SQLDbContextüú
+) )((	
+%4int"5Microsoft.EntityFrameworkCore.DbContext.SaveChanges()*?=
+;
+%35PlazoletaService.Infrastructure.Database.SQLDbContext2SaveChanges()nl
+* *([2
+%5,PlazoletaService.Domain.Responses.DbResponse",PlazoletaService.Domain.Responses.DbResponseå
+â
+* *(%
 
-‘ ‘(o,
-Orders"System.Collections.Generic.List<T>"__id*,*
-(
-%3"System.Collections.Generic.List<T>¬
-ø
+%6void"9PlazoletaService.Domain.Responses.DbResponse.DbResponse()*64
+2
+%5,PlazoletaService.Domain.Responses.DbResponseï
+í
+*( *(6
 
-’ ’(*	
-%4int"VSystem.Linq.Enumerable.Count<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*0.
-,
-Orders"System.Collections.Generic.List<T>1
-/
+%7bool"8PlazoletaService.Domain.Responses.DbResponse.Success.set*64
+2
+%5,PlazoletaService.Domain.Responses.DbResponse*
+""™
+ß
+*8 *(Y
+%8string"8PlazoletaService.Domain.Responses.DbResponse.Message.set*64
+2
+%5,PlazoletaService.Domain.Responses.DbResponse*
+Restaurante insertado"@
+* *(\4
+2
+%5,PlazoletaService.Domain.Responses.DbResponse*
+2. .(Mnl
+. .(N2
+%9,PlazoletaService.Domain.Responses.DbResponse",PlazoletaService.Domain.Responses.DbResponseç
+ä
+. .(%
+%10void"9PlazoletaService.Domain.Responses.DbResponse.DbResponse()*64
+2
+%9,PlazoletaService.Domain.Responses.DbResponseñ
+ì
+.( .(7
+%11bool"8PlazoletaService.Domain.Responses.DbResponse.Success.set*64
+2
+%9,PlazoletaService.Domain.Responses.DbResponse*
+""b`
+.C .(M
+%12string"System.Exception.Message.get*
+
+exSystem.Exception2Message.get°
+û
+.9 .(M
+%13string"8PlazoletaService.Domain.Responses.DbResponse.Message.set*64
+2
+%9,PlazoletaService.Domain.Responses.DbResponse*
 
-’ ’(*
-totalint"__id*
-	
-%4int,
-*
-
-÷. ÷(;
-%5"__id*
-
-totalintV
-T
-
-÷! ÷(G
-%6double"System.Math.Ceiling(double)*"
-System.Math*
-"",
-*
-
-÷ ÷(G
-%7"__id*
-
-%6double,
-*
-
-÷ ÷(G
-pagesint"__id*
-
-%7Ô
-Ï
-
-ÿ  Ÿ(#/
-%8)System.Collections.Generic.IEnumerable<T>"]System.Linq.Enumerable.AsEnumerable<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*0.
-,
-Orders"System.Collections.Generic.List<T>˘
-ˆ
-
-ÿ  ⁄(6/
-%9)System.Collections.Generic.IEnumerable<T>"ZSystem.Linq.Enumerable.Skip<TSource>(System.Collections.Generic.IEnumerable<TSource>, int)*"
-System.Linq.Enumerable*31
-/
-%8)System.Collections.Generic.IEnumerable<T>*
-""˙
-˜
-
-ÿ  €(#0
-%10)System.Collections.Generic.IEnumerable<T>"ZSystem.Linq.Enumerable.Take<TSource>(System.Collections.Generic.IEnumerable<TSource>, int)*"
-System.Linq.Enumerable*31
-/
-%9)System.Collections.Generic.IEnumerable<T>*
-""Á
-‰
-
-ÿ  ‹()
-%11"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*42
-0
-%10)System.Collections.Generic.IEnumerable<T>t
-r
-
-ÿ ‹(/
-	resultado"System.Collections.Generic.List<T>"__id*-+
-)
-%11"System.Collections.Generic.List<T>"?
-
-› ›(!1
-/
-	resultado"System.Collections.Generic.List<T>*%
-2
-· ·("
-
-· ·(
-""*2
-3
-„	 „(	"!
-
-„ „(	
-implicit return:
-
-–2 –(8	
-idint:
-
-–: –(G
-filterstring:
-
-–I –(W
-
-pageNumberint:
-
-–Y –(e
-pageSizeintB@>
+%12string"@
+. .(O4
+2
+%9,PlazoletaService.Domain.Responses.DbResponse*.
+30	 0(	"
+0 0(	
+implicit return:F
+$+ $(F:
+restaurantDTO)PlazoletaService.Domain.DTO.RestaurantDTOB@>
 <PlazoletaService.Infrastructure.Repositories.MySQLRepository

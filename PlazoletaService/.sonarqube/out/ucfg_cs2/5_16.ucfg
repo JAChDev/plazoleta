@@ -1,0 +1,160 @@
+
+UPlazoletaService.Infrastructure.Repositories.MySQLRepository.GetRestaurants(int, int)ñ
+ãC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\Repositories\MySQLRepository.cs}# }(1"0*
+0
+é	 é(	*
+1
+2*˝
+1
+Å à(+‡
+›
+
+Å" Å(,;
+%05PlazoletaService.Infrastructure.Database.SQLDbContext"__id*ãà*Ö>
+<PlazoletaService.Infrastructure.Repositories.MySQLRepository"C
+
+_dbContext5PlazoletaService.Infrastructure.Database.SQLDbContextÃ
+…
+
+Å" Å(92
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"FPlazoletaService.Infrastructure.Database.SQLDbContext.restaurantes.get*?=
+;
+%05PlazoletaService.Infrastructure.Database.SQLDbContext≥∞
+
+Å" Å(G
+%2System.Linq.IQueryable<T>":Microsoft.EntityFrameworkCore.DbSet<TEntity>.AsQueryable()*64
+2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>2AsQueryable()c
+a
+
+Å Å(G(
+restaurantsSystem.Linq.IQueryable<T>"__id*#!
+
+%2System.Linq.IQueryable<T>¨
+©
+
+Ç Ç(/	
+%3int"ESystem.Linq.Queryable.Count<TSource>(System.Linq.IQueryable<TSource>)*"
+System.Linq.Queryable*,*
+(
+restaurantsSystem.Linq.IQueryable<T>1
+/
+
+Ç Ç(/
+totalint"__id*
+	
+%3int,
+*
+
+É. É(;
+%4"__id*
+
+totalintV
+T
+
+É! É(G
+%5double"System.Math.Ceiling(double)*"
+System.Math*
+"",
+*
+
+É É(G
+%6"__id*
+
+%5double,
+*
+
+É É(G
+pagesint"__id*
+
+%6[
+Y
+
+Ñ) Ñ(G	
+%7int"System.Math.Min(int, int)*"
+System.Math*
+""*
+""^
+\
+
+Ñ Ñ(H	
+%8int"System.Math.Max(int, int)*"
+System.Math*2*
+	
+%7int6
+4
+
+Ñ Ñ(H
+
+pageNumberint"__id*
+	
+%8int.
+,
+
+Ö Ö(9
+skippepint"__id*
+""ú
+ô
+
+Ü Ü(@&
+%9 System.Linq.IOrderedQueryable<T>"çSystem.Linq.Queryable.OrderBy<TSource, TKey>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, TKey>>)*"
+System.Linq.Queryable*,*
+(
+restaurantsSystem.Linq.IQueryable<T>*
+""j
+h
+
+Ü Ü(@(
+restaurantsSystem.Linq.IQueryable<T>"__id**(
+&
+%9 System.Linq.IOrderedQueryable<T>€
+ÿ
+
+á á(7 
+%10System.Linq.IQueryable<T>"ISystem.Linq.Queryable.Skip<TSource>(System.Linq.IQueryable<TSource>, int)*"
+System.Linq.Queryable*,*
+(
+restaurantsSystem.Linq.IQueryable<T>*
+
+skippepint…
+∆
+
+á á(F 
+%11System.Linq.IQueryable<T>"ISystem.Linq.Queryable.Take<TSource>(System.Linq.IQueryable<TSource>, int)*"
+System.Linq.Queryable*$"
+ 
+%10System.Linq.IQueryable<T>*
+""d
+b
+
+á á(F(
+restaurantsSystem.Linq.IQueryable<T>"__id*$"
+ 
+%11System.Linq.IQueryable<T>ﬂ
+‹
+
+à à(+)
+%12"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*,*
+(
+restaurantsSystem.Linq.IQueryable<T>"9
+
+à à(,+
+)
+%12"System.Collections.Generic.List<T>*%
+2
+å å("
+
+å å(
+""*2
+3
+é	 é(	"!
+
+é é(	
+implicit return:
+}2 }(@
+
+pageNumberint:
+}B }(N
+pageSizeintB@>
+<PlazoletaService.Infrastructure.Repositories.MySQLRepository

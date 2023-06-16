@@ -1,13 +1,15 @@
 
-3PlazoletaService.Domain.Entities.Product.Nombre.get
-wC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Product.cs (""0*
-0# (#d
-b
- (#
-%0string"__id*B@*>*
-(PlazoletaService.Domain.Entities.Product"
-Nombrestring"
- (#
-
-%0stringB,*
-(PlazoletaService.Domain.Entities.Product
+7PlazoletaService.Domain.Entities.Restaurant.UrlLogo.set„
+zC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Restaurant.cs& ()"0*Ì
+0* (*k
+i
+& (*B-
++PlazoletaService.Domain.Entities.Restaurant"
+UrlLogostring"__id*
+
+valuestring"P
+& (*D*B-
++PlazoletaService.Domain.Entities.Restaurant"
+UrlLogostring:
+valuestringB/-
++PlazoletaService.Domain.Entities.Restaurant

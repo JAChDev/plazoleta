@@ -1,15 +1,15 @@
 
-1PlazoletaService.Domain.DTO.RestaurantDTO.Nit.set‚
-xC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\RestaurantDTO.cs! ($"0*À
-0% (%e
+1PlazoletaService.Domain.Entities.Order.Estado.set
+uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Order.cs% (("0*À
+0) ()e
 c
-! (%<+
-)PlazoletaService.Domain.DTO.RestaurantDTO"
-Nitstring"__id*
+% ()<(
+&PlazoletaService.Domain.Entities.Order"
+Estadostring"__id*
 
 valuestring"J
-! (%>*<+
-)PlazoletaService.Domain.DTO.RestaurantDTO"
-Nitstring:
-valuestringB-+
-)PlazoletaService.Domain.DTO.RestaurantDTO
+% ()>*<(
+&PlazoletaService.Domain.Entities.Order"
+Estadostring:
+valuestringB*(
+&PlazoletaService.Domain.Entities.Order

@@ -1,15 +1,13 @@
 
-7PlazoletaService.Domain.DTO.OrderDTO.id_Restaurante.set}
-sC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\OrderDTO.cs) (,"0*Ã
-0- (-e
-c
-) (-?&
-$PlazoletaService.Domain.DTO.OrderDTO"
-id_Restauranteint"__id*
+8PlazoletaService.Domain.Responses.DbResponse.Message.get…
+{C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Responses\DbResponse.cs  (#"0*”
+0$ ($i
+g
+  ($
+%0string"__id*GE*C.
+,PlazoletaService.Domain.Responses.DbResponse"
+Messagestring"
+  ($
 
-valueint"M
-) (-A*?&
-$PlazoletaService.Domain.DTO.OrderDTO"
-id_Restauranteint:
-valueintB(&
-$PlazoletaService.Domain.DTO.OrderDTO
+%0stringB0.
+,PlazoletaService.Domain.Responses.DbResponse

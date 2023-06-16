@@ -1,15 +1,13 @@
 
-;PlazoletaService.Domain.Entities.OrderProduct.id_Pedido.set†
-|C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\OrderProduct.cs$ ('"0*Ë
-0( ((i
-g
-$ ((C/
--PlazoletaService.Domain.Entities.OrderProduct"
-	id_Pedidoint"__id*
-
-valueint"Q
-$ ((E*C/
--PlazoletaService.Domain.Entities.OrderProduct"
-	id_Pedidoint:
-valueintB1/
--PlazoletaService.Domain.Entities.OrderProduct
+7PlazoletaService.Domain.DTO.OrderDTO.id_Restaurante.get}
+sC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\OrderDto.cs$ ('"0*Š
+0( ((b
+`
+$ ((	
+%0int"__id*CA*?&
+$PlazoletaService.Domain.DTO.OrderDTO"
+id_Restauranteint"
+$ ((
+	
+%0intB(&
+$PlazoletaService.Domain.DTO.OrderDTO

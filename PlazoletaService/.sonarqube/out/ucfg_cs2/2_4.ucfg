@@ -1,7 +1,7 @@
 
-:PlazoletaService.WebApi.Models.ProductModel.ProductModel()„
-zC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\ProductModel.cs ("0*.
-0 ("
- (
-implicit returnB/-
-+PlazoletaService.WebApi.Models.ProductModel
+6PlazoletaService.WebApi.Models.OrderModel.OrderModel()‚
+xC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\OrderModel.cs ("0*.
+0 ("
+ (
+implicit returnB-+
+)PlazoletaService.WebApi.Models.OrderModel

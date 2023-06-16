@@ -1,17 +1,15 @@
 
-:PlazoletaService.WebApi.Models.ProductModel.url_imagen.set„
-zC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\ProductModel.cs( (+"0*Ò
-0, (,n
-l
-( (,E-
-+PlazoletaService.WebApi.Models.ProductModel"
+6PlazoletaService.WebApi.Models.ProductModel.Activo.get„
+zC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\ProductModel.cs ( "0*Œ
+0! (!c
+a
+ (!
 
-url_imagenstring"__id*
-
-valuestring"S
-( (,G*E-
-+PlazoletaService.WebApi.Models.ProductModel"
+%0bool"__id*CA*?-
++PlazoletaService.WebApi.Models.ProductModel"
+Activobool"
+ (!
 
-url_imagenstring:
-valuestringB/-
+
+%0boolB/-
 +PlazoletaService.WebApi.Models.ProductModel

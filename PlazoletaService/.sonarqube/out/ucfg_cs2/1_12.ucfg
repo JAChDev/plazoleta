@@ -1,26 +1,15 @@
 
-qPlazoletaService.Infrastructure.Database.SQLDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)è
-ÑC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\Database\SQLDbContext.cs  (/"0*€
-0 (=∏µ
- (.
-
-%0void"cMicrosoft.EntityFrameworkCore.DbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)*;97
-5PlazoletaService.Infrastructure.Database.SQLDbContext*><
-:
-modelBuilder*Microsoft.EntityFrameworkCore.ModelBuilder2;OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)Ì
- (2P
-%1JMicrosoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<TEntity>"<Microsoft.EntityFrameworkCore.ModelBuilder.Entity<TEntity>()*><
-:
-modelBuilder*Microsoft.EntityFrameworkCore.ModelBuilder2Entity<TEntity>()òï
- (=P
-%2JMicrosoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<TEntity>"UMicrosoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<TEntity>.HasNoKey()*TR
-P
-%1JMicrosoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<TEntity>2
-HasNoKey()*
-1*.
-1	 (	"
- (	
-implicit return:F
-0 (I:
-modelBuilder*Microsoft.EntityFrameworkCore.ModelBuilderB97
+APlazoletaService.Infrastructure.Database.SQLDbContext.pedidos.setè
+ÑC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\Database\SQLDbContext.cs. (1"0*’
+02 (2¬
+ø
+. (2r7
+5PlazoletaService.Infrastructure.Database.SQLDbContext"7
+pedidos,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__id*97
+5
+value,Microsoft.EntityFrameworkCore.DbSet<TEntity>"Ä
+. (2t*r7
+5PlazoletaService.Infrastructure.Database.SQLDbContext"7
+pedidos,Microsoft.EntityFrameworkCore.DbSet<TEntity>:75
+value,Microsoft.EntityFrameworkCore.DbSet<TEntity>B97
 5PlazoletaService.Infrastructure.Database.SQLDbContext

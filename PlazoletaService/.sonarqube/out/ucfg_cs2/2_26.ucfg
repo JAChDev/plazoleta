@@ -1,19 +1,13 @@
 
-[PlazoletaService.WebApi.Authorization.JwtAuthorizationFilter.JwtAuthorizationFilter(string)–
-‹C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Authorization\JwtAuthorizationFilter.cs (%"1*
-1	 (	*
-0*
-0 (y
-w
- (Q>
-<PlazoletaService.WebApi.Authorization.JwtAuthorizationFilter"
-_rolestring"__id*
-
-rolestring*
-2*.
-2	 (	"
- (	
-implicit return:
-& (1
-rolestringB@>
-<PlazoletaService.WebApi.Authorization.JwtAuthorizationFilter
+>PlazoletaService.WebApi.Models.OrderProductModel.id_Pedido.get‰
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\OrderProductModel.cs (""0*‘
+0# (#i
+g
+ (#	
+%0int"__id*JH*F2
+0PlazoletaService.WebApi.Models.OrderProductModel"
+	id_Pedidoint"
+ (#
+	
+%0intB42
+0PlazoletaService.WebApi.Models.OrderProductModel

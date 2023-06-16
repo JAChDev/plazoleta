@@ -73,8 +73,8 @@ sC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaServ
 ;] ^
 } 	
 } 
-} º
-{C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\ModifyProductDTO.cs
+} ⁄
+{C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\ModifyProductDto.cs
 	namespace 	
 PlazoletaService
  
@@ -100,27 +100,29 @@ sC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaServ
 ;  !
 }" #
 public 
-string 
-Nombre 
-{ 
-get "
-;" #
-set$ '
-;' (
-}) *
+string 
+? 
+Nombre 
+{ 
+get  #
+;# $
+set% (
+;( )
+}* +
 public 
-string 
-Descripcion !
-{" #
-get$ '
-;' (
-set) ,
-;, -
-}. /
+string 
+? 
+Descripcion "
+{# $
+get% (
+;( )
+set* -
+;- .
+}/ 0
 } 
-} ß
+} ≈
 
-sC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\OrderDTO.cs
+sC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\OrderDto.cs
 	namespace 	
 PlazoletaService
  
@@ -155,7 +157,7 @@ sC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaServ
 public 
 int 
 
-id_Cliente 
+Id_Cliente 
 { 
 get  #
 ;# $
@@ -163,26 +165,28 @@ id_Cliente 
 ;( )
 }* +
 public 
-string 
-Fecha 
-{ 
-get !
-;! "
-set# &
-;& '
-}( )
+string 
+? 
+Fecha 
+{ 
+get "
+;" #
+set$ '
+;' (
+}) *
 public 
-string 
-Estado 
-{ 
-get "
-;" #
-set$ '
-;' (
-}) *
+string 
+? 
+Estado 
+{ 
+get  #
+;# $
+set% (
+;( )
+}* +
 public 
 int 
-id_Chef 
+Id_Chef 
 { 
 get  
 ;  !
@@ -200,7 +204,7 @@ id_Cliente 
 }. /
 } 
 } ∫
-zC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\OrderProductDTO.cs
+zC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\OrderProductDto.cs
 	namespace 	
 PlazoletaService
  
@@ -244,8 +248,8 @@ zC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaServ
 ;& '
 }( )
 } 
-} º
-uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\ProductDTO.cs
+} ¯
+uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\ProductDto.cs
 	namespace 	
 PlazoletaService
  
@@ -272,14 +276,15 @@ ProductDTO		 
 ;  !
 }" #
 public 
-string 
-Nombre 
-{ 
-get "
-;" #
-set$ '
-;' (
-}) *
+string 
+? 
+Nombre 
+{ 
+get  #
+;# $
+set% (
+;( )
+}* +
 public 
 int 
 id_categoria 
@@ -290,23 +295,25 @@ ProductDTO		 
 ;* +
 }, -
 public 
-string 
-Descripcion !
-{" #
-get$ '
-;' (
-set) ,
-;, -
-}. /
+string 
+? 
+Descripcion "
+{# $
+get% (
+;( )
+set* -
+;- .
+}/ 0
 public 
-string 
-Precio 
-{ 
-get "
-;" #
-set$ '
-;' (
-}) *
+string 
+? 
+Precio 
+{ 
+get  #
+;# $
+set% (
+;( )
+}* +
 public 
 int 
 id_restaurante !
@@ -317,15 +324,16 @@ ProductDTO		 
 ;, -
 }. /
 public 
-string 
+string 
+? 
 
-url_imagen  
-{! "
-get# &
-;& '
-set( +
-;+ ,
-}- .
+url_imagen !
+{" #
+get$ '
+;' (
+set) ,
+;, -
+}. /
 public 
 bool 
 Activo 
@@ -336,8 +344,8 @@ url_imagen  
 ;% &
 }' (
 } 
-} °
-xC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\RestaurantDTO.cs
+} Ï
+xC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\RestaurantDto.cs
 	namespace 	
 PlazoletaService
  
@@ -367,23 +375,25 @@ xC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaServ
 ;  !
 }" #
 public 
-string 
-Nombre 
-{ 
-get "
-;" #
-set$ '
-;' (
-}) *
+string 
+? 
+Nombre 
+{ 
+get  #
+;# $
+set% (
+;( )
+}* +
 public 
-string 
-	Direccion 
-{  !
-get" %
-;% &
-set' *
-;* +
-}, -
+string 
+? 
+	Direccion  
+{! "
+get# &
+;& '
+set( +
+;+ ,
+}- .
 public 
 int 
 id_propietario !
@@ -394,34 +404,37 @@ xC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaServ
 ;, -
 }. /
 public 
-string 
-Telefono 
-{  
-get! $
-;$ %
-set& )
-;) *
-}+ ,
+string 
+? 
+Telefono 
+{  !
+get" %
+;% &
+set' *
+;* +
+}, -
 public 
-string 
-UrlLogo 
-{ 
-get  #
-;# $
-set% (
-;( )
-}* +
+string 
+? 
+UrlLogo 
+{  
+get! $
+;$ %
+set& )
+;) *
+}+ ,
 public 
-string 
-Nit 
-{ 
-get 
-;  
-set! $
-;$ %
-}& '
+string 
+? 
+Nit 
+{ 
+get  
+;  !
+set" %
+;% &
+}' (
 } 
-} ¿
+} ﬁ
 }C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\ModifyProduct.cs
 	namespace 	
 PlazoletaService
@@ -452,25 +465,28 @@ xC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaServ
 ;  !
 }" #
 public 
-string 
-Nombre 
-{ 
-get "
-;" #
-set$ '
-;' (
-}) *
+string 
+? 
+Nombre 
+{ 
+get  #
+;# $
+set% (
+;( )
+}* +
 public 
-string 
-Descripcion !
-{" #
-get$ '
-;' (
-set) ,
-;, -
-}. /
+string 
+? 
+Descripcion "
+{# $
+get% (
+;( )
+set* -
+;- .
+}/ 0
 } 
-} ˛	
+} ç
+
 uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Order.cs
 	namespace 	
 PlazoletaService
@@ -499,7 +515,7 @@ uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaServ
 public 
 int 
 
-id_Cliente 
+Id_Cliente 
 { 
 get  #
 ;# $
@@ -516,17 +532,18 @@ id_Cliente 
 ;( )
 }* +
 public 
-string 
-Estado 
-{ 
-get "
-;" #
-set$ '
-;' (
-}) *
+string 
+? 
+Estado 
+{ 
+get  #
+;# $
+set% (
+;( )
+}* +
 public 
 int 
-id_Chef 
+Id_Chef 
 { 
 get  
 ;  !
@@ -588,7 +605,7 @@ id_Cliente 
 ;& '
 }( )
 } 
-} ¿
+} ¸
 wC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Product.cs
 	namespace 	
 PlazoletaService
@@ -619,14 +636,15 @@ wC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaServ
 ;  !
 }" #
 public 
-string 
-Nombre 
-{ 
-get "
-;" #
-set$ '
-;' (
-}) *
+string 
+? 
+Nombre 
+{ 
+get  #
+;# $
+set% (
+;( )
+}* +
 public 
 int 
 id_categoria 
@@ -637,23 +655,25 @@ wC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaServ
 ;* +
 }, -
 public 
-string 
-Descripcion !
-{" #
-get$ '
-;' (
-set) ,
-;, -
-}. /
+string 
+? 
+Descripcion "
+{# $
+get% (
+;( )
+set* -
+;- .
+}/ 0
 public 
-string 
-Precio 
-{ 
-get "
-;" #
-set$ '
-;' (
-}) *
+string 
+? 
+Precio 
+{ 
+get  #
+;# $
+set% (
+;( )
+}* +
 public 
 int 
 id_restaurante !
@@ -664,15 +684,16 @@ wC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaServ
 ;, -
 }. /
 public 
-string 
+string 
+? 
 
-url_imagen  
-{! "
-get# &
-;& '
-set( +
-;+ ,
-}- .
+url_imagen !
+{" #
+get$ '
+;' (
+set) ,
+;, -
+}. /
 public 
 bool 
 Activo 
@@ -683,7 +704,7 @@ url_imagen  
 ;% &
 }' (
 } 
-} •
+} 
 zC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Restaurant.cs
 	namespace 	
 PlazoletaService
@@ -711,23 +732,25 @@ Restaurant		 
 ;  !
 }" #
 public 
-string 
-Nombre 
-{ 
-get "
-;" #
-set$ '
-;' (
-}) *
+string 
+? 
+Nombre 
+{ 
+get  #
+;# $
+set% (
+;( )
+}* +
 public 
-string 
-	Direccion 
-{  !
-get" %
-;% &
-set' *
-;* +
-}, -
+string 
+? 
+	Direccion  
+{! "
+get# &
+;& '
+set( +
+;+ ,
+}- .
 public 
 int 
 id_propietario !
@@ -738,32 +761,35 @@ Restaurant		 
 ;, -
 }. /
 public 
-string 
-Telefono 
-{  
-get! $
-;$ %
-set& )
-;) *
-}+ ,
+string 
+? 
+Telefono 
+{  !
+get" %
+;% &
+set' *
+;* +
+}, -
 public 
-string 
-UrlLogo 
-{ 
-get  #
-;# $
-set% (
-;( )
-}* +
+string 
+? 
+UrlLogo 
+{  
+get! $
+;$ %
+set& )
+;) *
+}+ ,
 public 
-string 
-Nit 
-{ 
-get 
-;  
-set! $
-;$ %
-}& '
+string 
+? 
+Nit 
+{ 
+get  
+;  !
+set" %
+;% &
+}' (
 } 
 } «
 ~C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Interfaces\IAuthService.cs

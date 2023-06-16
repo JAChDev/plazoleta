@@ -1,15 +1,13 @@
 
-;PlazoletaService.Domain.Entities.Product.id_restaurante.setÅ
-wC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Product.cs) (,"0*À
-0- (-i
-g
-) (-C*
-(PlazoletaService.Domain.Entities.Product"
-id_restauranteint"__id*
-
-valueint"Q
-) (-E*C*
-(PlazoletaService.Domain.Entities.Product"
-id_restauranteint:
-valueintB,*
-(PlazoletaService.Domain.Entities.Product
+:PlazoletaService.Domain.Entities.OrderProduct.Cantidad.getÜ
+|C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\OrderProduct.cs (!"0*ç
+0" ("e
+c
+ ("	
+%0int"__id*FD*B/
+-PlazoletaService.Domain.Entities.OrderProduct"
+Cantidadint"
+ ("
+	
+%0intB1/
+-PlazoletaService.Domain.Entities.OrderProduct

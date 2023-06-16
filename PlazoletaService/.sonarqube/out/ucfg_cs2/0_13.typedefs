@@ -1,19 +1,17 @@
-Õ
-)PlazoletaService.Domain.DTO.RestaurantDTOobjectL
-RestaurantDTO()9PlazoletaService.Domain.DTO.RestaurantDTO.RestaurantDTO():
-Id.get0PlazoletaService.Domain.DTO.RestaurantDTO.Id.get:
-Id.set0PlazoletaService.Domain.DTO.RestaurantDTO.Id.setB
+—
+&PlazoletaService.Domain.Entities.Orderobject9
+Order().PlazoletaService.Domain.Entities.Order.Order()7
+Id.get-PlazoletaService.Domain.Entities.Order.Id.get7
+Id.set-PlazoletaService.Domain.Entities.Order.Id.setG
+Id_Cliente.get5PlazoletaService.Domain.Entities.Order.Id_Cliente.getG
+Id_Cliente.set5PlazoletaService.Domain.Entities.Order.Id_Cliente.set=
+	Fecha.get0PlazoletaService.Domain.Entities.Order.Fecha.get=
+	Fecha.set0PlazoletaService.Domain.Entities.Order.Fecha.set?
 
-Nombre.get4PlazoletaService.Domain.DTO.RestaurantDTO.Nombre.getB
+Estado.get1PlazoletaService.Domain.Entities.Order.Estado.get?
 
-Nombre.set4PlazoletaService.Domain.DTO.RestaurantDTO.Nombre.setH
-Direccion.get7PlazoletaService.Domain.DTO.RestaurantDTO.Direccion.getH
-Direccion.set7PlazoletaService.Domain.DTO.RestaurantDTO.Direccion.setR
-id_propietario.get<PlazoletaService.Domain.DTO.RestaurantDTO.id_propietario.getR
-id_propietario.set<PlazoletaService.Domain.DTO.RestaurantDTO.id_propietario.setF
-Telefono.get6PlazoletaService.Domain.DTO.RestaurantDTO.Telefono.getF
-Telefono.set6PlazoletaService.Domain.DTO.RestaurantDTO.Telefono.setD
-UrlLogo.get5PlazoletaService.Domain.DTO.RestaurantDTO.UrlLogo.getD
-UrlLogo.set5PlazoletaService.Domain.DTO.RestaurantDTO.UrlLogo.set<
-Nit.get1PlazoletaService.Domain.DTO.RestaurantDTO.Nit.get<
-Nit.set1PlazoletaService.Domain.DTO.RestaurantDTO.Nit.set
+Estado.set1PlazoletaService.Domain.Entities.Order.Estado.setA
+Id_Chef.get2PlazoletaService.Domain.Entities.Order.Id_Chef.getA
+Id_Chef.set2PlazoletaService.Domain.Entities.Order.Id_Chef.setO
+id_Restaurante.get9PlazoletaService.Domain.Entities.Order.id_Restaurante.getO
+id_Restaurante.set9PlazoletaService.Domain.Entities.Order.id_Restaurante.set

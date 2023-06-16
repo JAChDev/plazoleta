@@ -1,15 +1,15 @@
 
-9PlazoletaService.Domain.Entities.Product.id_categoria.set
-wC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Product.cs' (*"0*Ç
-0+ (+g
+3PlazoletaService.Domain.Entities.Restaurant.Nit.set„
+zC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Restaurant.cs" (%"0*Ä
+0& (&g
 e
-' (+A*
-(PlazoletaService.Domain.Entities.Product"
-id_categoriaint"__id*
-
-valueint"O
-' (+C*A*
-(PlazoletaService.Domain.Entities.Product"
-id_categoriaint:
-valueintB,*
-(PlazoletaService.Domain.Entities.Product
+" (&>-
++PlazoletaService.Domain.Entities.Restaurant"
+Nitstring"__id*
+
+valuestring"L
+" (&@*>-
++PlazoletaService.Domain.Entities.Restaurant"
+Nitstring:
+valuestringB/-
++PlazoletaService.Domain.Entities.Restaurant

@@ -1,13 +1,13 @@
 
-8PlazoletaService.Domain.DTO.OrderProductDTO.Cantidad.getÑ
-zC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\OrderProductDTO.cs (!"0*ã
-0" ("c
-a
- ("	
-%0int"__id*DB*@-
-+PlazoletaService.Domain.DTO.OrderProductDTO"
-Cantidadint"
- ("
+;PlazoletaService.Domain.Entities.Product.id_restaurante.getÅ
+wC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Product.cs$ ('"0*é
+0( ((f
+d
+$ ((	
+%0int"__id*GE*C*
+(PlazoletaService.Domain.Entities.Product"
+id_restauranteint"
+$ ((
 	
-%0intB/-
-+PlazoletaService.Domain.DTO.OrderProductDTO
+%0intB,*
+(PlazoletaService.Domain.Entities.Product

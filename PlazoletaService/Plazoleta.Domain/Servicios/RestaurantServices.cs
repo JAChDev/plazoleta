@@ -73,7 +73,7 @@ namespace PlazoletaService.Domain.Servicios
                 
                 if (getProduct != null && getRestaurant != null) 
                 {
-                    if (getProduct.Id_Restaurante != getRestaurant.Id)
+                    if (getProduct.id_restaurante != getRestaurant.Id)
                     {
                         return new GeneralResponse { StatusCode = HttpStatusCode.BadRequest, Description = "Este plato no pertenece a su restaurante" };
                     }
@@ -109,7 +109,7 @@ namespace PlazoletaService.Domain.Servicios
 
                 if (getProduct != null && getRestaurant != null)
                 {
-                    if (getProduct.Id_Restaurante != getRestaurant.Id)
+                    if (getProduct.id_restaurante != getRestaurant.Id)
                     {
                         return new GeneralResponse { StatusCode = HttpStatusCode.BadRequest, Description = "Este plato no pertenece a su restaurante" };
                     }

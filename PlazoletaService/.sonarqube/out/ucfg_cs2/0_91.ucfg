@@ -1,15 +1,13 @@
 
-1PlazoletaService.Domain.DTO.ProductDTO.Activo.get
-uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\ProductDTO.cs ( "0*‡
-0! (!^
-\
- (!
-
-%0bool"__id*><*:(
-&PlazoletaService.Domain.DTO.ProductDTO"
-Activobool"
- (!
-
-
-%0boolB*(
+6PlazoletaService.Domain.DTO.ProductDTO.Descripcion.get
+uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\ProductDto.cs% (("0*’
+0) ()g
+e
+% ()
+%0string"__id*EC*A(
+&PlazoletaService.Domain.DTO.ProductDTO"
+Descripcionstring"
+% ()
+
+%0stringB*(
 &PlazoletaService.Domain.DTO.ProductDTO

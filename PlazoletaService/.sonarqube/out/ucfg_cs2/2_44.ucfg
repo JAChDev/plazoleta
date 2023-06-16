@@ -1,13 +1,15 @@
 
-6PlazoletaService.WebApi.Models.RestaurantModel.Nit.get‡
-}C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\RestaurantModel.cs ("0*’
-0  ( g
-e
- ( 
-%0string"__id*EC*A0
-.PlazoletaService.WebApi.Models.RestaurantModel"
-Nitstring"
- ( 
-
-%0stringB20
-.PlazoletaService.WebApi.Models.RestaurantModel
+4PlazoletaService.WebApi.Models.OrderModel.Estado.set‚
+xC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\OrderModel.cs% (("0*Æ
+0) ()h
+f
+% ()?+
+)PlazoletaService.WebApi.Models.OrderModel"
+Estadostring"__id*
+
+valuestring"M
+% ()A*?+
+)PlazoletaService.WebApi.Models.OrderModel"
+Estadostring:
+valuestringB-+
+)PlazoletaService.WebApi.Models.OrderModel

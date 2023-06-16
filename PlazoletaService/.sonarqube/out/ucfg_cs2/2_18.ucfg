@@ -1,14 +1,13 @@
 
-8PlazoletaService.WebApi.Models.OrderModel.id_Cliente.getÇ
-xC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\OrderModel.cs  (#"0*ã
-0$ ($c
-a
-  ($	
-%0int"__id*DB*@+
-)PlazoletaService.WebApi.Models.OrderModel"
-
-id_Clienteint"
-  ($
-	
-%0intB-+
-)PlazoletaService.WebApi.Models.OrderModel
+APlazoletaService.WebApi.Models.ModifyProductModel.Descripcion.getã
+ÄC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Models\ModifyProductModel.cs% (("0*ù
+0) ()r
+p
+% ()
+%0string"__id*PN*L3
+1PlazoletaService.WebApi.Models.ModifyProductModel"
+Descripcionstring"
+% ()
+
+%0stringB53
+1PlazoletaService.WebApi.Models.ModifyProductModel

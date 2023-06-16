@@ -1,4 +1,4 @@
-˝
+Ÿ
 uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService.Test\UnitTest1.cs
 
  
@@ -21,13 +21,39 @@ uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaServ
 // 11' 1
 33 44 )
 
-:: -
-<< $>>  @@5 I
-== $>>b j
->>' .>>2 9
-@@ GG #
-AA GG0 5
-GG HH2 8II; A
+MM :
+PP %[[ !\\5 J
+QQ __0 5
+ZZ [[c kee !
+[[( /[[3 :
+\\ __ #
+__ bb* 0cc+ 1
+cc dd) 1
+dd ee# (
 
-II  t
+ii @
+ll %mm5 J
+
+mm 
+oo pp #
+pp rr& 0
+tt uu )
+
+zz S 
+}} % !
+ÄÄ5 J
+~~ c k
+( /3 :
+
+ÄÄ 
+ââ #
+
+ÅÅ 
+ââ0 5$
+
+ââ 
+åå2 8
+çç; A
+
+çç  t
 rC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService.Test\Usings.cs

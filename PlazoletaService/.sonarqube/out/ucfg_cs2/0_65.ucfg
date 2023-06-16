@@ -1,13 +1,15 @@
 
-6PlazoletaService.Domain.DTO.ProductDTO.Descripcion.get
-uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\ProductDTO.cs$ ('"0*’
-0( ((g
-e
-$ ((
-%0string"__id*EC*A(
-&PlazoletaService.Domain.DTO.ProductDTO"
-Descripcionstring"
-$ ((
-
-%0stringB*(
-&PlazoletaService.Domain.DTO.ProductDTO
+1PlazoletaService.Domain.DTO.RestaurantDTO.Nit.set‚
+xC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\RestaurantDto.cs" (%"0*À
+0& (&e
+c
+" (&<+
+)PlazoletaService.Domain.DTO.RestaurantDTO"
+Nitstring"__id*
+
+valuestring"J
+" (&>*<+
+)PlazoletaService.Domain.DTO.RestaurantDTO"
+Nitstring:
+valuestringB-+
+)PlazoletaService.Domain.DTO.RestaurantDTO

@@ -151,6 +151,7 @@ Automatic Analysis for .Net projects will not be available between 12:00 CET and
   </ServerSettings>
   <LocalSettings>
     <Property Name="sonar.host.url">https://sonarcloud.io</Property>
+    <Property Name="sonar.cs.vscoveragexml.reportsPaths">coverage.xml</Property>
     <Property Name="sonar.organization">jachdev</Property>
   </LocalSettings>
   <AnalyzersSettings>

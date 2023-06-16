@@ -1,259 +1,186 @@
 
-âPlazoletaService.WebApi.Authorization.JwtAuthorizationFilter.OnAuthorization(Microsoft.AspNetCore.Mvc.Filters.AuthorizationFilterContext)ñ
-ãC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Authorization\JwtAuthorizationFilter.cs (#"0*ı
-0 (Kæ
-ª
- (1+
-%0%Microsoft.AspNetCore.Http.HttpContext"6Microsoft.AspNetCore.Mvc.ActionContext.HttpContext.get*JH
-F
-context;Microsoft.AspNetCore.Mvc.Filters.AuthorizationFilterContextò
-ï
- (A
-%1System.IServiceProvider"9Microsoft.AspNetCore.Http.HttpContext.RequestServices.get*/-
-+
-%0%Microsoft.AspNetCore.Http.HttpContext≤
-Ø
- (d5
-%2/PlazoletaService.Domain.Interfaces.IAuthService"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*OM"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*!
-
-%1System.IServiceProvideré
-ã
- (d>
-authService/PlazoletaService.Domain.Interfaces.IAuthService"__id*97
-5
-%2/PlazoletaService.Domain.Interfaces.IAuthServiceæ
-ª
- (++
-%3%Microsoft.AspNetCore.Http.HttpContext"6Microsoft.AspNetCore.Mvc.ActionContext.HttpContext.get*JH
-F
-context;Microsoft.AspNetCore.Mvc.Filters.AuthorizationFilterContextû
-õ
- (3+
-%4%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*/-
-+
-%3%Microsoft.AspNetCore.Http.HttpContext§
-°
- (;1
-%5+Microsoft.AspNetCore.Http.IHeaderDictionary"1Microsoft.AspNetCore.Http.HttpRequest.Headers.get*/-
-+
-%4%Microsoft.AspNetCore.Http.HttpRequest›⁄
- (L2
-%6,Microsoft.Extensions.Primitives.StringValues"<Microsoft.AspNetCore.Http.IHeaderDictionary.this[string].get*53
-1
-%5+Microsoft.AspNetCore.Http.IHeaderDictionary*
-Authorization2this[string].get“
-œ
- (]
-%7string"_System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*64
-2
-%6,Microsoft.Extensions.Primitives.StringValues*
-1
-2*Æ
-2^ (hs
-q
-^ (i
-%8string[]"0string.Split(string?, System.StringSplitOptions)*
-
-%7string*
- *
-""§
-°
-^ (p
-%9string"USystem.Linq.Enumerable.Last<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*
-
-%8string[]*
-1*©
-1 (+5
-3
- (p
-tokenstring"__id*
-
-%9string[
-Y
- (,
-%10bool"string.IsNullOrEmpty(string?)*
-"
-string*
-
-tokenstring*
-3
-4*Ù
-3 &(.ÜÉ
-' (D>
-%117System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler"7System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler±
-Æ
-+ (B
-%12void"QSystem.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.JwtSecurityTokenHandler()*B@
->
-%117System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler†
-ù
- (DG
-tokenHandler7System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler"__id*B@
->
-%117System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandlerÇˇ
-4 (^?
-%138Microsoft.IdentityModel.Tokens.TokenValidationParameters"NPlazoletaService.Domain.Interfaces.IAuthService.GetTokenValidationParameters()*B@
->
-authService/PlazoletaService.Domain.Interfaces.IAuthService2GetTokenValidationParameters()Ø
-¨
- (^U
-tokenValidationParameters8Microsoft.IdentityModel.Tokens.TokenValidationParameters"__id*CA
-?
-%138Microsoft.IdentityModel.Tokens.TokenValidationParameters√¿
-0 (s-
-%14&System.Security.Claims.ClaimsPrincipal"πSystem.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(string, Microsoft.IdentityModel.Tokens.TokenValidationParameters, out Microsoft.IdentityModel.Tokens.SecurityToken)*KI
-G
-tokenHandler7System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler*
-
-tokenstring*YW
-U
-tokenValidationParameters8Microsoft.IdentityModel.Tokens.TokenValidationParameters*
-""2ÅValidateToken(string, Microsoft.IdentityModel.Tokens.TokenValidationParameters, out Microsoft.IdentityModel.Tokens.SecurityToken)z
+nPlazoletaService.WebApi.Controllers.PlazoletaController.CreateOrder(PlazoletaService.WebApi.Models.OrderModel)ë
+ÜC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Controllers\PlazoletaController.csr r(("5*â
+0t |(;b`
+t t(%,
+%0&PlazoletaService.Domain.Entities.Order"&PlazoletaService.Domain.Entities.Orderz
 x
-$ (s3
-	principal&System.Security.Claims.ClaimsPrincipal"__id*1/
--
-%14&System.Security.Claims.ClaimsPrincipalø
-º
-! !(',
-%15%Microsoft.AspNetCore.Http.HttpContext"6Microsoft.AspNetCore.Mvc.ActionContext.HttpContext.get*JH
-F
-context;Microsoft.AspNetCore.Mvc.Filters.AuthorizationFilterContext◊
-‘
-! !(8-
-%16&System.Security.Claims.ClaimsPrincipal".Microsoft.AspNetCore.Http.HttpContext.User.set*0.
+t t(#
+
+%1void".PlazoletaService.Domain.Entities.Order.Order()*0.
 ,
-%15%Microsoft.AspNetCore.Http.HttpContext*75
-3
-	principal&System.Security.Claims.ClaimsPrincipal#
+%0&PlazoletaService.Domain.Entities.Orderu
+s
+t t(%/
+order&PlazoletaService.Domain.Entities.Order"__id*0.
+,
+%0&PlazoletaService.Domain.Entities.Orderè
+å
+u u(4	
+%2int"8PlazoletaService.WebApi.Models.OrderModel.Id_Cliente.get*;9
+7
+
+orderModel)PlazoletaService.WebApi.Models.OrderModelì
+ê
+u u(4	
+%3int"5PlazoletaService.Domain.Entities.Order.Id_Cliente.set*31
+/
+order&PlazoletaService.Domain.Entities.Order*
+	
+%2intñ
+ì
+v v(*
+%4System.DateTime"3PlazoletaService.WebApi.Models.OrderModel.Fecha.get*;9
+7
+
+orderModel)PlazoletaService.WebApi.Models.OrderModel¶
+£
+v v(*
+%5System.DateTime"0PlazoletaService.Domain.Entities.Order.Fecha.set*31
+/
+order&PlazoletaService.Domain.Entities.Order*
+
+%4System.DateTimeé
+ã
+w w(,
+%6string"4PlazoletaService.WebApi.Models.OrderModel.Estado.get*;9
+7
+
+orderModel)PlazoletaService.WebApi.Models.OrderModelï
+í
+w w(,
+%7string"1PlazoletaService.Domain.Entities.Order.Estado.set*31
+/
+order&PlazoletaService.Domain.Entities.Order*
+
+%6stringå
+â
+x x(.	
+%8int"5PlazoletaService.WebApi.Models.OrderModel.Id_Chef.get*;9
+7
+
+orderModel)PlazoletaService.WebApi.Models.OrderModelê
+ç
+x x(.	
+%9int"2PlazoletaService.Domain.Entities.Order.Id_Chef.set*31
+/
+order&PlazoletaService.Domain.Entities.Order*
+	
+%8intî
+ë
+y# y(<
+
+%10int"<PlazoletaService.WebApi.Models.OrderModel.id_Restaurante.get*;9
+7
+
+orderModel)PlazoletaService.WebApi.Models.OrderModelô
+ñ
+y y(<
+
+%11int"9PlazoletaService.Domain.Entities.Order.id_Restaurante.set*31
+/
+order&PlazoletaService.Domain.Entities.Order*
+
+
+%10int‚
+ﬂ
+{' {(9<
+%125PlazoletaService.Domain.Interfaces.IRestaurantService"__id*éã*à9
+7PlazoletaService.WebApi.Controllers.PlazoletaController"K
+_restaurantService5PlazoletaService.Domain.Interfaces.IRestaurantServiceﬁ€
+{' {(L8
+%131PlazoletaService.Domain.Responses.GeneralResponse"iPlazoletaService.Domain.Interfaces.IRestaurantService.CreateOrder(PlazoletaService.Domain.Entities.Order)*@>
+<
+%125PlazoletaService.Domain.Interfaces.IRestaurantService*31
+/
+order&PlazoletaService.Domain.Entities.Order23CreateOrder(PlazoletaService.Domain.Entities.Order)ê
+ç
+{ {(L=
+response1PlazoletaService.Domain.Responses.GeneralResponse"__id*<:
+8
+%131PlazoletaService.Domain.Responses.GeneralResponse¥
+±
+| |(& 
+%14System.Net.HttpStatusCode"@PlazoletaService.Domain.Responses.GeneralResponse.StatusCode.get*A?
+=
+response1PlazoletaService.Domain.Responses.GeneralResponse#
 !
-$2 $(A
-%17"__id*
-""Ã…
-$  $(B0
-%18)System.Collections.Generic.IEnumerable<T>"6System.Security.Claims.ClaimsPrincipal.FindAll(string)*75
-3
-	principal&System.Security.Claims.ClaimsPrincipal*	
-
-%172FindAll(string)û
-õ
-$  $(W0
-%19)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
-System.Linq.Enumerable*42
-0
-%18)System.Collections.Generic.IEnumerable<T>*
-""Â
-‚
-$  $(`)
-%20"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*42
-0
-%19)System.Collections.Generic.IEnumerable<T>n
-l
-$ $(`+
-roles"System.Collections.Generic.List<T>"__id*-+
-)
-%20"System.Collections.Generic.List<T>*
-5*
-5=	 =(	*
-6
-7*˘
-6( (((x
-v
-( (( 
-%21string"__id*US*Q>
-<PlazoletaService.WebApi.Authorization.JwtAuthorizationFilter"
-_rolestringh
-f
-( (((
-%22bool""string.operator !=(string, string)*
-"
-string*
-
-%21string*
+|* |(;
+%15"__id*
 ""*
-8
-9*Ö
-8*  *(-x
-v
-*( *(-
-%23string"__id*US*Q>
-<PlazoletaService.WebApi.Authorization.JwtAuthorizationFilter"
-_rolestringr
-p
-*  *(-
-%24bool""string.operator ==(string, string)*
-"
-string*
-
-rolestring*
+1
+2*ı
+1|> |(IÒÓ
+|> |(J.
+%19'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*A?
+=
+response1PlazoletaService.Domain.Responses.GeneralResponse2Ok(object?)v
+t
+|> |(J.
+%17'Microsoft.AspNetCore.Mvc.OkObjectResult"__id*20
+.
+%19'Microsoft.AspNetCore.Mvc.OkObjectResultu
+s
+|> |(J-
+%16&Microsoft.AspNetCore.Mvc.IActionResult"__id*20
+.
+%17'Microsoft.AspNetCore.Mvc.OkObjectResult*
+3*ß
+2|M |(`âÜ
+|M |(a6
+%20/Microsoft.AspNetCore.Mvc.BadRequestObjectResult";Microsoft.AspNetCore.Mvc.ControllerBase.BadRequest(object?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*A?
+=
+response1PlazoletaService.Domain.Responses.GeneralResponse2BadRequest(object?)á
+Ñ
+|M |(a6
+%18/Microsoft.AspNetCore.Mvc.BadRequestObjectResult"__id*:8
+6
+%20/Microsoft.AspNetCore.Mvc.BadRequestObjectResult}
+{
+|M |(a-
+%16&Microsoft.AspNetCore.Mvc.IActionResult"__id*:8
+6
+%18/Microsoft.AspNetCore.Mvc.BadRequestObjectResult*
+3*J
+3~	 ~(	";
+| |(b/
+-
+%16&Microsoft.AspNetCore.Mvc.IActionResult*.
+4~	 ~(	"
+~ ~(	
+implicit return*å
+5r? r(?Ä
+~
+r r((d
+7
 
-%23string*
-10
-11*"
-10=	 =(	"
-*1 *(8
-""*ã
-11+# +(Fa_
-+4 +(F,
-%25%Microsoft.AspNetCore.Mvc.ForbidResult"%Microsoft.AspNetCore.Mvc.ForbidResultÅ
-
-+8 +(D
-%26void"4Microsoft.AspNetCore.Mvc.ForbidResult.ForbidResult()*0.
-,
-%25%Microsoft.AspNetCore.Mvc.ForbidResultéã
-+# +(F-
-%27&Microsoft.AspNetCore.Mvc.IActionResult"FMicrosoft.AspNetCore.Mvc.Filters.AuthorizationFilterContext.Result.set*JH
-F
-context;Microsoft.AspNetCore.Mvc.Filters.AuthorizationFilterContext*0.
-,
-%25%Microsoft.AspNetCore.Mvc.ForbidResult2
-Result.set*
-5*!
-9=	 =(	"
-/ /(#
-""*
-7=	 =(	*
-12
-13*±
-126 6(=mk
-6% 6(=2
-%28+Microsoft.AspNetCore.Mvc.UnauthorizedResult"+Microsoft.AspNetCore.Mvc.UnauthorizedResultî
-ë
-6) 6(;
-%29void"@Microsoft.AspNetCore.Mvc.UnauthorizedResult.UnauthorizedResult()*64
-2
-%28+Microsoft.AspNetCore.Mvc.UnauthorizedResultîë
-6 6(=-
-%30&Microsoft.AspNetCore.Mvc.IActionResult"FMicrosoft.AspNetCore.Mvc.Filters.AuthorizationFilterContext.Result.set*JH
-F
-context;Microsoft.AspNetCore.Mvc.Filters.AuthorizationFilterContext*64
-2
-%28+Microsoft.AspNetCore.Mvc.UnauthorizedResult2
-Result.set*
-13*∞
-4; ;(9mk
-;! ;(92
-%31+Microsoft.AspNetCore.Mvc.UnauthorizedResult"+Microsoft.AspNetCore.Mvc.UnauthorizedResultî
-ë
-;% ;(7
-%32void"@Microsoft.AspNetCore.Mvc.UnauthorizedResult.UnauthorizedResult()*64
-2
-%31+Microsoft.AspNetCore.Mvc.UnauthorizedResultîë
-; ;(9-
-%33&Microsoft.AspNetCore.Mvc.IActionResult"FMicrosoft.AspNetCore.Mvc.Filters.AuthorizationFilterContext.Result.set*JH
-F
-context;Microsoft.AspNetCore.Mvc.Filters.AuthorizationFilterContext*64
-2
-%31+Microsoft.AspNetCore.Mvc.UnauthorizedResult2
-Result.set*
-13*/
-13=	 =(	"
-= =(	
-implicit return:R
-$ (FF
-context;Microsoft.AspNetCore.Mvc.Filters.AuthorizationFilterContextB@>
-<PlazoletaService.WebApi.Authorization.JwtAuthorizationFilter
+orderModel)PlazoletaService.WebApi.Models.OrderModel")
+<Fecha>k__BackingFieldSystem.DateTime"__entrypointo
+m
+r r((S
+7
+
+orderModel)PlazoletaService.WebApi.Models.OrderModel"
+FechaSystem.DateTime"__entrypointx
+v
+r r((\
+7
+
+orderModel)PlazoletaService.WebApi.Models.OrderModel"!
+<Estado>k__BackingFieldstring"__entrypointg
+e
+r r((K
+7
+
+orderModel)PlazoletaService.WebApi.Models.OrderModel"
+Estadostring"__entrypoint!
+
+r r((
+%21"__entrypoint*
+0:C
+r) r(>7
+
+orderModel)PlazoletaService.WebApi.Models.OrderModelB;9
+7PlazoletaService.WebApi.Controllers.PlazoletaController

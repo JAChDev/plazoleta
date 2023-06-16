@@ -46,7 +46,7 @@ namespace PlazoletaService.WebApi.Controllers
             product.id_categoria = productModel.id_categoria;
             product.Descripcion = productModel.Descripcion;
             product.Precio = productModel.Precio;
-            product.Id_Restaurante = productModel.Id_Restaurante;
+            product.id_restaurante = productModel.id_restaurante;
             product.url_imagen = productModel.url_imagen;
             product.Activo = productModel.Activo;
             GeneralResponse response = _restaurantService.CreateProduct(product);
@@ -118,7 +118,7 @@ namespace PlazoletaService.WebApi.Controllers
             order.Fecha = orderModel.Fecha;
             order.Estado = orderModel.Estado;
             order.Id_Chef = orderModel.Id_Chef;
-            order.Id_Restaurante = orderModel.Id_Restaurante;
+            order.id_Restaurante = orderModel.id_Restaurante;
 
             GeneralResponse response = _restaurantService.CreateOrder(order);
             return response.StatusCode == HttpStatusCode.OK ? Ok(response) : BadRequest(response);
@@ -151,6 +151,12 @@ namespace PlazoletaService.WebApi.Controllers
             {
                 return Ok(response);
             }
+        }
+
+        [HttpGet("Healt")]
+        public IActionResult HealtCheck()
+        {
+            return Ok();
         }
     }
 }

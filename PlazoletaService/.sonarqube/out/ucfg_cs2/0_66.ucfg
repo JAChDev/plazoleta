@@ -1,13 +1,13 @@
 
-8PlazoletaService.Domain.Entities.Product.Descripcion.getÅ
-wC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\Entities\Product.cs$ ('"0*î
-0( ((i
-g
-$ ((
-%0string"__id*GE*C*
-(PlazoletaService.Domain.Entities.Product"
-Descripcionstring"
-$ ((
-
-%0stringB,*
-(PlazoletaService.Domain.Entities.Product
+-PlazoletaService.Domain.DTO.ProductDTO.Id.get
+uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DTO\ProductDto.cs ("0*Ä
+0 (X
+V
+ (	
+%0int"__id*97*5(
+&PlazoletaService.Domain.DTO.ProductDTO"	
+Idint"
+ (
+	
+%0intB*(
+&PlazoletaService.Domain.DTO.ProductDTO

@@ -1,11 +1,11 @@
-»
-,PlazoletaService.Domain.DTO.ModifyProductDTOobjectU
-ModifyProductDTO()?PlazoletaService.Domain.DTO.ModifyProductDTO.ModifyProductDTO()=
-Id.get3PlazoletaService.Domain.DTO.ModifyProductDTO.Id.get=
-Id.set3PlazoletaService.Domain.DTO.ModifyProductDTO.Id.setE
+Å
+.PlazoletaService.Domain.Entities.ModifyProductobjectQ
+ModifyProduct()>PlazoletaService.Domain.Entities.ModifyProduct.ModifyProduct()?
+Id.get5PlazoletaService.Domain.Entities.ModifyProduct.Id.get?
+Id.set5PlazoletaService.Domain.Entities.ModifyProduct.Id.setG
 
-Nombre.get7PlazoletaService.Domain.DTO.ModifyProductDTO.Nombre.getE
+Nombre.get9PlazoletaService.Domain.Entities.ModifyProduct.Nombre.getG
 
-Nombre.set7PlazoletaService.Domain.DTO.ModifyProductDTO.Nombre.setO
-Descripcion.get<PlazoletaService.Domain.DTO.ModifyProductDTO.Descripcion.getO
-Descripcion.set<PlazoletaService.Domain.DTO.ModifyProductDTO.Descripcion.set
+Nombre.set9PlazoletaService.Domain.Entities.ModifyProduct.Nombre.setQ
+Descripcion.get>PlazoletaService.Domain.Entities.ModifyProduct.Descripcion.getQ
+Descripcion.set>PlazoletaService.Domain.Entities.ModifyProduct.Descripcion.set
