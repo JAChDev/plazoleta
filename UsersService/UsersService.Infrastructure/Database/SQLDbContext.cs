@@ -22,7 +22,7 @@ namespace UsersService.Infrastructure.Database
             base.OnModelCreating(modelBuilder);
         }
 
-        public DbSet<UserDTO> Usuarios { get; set; }
+        public DbSet<UserDTO> usuarios { get; set; }
         
     }
 }

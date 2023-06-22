@@ -23,7 +23,7 @@ namespace UsersService.Infrastructure.Repositories
         {
             try
             {
-                _dbContext.Usuarios.Add(userDTO);
+                _dbContext.usuarios.Add(userDTO);
                 _dbContext.SaveChanges();
                 return new DbResponse { Success=true,Message="Inserción realizada"};
             }
@@ -38,10 +38,10 @@ namespace UsersService.Infrastructure.Repositories
         {
             try
             {
-                var user = _dbContext.Usuarios.FirstOrDefault(x => x.Correo == email);
+                var user = _dbContext.usuarios.FirstOrDefault(x => x.Correo == email);
                 return user != null ? user : null;
             }
-            catch(Exception ex)
+            catch
             {
                 return null;
             }

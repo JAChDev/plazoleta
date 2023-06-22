@@ -65,5 +65,11 @@ namespace UsersService.WebApi.Controllers
 
             return response.StatusCode == System.Net.HttpStatusCode.OK ? Ok(response) : BadRequest(response);
         }
+
+        [HttpGet("Healt")]
+        public IActionResult HealtCheck()
+        {
+            return Ok();
+        }
     }
 }

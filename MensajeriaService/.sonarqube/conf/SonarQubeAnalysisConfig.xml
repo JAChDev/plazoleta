@@ -6,7 +6,7 @@
   <SonarScannerWorkingDirectory>C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService</SonarScannerWorkingDirectory>
   <HasBeginStepCommandLineCredentials>false</HasBeginStepCommandLineCredentials>
   <SonarQubeHostUrl>https://sonarcloud.io</SonarQubeHostUrl>
-  <SonarQubeVersion>8.0.0.42599</SonarQubeVersion>
+  <SonarQubeVersion>8.0.0.42817</SonarQubeVersion>
   <SonarProjectKey>JAChDev_plazoleta</SonarProjectKey>
   <AdditionalConfig>
     <ConfigSetting Id="BuildUri" />
@@ -147,10 +147,11 @@
 Automatic Analysis for .Net projects will not be available between 12:00 CET and 13:00 CET</Property>
     <Property Name="sonar.maintenance_mode.link">https://sonarcloud.statuspage.io/incidents/nfdwd9q34jlj</Property>
     <Property Name="sonar.maintenance_mode.start_date">12/06/2023 6:00:00 a. m.</Property>
-    <Property Name="sonar.core.startTime">13/06/2023 2:08:53 a. m.</Property>
+    <Property Name="sonar.core.startTime">20/06/2023 3:18:26 a. m.</Property>
   </ServerSettings>
   <LocalSettings>
     <Property Name="sonar.host.url">https://sonarcloud.io</Property>
+    <Property Name="sonar.cs.vscoveragexml.reportsPaths">coverage.xml</Property>
     <Property Name="sonar.organization">jachdev</Property>
   </LocalSettings>
   <AnalyzersSettings>

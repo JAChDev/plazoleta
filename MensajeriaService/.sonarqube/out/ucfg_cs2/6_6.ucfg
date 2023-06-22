@@ -1,0 +1,28 @@
+
+}MensajeriaService.WebApi.Controllers.MessageController.MessageController(MensajeriaService.Domain.Interfaces.IMessageService)‘
+†C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService\Controllers\MessageController.cs ( "3*‹
+1	 (	w
+u
+
+%0void"8Microsoft.AspNetCore.Mvc.ControllerBase.ControllerBase()*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+0*ø
+0 (,ã
+à
+ (,‚8
+6MensajeriaService.WebApi.Controllers.MessageController"F
+_messageService3MensajeriaService.Domain.Interfaces.IMessageService"__id*IG
+E
+messageService3MensajeriaService.Domain.Interfaces.IMessageService*
+2*.
+2	 (	"
+ (	
+implicit return*4
+3@ (@ 
+
+ ( 
+%1"__entrypoint*
+1:Q
+! (?E
+messageService3MensajeriaService.Domain.Interfaces.IMessageServiceB:8
+6MensajeriaService.WebApi.Controllers.MessageController

@@ -3,5 +3,5 @@ projectKey=JAChDev_plazoleta
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.42664
 dashboardUrl=https://sonarcloud.io/dashboard?id=JAChDev_plazoleta
-ceTaskId=AYjEwfXQQlkxE4dtkEWl
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYjEwfXQQlkxE4dtkEWl
+ceTaskId=AYjEx877eRCK6XVoddFc
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYjEx877eRCK6XVoddFc

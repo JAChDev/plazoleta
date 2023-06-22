@@ -1,0 +1,5 @@
+û
+0MensajeriaService.Domain.Services.MessageServiceobject3MensajeriaService.Domain.Interfaces.IMessageService·
+AMessageService(MensajeriaService.Domain.Interfaces.IMessagingApi)rMensajeriaService.Domain.Services.MessageService.MessageService(MensajeriaService.Domain.Interfaces.IMessagingApi)¡
+6SendSMS(MensajeriaService.Domain.Entities.MessageData)gMensajeriaService.Domain.Services.MessageService.SendSMS(MensajeriaService.Domain.Entities.MessageData)«
+;SendWhatsapp(MensajeriaService.Domain.Entities.MessageData)lMensajeriaService.Domain.Services.MessageService.SendWhatsapp(MensajeriaService.Domain.Entities.MessageData)
