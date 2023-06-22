@@ -11,11 +11,11 @@ env:
   AWS_REGION: 'us-east-2'
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-  AWS_ECR_REPO_NAME: 'users-application'
-  AWS_ECR_REPO_LINK: '899526510733.dkr.ecr.us-east-2.amazonaws.com/users-application'
+  AWS_ECR_REPO_NAME: 'plazoleta-application'
+  AWS_ECR_REPO_LINK: '899526510733.dkr.ecr.us-east-2.amazonaws.com/plazoleta-application'
   AWS_ECR_REPO_PATH: '899526510733.dkr.ecr.us-east-2.amazonaws.com'
-  AWS_EB_ENVIRONMENT: 'Users-aws-env'
-  AWS_EB_APPLICATION: 'users-aws'
+  AWS_EB_ENVIRONMENT: 'Plazoleta-aws-env'
+  AWS_EB_APPLICATION: 'plazoleta-aws'
 
 jobs:
   build-and-test:
