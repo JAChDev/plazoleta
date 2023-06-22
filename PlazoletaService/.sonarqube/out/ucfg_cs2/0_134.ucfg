@@ -1,0 +1,55 @@
+
+7PlazoletaService.Domain.MappingProfile.MappingProfile()
+uC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\MappingProfile.cs ("1*Z
+1	 (	F
+D
+
+%0void"AutoMapper.Profile.Profile()*
+AutoMapper.Profile*
+0*µ
+0 (6š
+—
+ (2:
+%14AutoMapper.IMappingExpression<TSource, TDestination>"5AutoMapper.Profile.CreateMap<TSource, TDestination>()*
+AutoMapper.Profileš
+—
+ (2:
+%24AutoMapper.IMappingExpression<TSource, TDestination>"5AutoMapper.Profile.CreateMap<TSource, TDestination>()*
+AutoMapper.Profileš
+—
+ (8:
+%34AutoMapper.IMappingExpression<TSource, TDestination>"5AutoMapper.Profile.CreateMap<TSource, TDestination>()*
+AutoMapper.Profileš
+—
+ (8:
+%44AutoMapper.IMappingExpression<TSource, TDestination>"5AutoMapper.Profile.CreateMap<TSource, TDestination>()*
+AutoMapper.Profileš
+—
+ (,:
+%54AutoMapper.IMappingExpression<TSource, TDestination>"5AutoMapper.Profile.CreateMap<TSource, TDestination>()*
+AutoMapper.Profileš
+—
+ (,:
+%64AutoMapper.IMappingExpression<TSource, TDestination>"5AutoMapper.Profile.CreateMap<TSource, TDestination>()*
+AutoMapper.Profileš
+—
+ ((:
+%74AutoMapper.IMappingExpression<TSource, TDestination>"5AutoMapper.Profile.CreateMap<TSource, TDestination>()*
+AutoMapper.Profileš
+—
+ ((:
+%84AutoMapper.IMappingExpression<TSource, TDestination>"5AutoMapper.Profile.CreateMap<TSource, TDestination>()*
+AutoMapper.Profileš
+—
+ (6:
+%94AutoMapper.IMappingExpression<TSource, TDestination>"5AutoMapper.Profile.CreateMap<TSource, TDestination>()*
+AutoMapper.Profile›
+˜
+ (6;
+%104AutoMapper.IMappingExpression<TSource, TDestination>"5AutoMapper.Profile.CreateMap<TSource, TDestination>()*
+AutoMapper.Profile*
+2*.
+2	 (	"
+ (	
+implicit returnB*(
+&PlazoletaService.Domain.MappingProfile

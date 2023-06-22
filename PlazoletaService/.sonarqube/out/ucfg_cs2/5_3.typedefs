@@ -1,0 +1,14 @@
+¸
+<PlazoletaService.Infrastructure.Repositories.MySQLRepositoryobject3PlazoletaService.Domain.Interfaces.IMySQLRepositoryÎ
+FMySQLRepository(PlazoletaService.Infrastructure.Database.SQLDbContext)ƒPlazoletaService.Infrastructure.Repositories.MySQLRepository.MySQLRepository(PlazoletaService.Infrastructure.Database.SQLDbContext)«
+5CreateProduct(PlazoletaService.Domain.DTO.ProductDTO)rPlazoletaService.Infrastructure.Repositories.MySQLRepository.CreateProduct(PlazoletaService.Domain.DTO.ProductDTO)·
+;CreateRestaurant(PlazoletaService.Domain.DTO.RestaurantDTO)xPlazoletaService.Infrastructure.Repositories.MySQLRepository.CreateRestaurant(PlazoletaService.Domain.DTO.RestaurantDTO)w
+GetRestaurantByOwnerId(int)XPlazoletaService.Infrastructure.Repositories.MySQLRepository.GetRestaurantByOwnerId(int)g
+GetProductById(int)PPlazoletaService.Infrastructure.Repositories.MySQLRepository.GetProductById(int)·
+;UpdateProduct(PlazoletaService.Domain.DTO.ModifyProductDTO)xPlazoletaService.Infrastructure.Repositories.MySQLRepository.UpdateProduct(PlazoletaService.Domain.DTO.ModifyProductDTO)i
+ActivateProduct(int)QPlazoletaService.Infrastructure.Repositories.MySQLRepository.ActivateProduct(int)q
+GetRestaurants(int, int)UPlazoletaService.Infrastructure.Repositories.MySQLRepository.GetRestaurants(int, int)
+&GetProductsByRestaurant(int, int, int)cPlazoletaService.Infrastructure.Repositories.MySQLRepository.GetProductsByRestaurant(int, int, int)£
+1CreateOrder(PlazoletaService.Domain.DTO.OrderDTO)nPlazoletaService.Infrastructure.Repositories.MySQLRepository.CreateOrder(PlazoletaService.Domain.DTO.OrderDTO)¹
+<AddOrderProduct(PlazoletaService.Domain.DTO.OrderProductDTO)yPlazoletaService.Infrastructure.Repositories.MySQLRepository.AddOrderProduct(PlazoletaService.Domain.DTO.OrderProductDTO)•
+*GetOrdersWithFilter(int, string, int, int)gPlazoletaService.Infrastructure.Repositories.MySQLRepository.GetOrdersWithFilter(int, string, int, int)

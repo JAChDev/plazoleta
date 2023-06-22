@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "IwvIEmQub4QAFKUTFbo/Gkq5fnglqB+PpgWVz5OQ8Qs=",
+  "Source": "PlazoletaService.WebApi",
+  "BasePath": "_content/PlazoletaService.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

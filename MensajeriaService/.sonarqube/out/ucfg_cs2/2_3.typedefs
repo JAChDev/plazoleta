@@ -1,0 +1,6 @@
+â
+6MensajeriaService.WebApi.Controllers.MessageController'Microsoft.AspNetCore.Mvc.ControllerBaseobjectÇ
+FMessageController(MensajeriaService.Domain.Interfaces.IMessageService)}MensajeriaService.WebApi.Controllers.MessageController.MessageController(MensajeriaService.Domain.Interfaces.IMessageService)¥
+5SendSMS(MensajeriaService.WebApi.Models.MessageModel)lMensajeriaService.WebApi.Controllers.MessageController.SendSMS(MensajeriaService.WebApi.Models.MessageModel)¯
+:SendWhatsapp(MensajeriaService.WebApi.Models.MessageModel)qMensajeriaService.WebApi.Controllers.MessageController.SendWhatsapp(MensajeriaService.WebApi.Models.MessageModel)S
+HealtCheck()CMensajeriaService.WebApi.Controllers.MessageController.HealtCheck()

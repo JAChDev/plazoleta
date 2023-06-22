@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Dgfk2jIZskbBmpEgeYYvxTdWNXh1HYlgqxRdZ9DXRws=",
+  "Source": "UsersService.WebApi",
+  "BasePath": "_content/UsersService.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

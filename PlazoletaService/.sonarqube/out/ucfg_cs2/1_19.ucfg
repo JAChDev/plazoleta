@@ -1,0 +1,94 @@
+
+rPlazoletaService.Infrastructure.Repositories.MySQLRepository.CreateProduct(PlazoletaService.Domain.DTO.ProductDTO)–
+‹C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\Repositories\MySQLRepository.cs ('"0*
+0"	 "(	*
+1
+2*Ì
+1 (SÞ
+Û
+ (;
+%05PlazoletaService.Infrastructure.Database.SQLDbContext"__id*‹ˆ*…>
+<PlazoletaService.Infrastructure.Repositories.MySQLRepository"C
+
+_dbContext5PlazoletaService.Infrastructure.Database.SQLDbContextÄ
+Á
+ (!2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"@PlazoletaService.Infrastructure.Database.SQLDbContext.platos.get*?=
+;
+%05PlazoletaService.Infrastructure.Database.SQLDbContext‘Ž
+ (1G
+%2AMicrosoft.EntityFrameworkCore.ChangeTracking.EntityEntry<TEntity>"9Microsoft.EntityFrameworkCore.DbSet<TEntity>.Add(TEntity)*64
+2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>*86
+4
+
+productDTO&PlazoletaService.Domain.DTO.ProductDTO2Add(TEntity)Þ
+Û
+ (;
+%35PlazoletaService.Infrastructure.Database.SQLDbContext"__id*‹ˆ*…>
+<PlazoletaService.Infrastructure.Repositories.MySQLRepository"C
+
+_dbContext5PlazoletaService.Infrastructure.Database.SQLDbContextŸœ
+ ((	
+%4int"5Microsoft.EntityFrameworkCore.DbContext.SaveChanges()*?=
+;
+%35PlazoletaService.Infrastructure.Database.SQLDbContext2SaveChanges()nl
+ (U2
+%5,PlazoletaService.Domain.Responses.DbResponse",PlazoletaService.Domain.Responses.DbResponseŒ
+‰
+ (%
+
+%6void"9PlazoletaService.Domain.Responses.DbResponse.DbResponse()*64
+2
+%5,PlazoletaService.Domain.Responses.DbResponse•
+’
+( (6
+
+%7bool"8PlazoletaService.Domain.Responses.DbResponse.Success.set*64
+2
+%5,PlazoletaService.Domain.Responses.DbResponse*
+""¤
+¡
+8 (S
+%8string"8PlazoletaService.Domain.Responses.DbResponse.Message.set*64
+2
+%5,PlazoletaService.Domain.Responses.DbResponse*
+Plato insertado"@
+ (V4
+2
+%5,PlazoletaService.Domain.Responses.DbResponse*ð
+2   (Mnl
+   (O2
+%9,PlazoletaService.Domain.Responses.DbResponse",PlazoletaService.Domain.Responses.DbResponse
+Š
+   (%
+%10void"9PlazoletaService.Domain.Responses.DbResponse.DbResponse()*64
+2
+%9,PlazoletaService.Domain.Responses.DbResponse–
+“
+ (  (7
+%11bool"8PlazoletaService.Domain.Responses.DbResponse.Success.set*64
+2
+%9,PlazoletaService.Domain.Responses.DbResponse*
+""b`
+ C  (M
+%12string"System.Exception.Message.get*
+
+exSystem.Exception2Message.get¡
+ž
+ 9  (M
+%13string"8PlazoletaService.Domain.Responses.DbResponse.Message.set*64
+2
+%9,PlazoletaService.Domain.Responses.DbResponse*
+
+%12string"@
+   (P4
+2
+%9,PlazoletaService.Domain.Responses.DbResponse*.
+3"	 "(	"
+" "(	
+implicit return:@
+( (=4
+
+productDTO&PlazoletaService.Domain.DTO.ProductDTOB@>
+<PlazoletaService.Infrastructure.Repositories.MySQLRepository

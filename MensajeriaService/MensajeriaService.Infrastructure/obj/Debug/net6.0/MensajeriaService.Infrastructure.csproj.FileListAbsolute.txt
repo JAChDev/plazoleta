@@ -1,0 +1,15 @@
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Infrastructure\bin\Debug\net6.0\MensajeriaService.Infrastructure.deps.json
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Infrastructure\bin\Debug\net6.0\MensajeriaService.Infrastructure.dll
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Infrastructure\bin\Debug\net6.0\MensajeriaService.Infrastructure.pdb
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Infrastructure\bin\Debug\net6.0\MensajeriaService.Domain.dll
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Infrastructure\bin\Debug\net6.0\MensajeriaService.Domain.pdb
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Infrastructure\obj\Debug\net6.0\MensajeriaService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Infrastructure\obj\Debug\net6.0\MensajeriaService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Infrastructure\obj\Debug\net6.0\MensajeriaService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Infrastructure\obj\Debug\net6.0\MensajeriaService.Infrastructure.AssemblyInfo.cs
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Infrastructure\obj\Debug\net6.0\MensajeriaService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Infrastructure\obj\Debug\net6.0\MensajeriaService.Infrastructure.csproj.CopyComplete
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Infrastructure\obj\Debug\net6.0\MensajeriaService.Infrastructure.dll
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Infrastructure\obj\Debug\net6.0\refint\MensajeriaService.Infrastructure.dll
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Infrastructure\obj\Debug\net6.0\MensajeriaService.Infrastructure.pdb
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Infrastructure\obj\Debug\net6.0\ref\MensajeriaService.Infrastructure.dll

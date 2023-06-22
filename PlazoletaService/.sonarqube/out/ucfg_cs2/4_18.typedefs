@@ -1,0 +1,12 @@
+“
+4PlazoletaService.Domain.Servicios.RestaurantServicesobject5PlazoletaService.Domain.Interfaces.IRestaurantService
+[RestaurantServices(PlazoletaService.Domain.Interfaces.IMySQLRepository, AutoMapper.IMapper)êPlazoletaService.Domain.Servicios.RestaurantServices.RestaurantServices(PlazoletaService.Domain.Interfaces.IMySQLRepository, AutoMapper.IMapper)ß
+7CreateProduct(PlazoletaService.Domain.Entities.Product)lPlazoletaService.Domain.Servicios.RestaurantServices.CreateProduct(PlazoletaService.Domain.Entities.Product)≥
+=CreateRestaurant(PlazoletaService.Domain.Entities.Restaurant)rPlazoletaService.Domain.Servicios.RestaurantServices.CreateRestaurant(PlazoletaService.Domain.Entities.Restaurant)Ω
+BUpdateProduct(PlazoletaService.Domain.Entities.ModifyProduct, int)wPlazoletaService.Domain.Servicios.RestaurantServices.UpdateProduct(PlazoletaService.Domain.Entities.ModifyProduct, int)k
+ActivateProduct(int, int)NPlazoletaService.Domain.Servicios.RestaurantServices.ActivateProduct(int, int)i
+GetRestaurants(int, int)MPlazoletaService.Domain.Servicios.RestaurantServices.GetRestaurants(int, int)Ö
+&GetProductsByRestaurant(int, int, int)[PlazoletaService.Domain.Servicios.RestaurantServices.GetProductsByRestaurant(int, int, int)ü
+3CreateOrder(PlazoletaService.Domain.Entities.Order)hPlazoletaService.Domain.Servicios.RestaurantServices.CreateOrder(PlazoletaService.Domain.Entities.Order)µ
+>AddOrderProduct(PlazoletaService.Domain.Entities.OrderProduct)sPlazoletaService.Domain.Servicios.RestaurantServices.AddOrderProduct(PlazoletaService.Domain.Entities.OrderProduct)ç
+*GetOrdersWithFilter(int, string, int, int)_PlazoletaService.Domain.Servicios.RestaurantServices.GetOrdersWithFilter(int, string, int, int)

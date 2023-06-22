@@ -1,0 +1,41 @@
+
+lMensajeriaService.Domain.Services.MessageService.SendWhatsapp(MensajeriaService.Domain.Entities.MessageData)í
+áC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Domain\Services\MessageService.cs   (&"0*
+0+	 +(	*
+1
+2*ç
+1$ %(* 
+«
+$* $(77
+%01MensajeriaService.Domain.Interfaces.IMessagingApi"__id*|z*x2
+0MensajeriaService.Domain.Services.MessageService"B
+_messagingApi1MensajeriaService.Domain.Interfaces.IMessagingApi‰·
+$* $(Q*
+%1$System.Threading.Tasks.Task<TResult>"mMensajeriaService.Domain.Interfaces.IMessagingApi.SendWhatsapp(MensajeriaService.Domain.Entities.MessageData)*;9
+7
+%01MensajeriaService.Domain.Interfaces.IMessagingApi*@>
+<
+messageData-MensajeriaService.Domain.Entities.MessageData2;SendWhatsapp(MensajeriaService.Domain.Entities.MessageData)
+}
+$ $(Q;
+sendWhatsappMessage$System.Threading.Tasks.Task<TResult>"__id*.,
+*
+%1$System.Threading.Tasks.Task<TResult>"I
+% %(+=
+;
+sendWhatsappMessage$System.Threading.Tasks.Task<TResult>*Í
+2) )(,†
+ù
+) )(-*
+%2$System.Threading.Tasks.Task<TResult>"8System.Threading.Tasks.Task.FromResult<TResult>(TResult)*!"
+System.Threading.Tasks.Task*
+"""8
+) )(.,
+*
+%2$System.Threading.Tasks.Task<TResult>*.
+3+	 +(	"
++ +(	
+implicit return:H
+ '  (><
+messageData-MensajeriaService.Domain.Entities.MessageDataB42
+0MensajeriaService.Domain.Services.MessageService

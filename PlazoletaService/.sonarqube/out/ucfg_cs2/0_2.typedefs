@@ -1,0 +1,11 @@
+Å
+.PlazoletaService.Domain.Entities.ModifyProductobjectQ
+ModifyProduct()>PlazoletaService.Domain.Entities.ModifyProduct.ModifyProduct()?
+Id.get5PlazoletaService.Domain.Entities.ModifyProduct.Id.get?
+Id.set5PlazoletaService.Domain.Entities.ModifyProduct.Id.setG
+
+Nombre.get9PlazoletaService.Domain.Entities.ModifyProduct.Nombre.getG
+
+Nombre.set9PlazoletaService.Domain.Entities.ModifyProduct.Nombre.setQ
+Descripcion.get>PlazoletaService.Domain.Entities.ModifyProduct.Descripcion.getQ
+Descripcion.set>PlazoletaService.Domain.Entities.ModifyProduct.Descripcion.set

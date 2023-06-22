@@ -1,0 +1,143 @@
+
+cPlazoletaService.WebApi.Controllers.PlazoletaController.GetOrderByRestaurant(int, string, int, int)ì
+ÜC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Controllers\PlazoletaController.csê ê(1"4*æ
+0
+í ì( „
+‡
+
+í í(-;
+%05PlazoletaService.Domain.Interfaces.IRestaurantService"__id*éã*à9
+7PlazoletaService.WebApi.Controllers.PlazoletaController"K
+_restaurantService5PlazoletaService.Domain.Interfaces.IRestaurantServiceºπ
+
+í í(m(
+%1"System.Collections.Generic.List<T>"`PlazoletaService.Domain.Interfaces.IRestaurantService.GetOrdersWithFilter(int, string, int, int)*?=
+;
+%05PlazoletaService.Domain.Interfaces.IRestaurantService*
+""*
+
+Statusstring*
+""*
+""2*GetOrdersWithFilter(int, string, int, int)r
+p
+
+í í(m.
+response"System.Collections.Generic.List<T>"__id*,*
+(
+%1"System.Collections.Generic.List<T>ã
+à
+
+ì ì( 
+
+%2bool""object.operator ==(object, object)*
+"
+object*20
+.
+response"System.Collections.Generic.List<T>*
+""*
+1
+2*§
+1ï ï(å{y
+ï" ï(é7
+%31PlazoletaService.Domain.Responses.GeneralResponse"1PlazoletaService.Domain.Responses.GeneralResponseù
+ö
+
+ï& ï(5
+
+%4void"CPlazoletaService.Domain.Responses.GeneralResponse.GeneralResponse()*;9
+7
+%31PlazoletaService.Domain.Responses.GeneralResponse$
+"
+
+ïE ï(^
+%5"__id*
+""π
+∂
+
+ï8 ï(^
+%6System.Net.HttpStatusCode"@PlazoletaService.Domain.Responses.GeneralResponse.StatusCode.set*;9
+7
+%31PlazoletaService.Domain.Responses.GeneralResponse*
+
+%5¬
+ø
+ï` ï(å
+%7string"APlazoletaService.Domain.Responses.GeneralResponse.Description.set*;9
+7
+%31PlazoletaService.Domain.Responses.GeneralResponse*" 
+Error al obtener los pedidosÖÇ
+ï ï(è5
+%8/Microsoft.AspNetCore.Mvc.BadRequestObjectResult";Microsoft.AspNetCore.Mvc.ControllerBase.BadRequest(object?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*;9
+7
+%31PlazoletaService.Domain.Responses.GeneralResponse2BadRequest(object?)"F
+ï ï(ê7
+5
+%8/Microsoft.AspNetCore.Mvc.BadRequestObjectResult*¥
+2
+ò ò("„‡
+
+ò ò(#-
+%9'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*20
+.
+response"System.Collections.Generic.List<T>2Ok(object?)"=
+
+ò ò($/
+-
+%9'Microsoft.AspNetCore.Mvc.OkObjectResult*2
+3
+ö	 ö(	"!
+
+ö ö(	
+implicit return*«
+4
+êp ê(pW
+U
+
+ê ê(1
+%10"__entrypoint*
+""*
+
+Statusstring*
+""*
+""ç
+ä
+
+é	 é(U
+%11"
+__annotate*SQO
+MMicrosoft.AspNetCore.Mvc.TypeFilterAttribute.TypeFilterAttribute(System.Type)*
+
+StatusstringÅ
+
+
+è	 è((
+%12"
+__annotate*HFD
+BMicrosoft.AspNetCore.Mvc.HttpGetAttribute.HttpGetAttribute(string)*
+
+StatusstringD
+B
+
+êD ê(Q
+Statusstring"__annotation*	
+
+%11*	
+
+%12*
+0:!
+
+ê2 ê(B
+idRestaurantint:
+
+êD ê(Q
+Statusstring:
+
+êS ê(a
+
+pageNumberint:
+
+êc ê(o
+pageSizeintB;9
+7PlazoletaService.WebApi.Controllers.PlazoletaController

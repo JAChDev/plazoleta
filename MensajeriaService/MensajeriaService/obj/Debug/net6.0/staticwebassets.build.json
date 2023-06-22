@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "2fYGq/+c9FwYfAaXrLNurTgrbaucY74QbyzYPRsK8iA=",
+  "Source": "MensajeriaService.WebApi",
+  "BasePath": "_content/MensajeriaService.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

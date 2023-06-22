@@ -1,0 +1,5 @@
+™
+9MensajeriaService.Infrastructure.WhatsappApi.MessagingApiobject1MensajeriaService.Domain.Interfaces.IMessagingApi¼
+?MessagingApi(Microsoft.Extensions.Configuration.IConfiguration)yMensajeriaService.Infrastructure.WhatsappApi.MessagingApi.MessagingApi(Microsoft.Extensions.Configuration.IConfiguration)ª
+6SendSMS(MensajeriaService.Domain.Entities.MessageData)pMensajeriaService.Infrastructure.WhatsappApi.MessagingApi.SendSMS(MensajeriaService.Domain.Entities.MessageData)´
+;SendWhatsapp(MensajeriaService.Domain.Entities.MessageData)uMensajeriaService.Infrastructure.WhatsappApi.MessagingApi.SendWhatsapp(MensajeriaService.Domain.Entities.MessageData)

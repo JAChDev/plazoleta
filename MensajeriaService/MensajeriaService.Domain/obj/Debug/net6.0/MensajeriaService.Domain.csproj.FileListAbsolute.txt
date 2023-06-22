@@ -1,0 +1,12 @@
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Domain\bin\Debug\net6.0\MensajeriaService.Domain.deps.json
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Domain\bin\Debug\net6.0\MensajeriaService.Domain.dll
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Domain\bin\Debug\net6.0\MensajeriaService.Domain.pdb
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Domain\obj\Debug\net6.0\MensajeriaService.Domain.csproj.AssemblyReference.cache
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Domain\obj\Debug\net6.0\MensajeriaService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Domain\obj\Debug\net6.0\MensajeriaService.Domain.AssemblyInfoInputs.cache
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Domain\obj\Debug\net6.0\MensajeriaService.Domain.AssemblyInfo.cs
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Domain\obj\Debug\net6.0\MensajeriaService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Domain\obj\Debug\net6.0\MensajeriaService.Domain.dll
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Domain\obj\Debug\net6.0\refint\MensajeriaService.Domain.dll
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Domain\obj\Debug\net6.0\MensajeriaService.Domain.pdb
+C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Domain\obj\Debug\net6.0\ref\MensajeriaService.Domain.dll

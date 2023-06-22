@@ -1,0 +1,7 @@
+é
+1PlazoletaService.Domain.Responses.GeneralResponseobjectX
+GeneralResponse()CPlazoletaService.Domain.Responses.GeneralResponse.GeneralResponse()R
+StatusCode.get@PlazoletaService.Domain.Responses.GeneralResponse.StatusCode.getR
+StatusCode.set@PlazoletaService.Domain.Responses.GeneralResponse.StatusCode.setT
+Description.getAPlazoletaService.Domain.Responses.GeneralResponse.Description.getT
+Description.setAPlazoletaService.Domain.Responses.GeneralResponse.Description.set

@@ -1,0 +1,26 @@
+
+qPlazoletaService.Infrastructure.Database.SQLDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+„C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Infrastructure\Database\SQLDbContext.cs  (/"0*Û
+0 (=¸µ
+ (.
+
+%0void"cMicrosoft.EntityFrameworkCore.DbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)*;97
+5PlazoletaService.Infrastructure.Database.SQLDbContext*><
+:
+modelBuilder*Microsoft.EntityFrameworkCore.ModelBuilder2;OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)ðí
+ (2P
+%1JMicrosoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<TEntity>"<Microsoft.EntityFrameworkCore.ModelBuilder.Entity<TEntity>()*><
+:
+modelBuilder*Microsoft.EntityFrameworkCore.ModelBuilder2Entity<TEntity>()˜•
+ (=P
+%2JMicrosoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<TEntity>"UMicrosoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<TEntity>.HasNoKey()*TR
+P
+%1JMicrosoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<TEntity>2
+HasNoKey()*
+1*.
+1	 (	"
+ (	
+implicit return:F
+0 (I:
+modelBuilder*Microsoft.EntityFrameworkCore.ModelBuilderB97
+5PlazoletaService.Infrastructure.Database.SQLDbContext

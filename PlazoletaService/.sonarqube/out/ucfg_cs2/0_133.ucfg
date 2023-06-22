@@ -1,0 +1,39 @@
+
+CPlazoletaService.Domain.DomainModule.Load(Autofac.ContainerBuilder)}
+sC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\Plazoleta.Domain\DomainModule.cs  ($"0*®
+0 (]‰
+†
+ (6V
+%0PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>"SAutofac.RegistrationExtensions.RegisterType<TImplementer>(Autofac.ContainerBuilder)*$"" 
+Autofac.RegistrationExtensions*'%
+#
+builderAutofac.ContainerBuilder²¯
+ (OV
+%1PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>"_Autofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>.As<TService>()*ZX
+V
+%0PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>2As<TService>()ÊÇ
+ (jV
+%2PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>"kAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>.InstancePerLifetimeScope()*ZX
+V
+%1PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>2InstancePerLifetimeScope()‰
+†
+ (/V
+%3PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>"SAutofac.RegistrationExtensions.RegisterType<TImplementer>(Autofac.ContainerBuilder)*$"" 
+Autofac.RegistrationExtensions*'%
+#
+builderAutofac.ContainerBuilder²¯
+ (BV
+%4PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>"_Autofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>.As<TService>()*ZX
+V
+%3PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>2As<TService>()ÊÇ
+ (]V
+%5PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>"kAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>.InstancePerLifetimeScope()*ZX
+V
+%4PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>2InstancePerLifetimeScope()*
+1*.
+1	 (	"
+ (	
+implicit return:/
+% (=#
+builderAutofac.ContainerBuilderB(&
+$PlazoletaService.Domain.DomainModule

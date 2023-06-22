@@ -1,0 +1,9 @@
+…
+|C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Domain\DomainModule.csutf-8Ž
+„C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Domain\Entities\MessageData.csutf-8”
+ŠC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Domain\Interfaces\IMessageService.csutf-8’
+ˆC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Domain\Interfaces\IMessagingApi.csutf-8‘
+‡C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Domain\Services\MessageService.csutf-8´
+¨C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Domain\obj\Debug\net6.0\MensajeriaService.Domain.GlobalUsings.g.csutf-8¸
+¬C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Domain\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8²
+¦C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Domain\obj\Debug\net6.0\MensajeriaService.Domain.AssemblyInfo.csutf-8

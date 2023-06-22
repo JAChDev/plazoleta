@@ -1,0 +1,25 @@
+
+DMensajeriaService.Domain.DomainModule.Load(Autofac.ContainerBuilder)†
+|C:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\MensajeriaService\MensajeriaService.Domain\DomainModule.cs  ($"0* 
+0 (c‰
+†
+ (2V
+%0PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>"SAutofac.RegistrationExtensions.RegisterType<TImplementer>(Autofac.ContainerBuilder)*$"" 
+Autofac.RegistrationExtensions*'%
+#
+builderAutofac.ContainerBuilder²¯
+ (HV
+%1PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>"_Autofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>.As<TService>()*ZX
+V
+%0PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>2As<TService>()ÊÇ
+ (cV
+%2PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>"kAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>.InstancePerLifetimeScope()*ZX
+V
+%1PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>2InstancePerLifetimeScope()*
+1*.
+1	 (	"
+ (	
+implicit return:/
+% (=#
+builderAutofac.ContainerBuilderB)'
+%MensajeriaService.Domain.DomainModule

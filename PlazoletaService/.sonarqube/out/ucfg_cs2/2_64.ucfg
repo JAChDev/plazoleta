@@ -1,0 +1,163 @@
+
+yPlazoletaService.WebApi.Controllers.PlazoletaController.AddProductOrder(PlazoletaService.WebApi.Models.OrderProductModel)ì
+ÜC:\Users\jonatan.amado_pragma\Documents\Repositorios\AppPlazoleta\PlazoletaService\PlazoletaService\Controllers\PlazoletaController.csÇ Ç(,"5*œ
+0
+Ñ ä(;rp
+
+Ñ! Ñ(33
+%0-PlazoletaService.Domain.Entities.OrderProduct"-PlazoletaService.Domain.Entities.OrderProductí
+è
+
+Ñ% Ñ(1
+
+%1void"<PlazoletaService.Domain.Entities.OrderProduct.OrderProduct()*75
+3
+%0-PlazoletaService.Domain.Entities.OrderProductÜ
+É
+
+Ñ Ñ(36
+order-PlazoletaService.Domain.Entities.OrderProduct"__id*75
+3
+%0-PlazoletaService.Domain.Entities.OrderProductù
+ö
+
+Ö Ö(0	
+%2int"=PlazoletaService.WebApi.Models.OrderProductModel.id_Plato.get*B@
+>
+
+orderModel0PlazoletaService.WebApi.Models.OrderProductModel°
+û
+
+Ö Ö(0	
+%3int":PlazoletaService.Domain.Entities.OrderProduct.id_Plato.set*:8
+6
+order-PlazoletaService.Domain.Entities.OrderProduct*
+	
+%2intû
+õ
+
+Ü Ü(2	
+%4int">PlazoletaService.WebApi.Models.OrderProductModel.id_Pedido.get*B@
+>
+
+orderModel0PlazoletaService.WebApi.Models.OrderProductModel¢
+ü
+
+Ü Ü(2	
+%5int";PlazoletaService.Domain.Entities.OrderProduct.id_Pedido.set*:8
+6
+order-PlazoletaService.Domain.Entities.OrderProduct*
+	
+%4intù
+ö
+
+á á(0	
+%6int"=PlazoletaService.WebApi.Models.OrderProductModel.Cantidad.get*B@
+>
+
+orderModel0PlazoletaService.WebApi.Models.OrderProductModel°
+û
+
+á á(0	
+%7int":PlazoletaService.Domain.Entities.OrderProduct.Cantidad.set*:8
+6
+order-PlazoletaService.Domain.Entities.OrderProduct*
+	
+%6int„
+‡
+
+â' â(9;
+%85PlazoletaService.Domain.Interfaces.IRestaurantService"__id*éã*à9
+7PlazoletaService.WebApi.Controllers.PlazoletaController"K
+_restaurantService5PlazoletaService.Domain.Interfaces.IRestaurantService˚¯
+
+â' â(P7
+%91PlazoletaService.Domain.Responses.GeneralResponse"tPlazoletaService.Domain.Interfaces.IRestaurantService.AddOrderProduct(PlazoletaService.Domain.Entities.OrderProduct)*?=
+;
+%85PlazoletaService.Domain.Interfaces.IRestaurantService*:8
+6
+order-PlazoletaService.Domain.Entities.OrderProduct2>AddOrderProduct(PlazoletaService.Domain.Entities.OrderProduct)ë
+é
+
+â â(P=
+response1PlazoletaService.Domain.Responses.GeneralResponse"__id*;9
+7
+%91PlazoletaService.Domain.Responses.GeneralResponse∂
+≥
+
+ä ä(& 
+%10System.Net.HttpStatusCode"@PlazoletaService.Domain.Responses.GeneralResponse.StatusCode.get*A?
+=
+response1PlazoletaService.Domain.Responses.GeneralResponse%
+#
+
+ä* ä(;
+%11"__id*
+""*
+1
+2*˝
+1
+ä> ä(IÛ
+
+ä> ä(J.
+%15'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*A?
+=
+response1PlazoletaService.Domain.Responses.GeneralResponse2Ok(object?)x
+v
+
+ä> ä(J.
+%13'Microsoft.AspNetCore.Mvc.OkObjectResult"__id*20
+.
+%15'Microsoft.AspNetCore.Mvc.OkObjectResultw
+u
+
+ä> ä(J-
+%12&Microsoft.AspNetCore.Mvc.IActionResult"__id*20
+.
+%13'Microsoft.AspNetCore.Mvc.OkObjectResult*
+3*Ø
+2
+äM ä(`ãà
+
+äM ä(a6
+%16/Microsoft.AspNetCore.Mvc.BadRequestObjectResult";Microsoft.AspNetCore.Mvc.ControllerBase.BadRequest(object?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*A?
+=
+response1PlazoletaService.Domain.Responses.GeneralResponse2BadRequest(object?)â
+Ü
+
+äM ä(a6
+%14/Microsoft.AspNetCore.Mvc.BadRequestObjectResult"__id*:8
+6
+%16/Microsoft.AspNetCore.Mvc.BadRequestObjectResult
+}
+
+äM ä(a-
+%12&Microsoft.AspNetCore.Mvc.IActionResult"__id*:8
+6
+%14/Microsoft.AspNetCore.Mvc.BadRequestObjectResult*
+3*N
+3
+å	 å(	"=
+
+ä ä(b/
+-
+%12&Microsoft.AspNetCore.Mvc.IActionResult*2
+4
+å	 å(	"!
+
+å å(	
+implicit return*9
+5
+ÇJ Ç(J#
+!
+
+Ç Ç(,
+%17"__entrypoint*
+0:L
+
+Ç- Ç(I>
+
+orderModel0PlazoletaService.WebApi.Models.OrderProductModelB;9
+7PlazoletaService.WebApi.Controllers.PlazoletaController
