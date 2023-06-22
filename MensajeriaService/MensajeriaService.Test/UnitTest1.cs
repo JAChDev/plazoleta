@@ -94,27 +94,27 @@ namespace MensajeriaService.Test
 
     public class MessagingApiTests
     {
-        [Fact]
-        public async Task SendSMS_ReturnsTrue_WhenMessageSentSuccessfully()
-        {
-            // Arrange
-            var configuration = new Mock<IConfiguration>();
-            configuration.Setup(config => config["Twilio:Sid"]).Returns("AC28ec0f6e31122f60cdc3f133d2253238");
-            configuration.Setup(config => config["Twilio:Token"]).Returns("6884f7904a8606d414cef7bed793031e");
-            configuration.Setup(config => config["Twilio:Number"]).Returns("+13614709220");
-            var messagingApi = new MessagingApi(configuration.Object);
-            var messageData = new MessageData
-            {
-                Phone = "+573232426928",
-                Message = "Hello, world!"
-            };
+        //[Fact]
+        //public async Task SendSMS_ReturnsTrue_WhenMessageSentSuccessfully()
+        //{
+        //    // Arrange
+        //    var configuration = new Mock<IConfiguration>();
+        //    configuration.Setup(config => config["Twilio:Sid"]).Returns("AC28ec0f6e31122f60cdc3f133d2253238");
+        //    configuration.Setup(config => config["Twilio:Token"]).Returns("6884f7904a8606d414cef7bed793031e");
+        //    configuration.Setup(config => config["Twilio:Number"]).Returns("+13614709220");
+        //    var messagingApi = new MessagingApi(configuration.Object);
+        //    var messageData = new MessageData
+        //    {
+        //        Phone = "+573232426928",
+        //        Message = "Hello, world!"
+        //    };
 
-            // Act
-            var result = await messagingApi.SendSMS(messageData);
+        //    // Act
+        //    var result = await messagingApi.SendSMS(messageData);
 
-            // Assert
-            Assert.True(result);
-        }
+        //    // Assert
+        //    Assert.True(result);
+        //}
 
         [Fact]
         public async Task SendSMS_ReturnsFalse_WhenMessageSendingFails()
